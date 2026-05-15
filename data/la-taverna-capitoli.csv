@@ -1,9 +1,9 @@
-odi:Chapter,odi:includes,story_name
-capitolo-introduttivo,introduzione,La taverna
-capitolo-uno,storiaUno,Storia dell'indeciso
-capitolo-due,storiaDue,Storia della foresta che si vendica
-capitolo-tre,storiaTre,Storia del guerriero sopravvissuto
-capitolo-quattro,storiaQuattro,Storia del regno dei vampiri
-capitolo-cinque,storiaCinque,"Due storie in cui si cerca e ci si perde "
-capitolo-sei,storiaSei,Anch'io cerco di dire la mia
-capitolo-sette,storiaSette,Tre storie di follia e distruzione
+odi:Chapter,odi:includes
+capitolo-introduttivo,introduzione
+capitolo-uno,storiaUno
+capitolo-due,storiaDue
+capitolo-tre,storiaTre
+capitolo-quattro,storiaQuattro
+capitolo-cinque,storiaCinque
+capitolo-sei,storiaSei
+capitolo-sette,storiaSette

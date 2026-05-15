@@ -1,0 +1,13 @@
+sourceRepresentation,relation,targetRepresentation
+cavaliere-di-coppe-storiaUno-protagonista,odi:changesIn,fante-di-denari-storiaUno-protagonista
+cavaliere-di-coppe-storiaUno-protagonista,odi:climbs,asso-di-bastoni-storiaUno-tronco
+cavaliere-di-coppe-storiaUno-protagonista,odi:bumpsInto,il-sole-storiaUno-due-bambini
+cavaliere-di-coppe-storiaUno-protagonista,odi:arrivesAt,asso-di-coppe-storiaUno-città-del-tutto
+cavaliere-di-coppe-storiaUno-protagonista,odi:speaksTo,la-imperatrice-storiaUno-angelo-coronato
+la-imperatrice-storiaUno-angelo-coronato,odi:changesIn,la-giustizia-storiaUno-angelo-coronato
+regina-di-spade-storiaUno-donna,odi:isRelatedWith,lo-amore-storiaUno-pena-di-cuore
+regina-di-coppe-storiaUno-donna,odi:isRelatedWith,lo-amore-storiaUno-pena-di-cuore
+regina-di-coppe-storiaUno-donna,odi:isRelatedWith,regina-di-spade-storiaUno-donna
+la-giustizia-storiaUno-angelo-coronato,odi:changesIn,il-diavolo-storiaUno-diavolo
+cavaliere-di-coppe-storiaUno-protagonista,odi:changesIn,il-penduto-storiaUno-protagonista
+il-penduto-storiaUno-protagonista,odi:changesIn,cavaliere-di-denari-storiaUno-protagonista

@@ -1,32 +1,32 @@
-odi:StoryCard,odi:specifies,odi:hasVariantName,odi:hasPositionInText,odi:hasIconography,odi:carriesRepresentation,odi:hasMeaningOf,rdf:instanceOf,odi:represents,odi:isinstanceOf2,odi:hasTextualReference
-cavaliere-di-coppe-storiaUno,cavaliere-di-coppe,,1,Grande,cavaliere-di-coppe-storiaUno-protagonista,Protagonista,Character,,,"«nella faccia, ansiosa, a occhi sgranati, coi capelli lunghi che gli scendono sulle spalle, diventati bianchi»"
-otto-di-coppe-storiaUno,otto-di-coppe,,2,Piccola,otto-di-coppe-storiaUno-banchetto-di-nozze,Banchetto di nozze,Event,,,«un accaldato banchetto» / «la festa delle proprie nozze»
-dieci-di-bastoni-storiaUno,dieci-di-bastoni,,3,Piccola,dieci-di-bastoni-storiaUno-bosco,Bosco,FictionalPlace,,,«prendere aria nel bosco» / «farsi uccel di bosco»
-lo-amore-storiaUno,lo-amore,"""Amoroso, Amanti""",4,Grande,lo-amore-pena-di-cuore,Pena di cuore,Event,,,"«una pena di cuore» / «forse ci sono due donne nella sua vita, e lui non sa scegliere»"
-il-carro-storiaUno,il-carro,,5,Grande,il-carro-viaggio,Viaggio,Event,,,«poteva liberarlo solo un viaggio» / «i due cavalli tirano il pomposo veicolo per le vie accidentate del bosco»
-due-di-bastoni-storiaUno,due-di-bastoni,,6,Grande,due-di-bastoni-storiaUno-necessità-di-una-scelta,Necessità di una scelta,Event,,,«l'incrocio di due strade»
-fante-di-denari-storiaUno,fante-di-denari,,7,Grande,fante-di-denari-storiaUno-protagonista,Protagonista,Character,,,«il giovane mentre butta in aria una moneta»
-asso-di-denari-storiaUno,asso-di-denari,,8,Piccola,asso-di-denari-storiaUno-lancio-della-moneta-testa,Lancio della moneta (testa),Event,,,«testa o croce?» / «la moneta rotola rotola e resta dritta in un cespuglio»
-cinque-di-bastoni-storiaUno,cinque-di-bastoni,,9,Piccola,cinque-di-bastoni-storiaUno-lancio-della-moneta-croce,Lancio della moneta (croce),Event,,,«testa o croce?»
-asso-di-bastoni-storiaUno,asso-di-bastoni,,10,Grande,asso-di-bastoni-storiaUno-tronco,Tronco,InanimateObject,,,«il tronco nodoso»
-il-sole-storiaUno,il-sole,,11,Grande,il-sole-storiaUno-due-bambini,Due bambini,Character,,,"«con raggi pungenti che fanno brillare di tutti i colori le foglie controluce» / «due monelli» / «due gemelli: uguali identici, scalzi, biondi biondi»"
-asso-di-coppe-storiaUno,asso-di-coppe,,12,Grande,asso-di-coppe-storiaUno-città-del-tutto,Città del Tutto,FictionalPlace,,,«una città con tante torri e guglie e minareti e cupole che sporgono fuori dalle mura» / «questa città sembra in equilibrio in cima a una piramide [...] la vetta del grande albero» / «città sospesa sui rami più alti come un nido d'uccelli» / «È la Città del Tutto? È la città dove tutte le parti si congiungono»
-la-imperatrice-storiaUno,la-imperatrice,Angelo coronato,13,Grande,la-imperatrice-storiaUno-angelo-coronato,Angelo coronato,Character,,,"«un personaggio dagli attributi regali, divinità in trono o angelo coronato» "
-due-di-coppe-storiaUno,due-di-coppe,,14,Grande,due-di-coppe-storiaUno-due-pozzi,Due pozzi,InanimateObject,,,«due pozzi uguali»
-la-giustizia-storiaUno,la-giustizia,,15,Grande,la-giustizia-storiaUno-angelo-coronato,Angelo che veglia sulle decisioni e gli equilibri,Character,,,"«la potenza coronata ora brandisce una bilancia e una spada» / «angelo che veglia sulle decisioni e gli equilibri, dall'alto della costellazione della Libra»"
-regina-di-spade-storiaUno,regina-di-spade,,16,Piccola,regina-di-spade-storiaUno-donna,Donna della scelta mancata,Character,,,"«due Regine affacciate a due balconi» / «impugnano ciascuna una spada sguainata, l'una con la destra» / «la via delle passioni»"
-regina-di-coppe-storiaUno,regina-di-coppe,,17,Piccola,regina-di-coppe-storiaUno-donna,Donna della scelta mancata,Character,,,"«due Regine affacciate a due balconi» / «impugnano ciascuna una spada sguainata, [...] l'altra – certo per simmetria – con la sinistra» / «la via della speranza»"
-cinque-di-coppe-storiaUno,cinque-di-coppe,,18,Grande,cinque-di-coppe-storiaUno-pozzi,Pozzi,InanimateObject,,,"«ogni tarocco e ogni pozzo sono uguali» "
-la-stella-storiaUno,la-stella,Stelle,19,Grande,la-stella-storiaUno-dea-nuda,Dea,Character,,,«una dea nuda prende due caraffe che contengono chissà quali succhi messi in fresco per chi ha sete»
-la-luna-storiaUno,la-luna,,20,Grande,la-luna-storiaUno-cataclisma,Cataclisma,Event,,,"«un cataclisma, il sollevarsi del livello degli oceani verso le città abbandonate»"
-la-torre-storiaUno,la-torre,,21,Grande,la-torre-storiaUno-mura-diroccate,Mura diroccate,InanimateObject,,,«diroccando ogni mura e torre della città sospesa»
-il-diavolo-storiaUno,il-diavolo,,22,Grande,il-diavolo-storiaUno-diavolo,Diavolo,Character,,,«l'angelo che abita nel punto in cui le linee si biforcano»
-il-penduto-storiaUno,il-penduto,L'Appeso,23,Grande,il-penduto-storiaUno-protagonista,Protagonista,Character,,,«Appeso per i piedi ai sargassi che galleggiano a mezz'acqua sotto la superficie opaca dell'oceano»
-"il-mondo-storiaUno ",il-mondo,,24,Grande,,,,,,« »
-la-ruota-della-fortuna-storiaUno,la-ruota-della-fortuna,La Ruota,25,Grande,,,,,,«il grande giro della Ruota in cui evolve la vita animale e di cui non puoi mai dire qual è l'alto e quale il basso»
-il-giudizio-storiaUno,il-giudizio,Arcano del terremoto finale,26,Grande,il-giudizio-storiaUno-giudizio-finale,Terremoto finale (fine del mondo),Event,,,"«la discesa fino al centro della terra nelle colate degli elementi, [...] cataclismi che rimescolano il mazzo dei tarocchi e riportano alla luce gli strati sepolti»"
-sei-di-spade-storiaUno,sei-di-spade,,27,Piccola,sei-di-spade-storiaUno-spade-che-sminuzzano,Spade che sminuzzano,Event,,,«sminuzzato [...] nei suoi elementi primi»
-sette-di-coppe-storiaUno,sette-di-coppe,,28,Piccola,sette-di-coppe-storiaUno-crateri-vulcani,Crateri dei vulcani,InanimateObject,,,«era passato per i crateri dei vulcani [...] attraverso tutte le ere della terra»
-nove-di-denari-storiaUno,nove-di-denari,,29,Piccola,nove-di-denari-storiaUno-cristalli,Cristalli,InanimateObject,,,«immobilità definitiva dei cristalli»
-sei-di-bastoni-storiaUno,sei-di-bastoni,,30,Piccola,sei-di-bastoni-storiaUno-bosco,Bosco,FictionalPlace,,,«lancinante germogliare del bosco»
-cavaliere-di-denari-storiaUno,cavaliere-di-denari,Cavallo di denari,31,Grande,cavaliere-di-denari-storiaUno-protagonista,Protagonista,Character,,,«la propria identica forma umana» / «Ma è davvero lui o non piuttosto un suo sosia?»
+odi:StoryCard,odi:isACardOf,odi:specifies,odi:hasVariantName,odi:hasPositionInText,odi:hasIconography,odi:carriesRepresentation
+cavaliere-di-coppe-storiaUno,storiaUno,cavaliere-di-coppe,,1,Grande,cavaliere-di-coppe-storiaUno-protagonista
+otto-di-coppe-storiaUno,storiaUno,otto-di-coppe,,2,Piccola,otto-di-coppe-storiaUno-banchetto-di-nozze
+dieci-di-bastoni-storiaUno,storiaUno,dieci-di-bastoni,,3,Piccola,dieci-di-bastoni-storiaUno-bosco
+lo-amore-storiaUno,storiaUno,lo-amore,"""Amoroso, Amanti""",4,Grande,lo-amore-storiaUno-pena-di-cuore
+il-carro-storiaUno,storiaUno,il-carro,,5,Grande,il-carro-storiaUno-viaggio
+due-di-bastoni-storiaUno,storiaUno,due-di-bastoni,,6,Grande,due-di-bastoni-storiaUno-incrocio
+fante-di-denari-storiaUno,storiaUno,fante-di-denari,,7,Grande,fante-di-denari-storiaUno-protagonista
+asso-di-denari-storiaUno,storiaUno,asso-di-denari,,8,Piccola,asso-di-denari-storiaUno-moneta-testa
+cinque-di-bastoni-storiaUno,storiaUno,cinque-di-bastoni,,9,Piccola,cinque-di-bastoni-storiaUno-moneta-croce
+asso-di-bastoni-storiaUno,storiaUno,asso-di-bastoni,,10,Grande,asso-di-bastoni-storiaUno-tronco
+il-sole-storiaUno,storiaUno,il-sole,,11,Grande,il-sole-storiaUno-due-bambini
+asso-di-coppe-storiaUno,storiaUno,asso-di-coppe,,12,Grande,asso-di-coppe-storiaUno-città-del-tutto
+la-imperatrice-storiaUno,storiaUno,la-imperatrice,Angelo coronato,13,Grande,la-imperatrice-storiaUno-angelo-coronato
+due-di-coppe-storiaUno,storiaUno,due-di-coppe,,14,Grande,due-di-coppe-storiaUno-due-pozzi
+la-giustizia-storiaUno,storiaUno,la-giustizia,,15,Grande,la-giustizia-storiaUno-angelo-coronato
+regina-di-spade-storiaUno,storiaUno,regina-di-spade,,16,Piccola,regina-di-spade-storiaUno-donna
+regina-di-coppe-storiaUno,storiaUno,regina-di-coppe,,17,Piccola,regina-di-coppe-storiaUno-donna
+cinque-di-coppe-storiaUno,storiaUno,cinque-di-coppe,,18,Grande,cinque-di-coppe-storiaUno-pozzi
+la-stella-storiaUno,storiaUno,la-stella,Stelle,19,Grande,la-stella-storiaUno-dea-nuda
+la-luna-storiaUno,storiaUno,la-luna,,20,Grande,la-luna-storiaUno-cataclisma
+la-torre-storiaUno,storiaUno,la-torre,,21,Grande,la-torre-storiaUno-mura-diroccate
+il-diavolo-storiaUno,storiaUno,il-diavolo,Angelo che abita nel punto in cui le linee si biforcano,22,Grande,il-diavolo-storiaUno-diavolo
+il-penduto-storiaUno,storiaUno,il-penduto,L'Appeso,23,Grande,il-penduto-storiaUno-protagonista
+"il-mondo-storiaUno ",storiaUno,il-mondo,,24,Grande,il-mondo-storiaUno-catena-di-mutazioni
+la-ruota-della-fortuna-storiaUno,storiaUno,la-ruota-della-fortuna,La Ruota,25,Grande,
+il-giudizio-storiaUno,storiaUno,il-giudizio,Arcano del terremoto finale,26,Grande,il-giudizio-storiaUno-giudizio-finale
+sei-di-spade-storiaUno,storiaUno,sei-di-spade,,27,Piccola,sei-di-spade-storiaUno-spade-che-sminuzzano
+sette-di-coppe-storiaUno,storiaUno,sette-di-coppe,,28,Piccola,sette-di-coppe-storiaUno-crateri-vulcani
+nove-di-denari-storiaUno,storiaUno,nove-di-denari,,29,Piccola,nove-di-denari-storiaUno-cristalli
+sei-di-bastoni-storiaUno,storiaUno,sei-di-bastoni,,30,Piccola,sei-di-bastoni-storiaUno-bosco
+cavaliere-di-denari-storiaUno,storiaUno,cavaliere-di-denari,Cavallo di denari,31,Grande,cavaliere-di-denari-storiaUno-protagonista
