@@ -11,3 +11,11 @@ regina-di-coppe-storiaUno-donna,odi:isRelatedWith,regina-di-spade-storiaUno-donn
 la-giustizia-storiaUno-angelo-coronato,odi:changesIn,il-diavolo-storiaUno-diavolo
 cavaliere-di-coppe-storiaUno-protagonista,odi:changesIn,il-penduto-storiaUno-protagonista
 il-penduto-storiaUno-protagonista,odi:changesIn,cavaliere-di-denari-storiaUno-protagonista
+regina-di-bastoni-storiaDue-protagonista,odi:hasFamilyRelationWith,lo-eremita-storiaDue-padre
+cavaliere-di-denari-storiaDue-cavaliere,odi:changesIn,il-penduto-storiaDue-cavaliere
+cavaliere-di-denari-storiaDue-cavaliere,odi:hasFamilyRelationWith,lo-imperatore-storiaDue-imperatore
+il-sole-storiaDue-due-gemelli,odi:hasFamilyRelationWith,regina-di-bastoni-storiaDue-protagonista
+regina-di-bastoni-storiaDue-protagonista,odi:bumpsInto,il-matto-storiaDue-uomo-in-fuga
+cavaliere-di-spade-storiaTre-cavaliere,owl:sameAs,la-stella-storiaTre-cavaliere
+cavaliere-di-bastoni-storiaTre-protagonista,odi:isHelpedBy,lo-eremita-storiaTre-eremita
+il-mondo-storiaTre-guerriera,odi:isRelatedWith,la-giustizia-storiaTre-amazzoni-giustiziere

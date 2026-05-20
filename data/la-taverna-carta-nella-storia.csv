@@ -23,10 +23,54 @@ la-torre-storiaUno,storiaUno,la-torre,,21,Grande,la-torre-storiaUno-mura-dirocca
 il-diavolo-storiaUno,storiaUno,il-diavolo,Angelo che abita nel punto in cui le linee si biforcano,22,Grande,il-diavolo-storiaUno-diavolo
 il-penduto-storiaUno,storiaUno,il-penduto,L'Appeso,23,Grande,il-penduto-storiaUno-protagonista
 "il-mondo-storiaUno ",storiaUno,il-mondo,,24,Grande,il-mondo-storiaUno-catena-di-mutazioni
-la-ruota-della-fortuna-storiaUno,storiaUno,la-ruota-della-fortuna,La Ruota,25,Grande,
+la-ruota-della-fortuna-storiaUno,storiaUno,la-ruota-della-fortuna,,25,Grande,la-ruota-della-fortuna-storiUno-giro-della-ruota
 il-giudizio-storiaUno,storiaUno,il-giudizio,Arcano del terremoto finale,26,Grande,il-giudizio-storiaUno-giudizio-finale
 sei-di-spade-storiaUno,storiaUno,sei-di-spade,,27,Piccola,sei-di-spade-storiaUno-spade-che-sminuzzano
 sette-di-coppe-storiaUno,storiaUno,sette-di-coppe,,28,Piccola,sette-di-coppe-storiaUno-crateri-vulcani
 nove-di-denari-storiaUno,storiaUno,nove-di-denari,,29,Piccola,nove-di-denari-storiaUno-cristalli
 sei-di-bastoni-storiaUno,storiaUno,sei-di-bastoni,,30,Piccola,sei-di-bastoni-storiaUno-bosco
 cavaliere-di-denari-storiaUno,storiaUno,cavaliere-di-denari,Cavallo di denari,31,Grande,cavaliere-di-denari-storiaUno-protagonista
+regina-di-bastoni-storiaDue,storiaDue,regina-di-bastoni,,1,Grande,regina-di-bastoni-storiaDue-protagonista
+lo-eremita-storiaDue,storiaDue,lo-eremita,,2,Piccola,lo-eremita-storiaDue-padre
+sei-di-bastoni-StoriaDue,storiaDue,sei-di-bastoni,,3,Piccola,sei-di-bastoni-storiaDue-foresta
+la-forza-storiaDue,storiaDue,la-forza,,4,Grande,la-forza-storiaDue-forza
+cavaliere-di-denari-storiaDue,storiaDue,cavaliere-di-denari,,5,Piccola,cavaliere-di-denari-storiaDue-cavaliere
+fante-di-bastoni-storiaDue,storiaDue,fante-di-bastoni,,6,Piccola,fante-di-bastoni-storiaDue-brigante
+il-penduto-storiaDue,storiaDue,il-penduto,,7,Grande,il-penduto-storiaDue-protagonista
+asso-di-bastoni-storiaDue,storiaDue,asso-di-bastoni,,8,Piccola,asso-di-bastoni-storiaDue-clava
+due-di-coppe-storiaDue,storiaDue,due-di-coppe,,9,Piccola,due-di-coppe-storiaDue-due-coppe
+il-mondo-storiaDue,storiaDue,il-mondo,,10,Grande,il-mondo-storiaDue-nudità
+lo-amore-storiaDue,storiaDue,lo-amore,,11,Piccola,lo-amore-storiaDue-invaghimento
+il-papa-storiaDue,storiaDue,il-papa,,12,Piccola,il-papa-storiaDue-papa
+il-carro-storiaDue,storiaDue,il-carro,,13,Piccola,il-carro-storiaDue-carro
+tre-di-denari-storiaDue,storiaDue,tre-di-denari,,14,Piccola,tre-di-denari-storiaDue-provvigione
+la-stella-storiaDue,storiaDue,la-stella,,15,Grande,la-stella-storiaDue-stelle
+il-sole-storiaDue,storiaDue,il-sole,,16,Piccola,il-sole-storiaDue-due-gemelli
+la-giustizia-storiaDue,storiaDue,la-giustizia,,17,Piccola,la-giustizia-storiaDue-giustizia
+lo-imperatore-storiaDue,storiaDue,lo-imperatore,,18,Piccola,lo-imperatore-storiaDue-imperatore
+il-matto-storiaDue,storiaDue,il-matto,,19,Piccola,il-matto-storiaDue-matto
+la-luna-storiaDue,storiaDue,la-luna,,20,Grande,la-luna-storiaDue-sciacalli
+la-ruota-della-fortuna-storiaDue,storiaDue,la-ruota-della-fortuna,,21,Grande,la-ruota-della-fortuna-storiaDue-ruota
+il-giudizio-storiaDue,storiaDue,il-giudizio,,22,Grande,il-giudizio-storiaDue-giorno-del-giudizio
+la-torre-storiaDue,storiaDue,la-torre,,23,Grande,la-torre-storiaDue-torre-di-nembrotte
+cavaliere-di-bastoni-storiaTre,storiaTre,cavaliere-di-bastoni,,1,Grande,cavaliere-di-bastoni-storiaTre-protagonista
+dieci-di-spade-storiaTre,storiaTre,dieci-di-spade,,2,"Grande ",dieci-di-spade-storiaTre-combattimento
+cavaliere-di-spade-storiaTre,storiaTre,cavaliere-di-spade,,3,Grande,cavaliere-di-spade-storiaTre-cavaliere
+due-di-spade-storiaTre,storiaTre,due-di-spade,,4,"Grande ",due-di-spade-storiaTre-due-spade
+il-giudizio-storiaTre,storiaTre,il-giudizio,,5,Grande,il-giudizio-storiaTre-tromba
+lo-imperatore-storiaTre,storiaTre,lo-imperatore,,6,Grande,lo-imperatore-storiaTre-imperatore
+quattro-di-bastoni-storiaTre,storiaTre,quattro-di-bastoni,,7,Grande,quattro-di-bastoni-storiaTre-bosco
+la-morte-storiaTre,storiaTre,la-morte,,8,Grande,la-morte-storiaTre-morte
+il-matto-storiaTre,storiaTre,il-matto,,9,Grande,il-matto-storiaTre-soldato-ferito
+la-luna-storiaTre,storiaTre,la-luna,,10,Grande,la-luna-storiaTre-paesaggio-notturno
+sei-di-bastoni-storiaTre,storiaTre,sei-di-bastoni,,11,Piccola,sei-di-bastoni-storiaTre-campo-di-morte
+asso-di-denari-storiaTre,storiaTre,asso-di-denari,,12,Piccola,asso-di-denari-storiaTre-scudo
+asso-di-spade-storiaTre,storiaTre,asso-di-spade,,13,Grande,asso-di-spade-storiaTre-spada
+la-stella-storiaTre,storiaTre,la-stella,Le Stelle,14,Grande,la-stella-storiaTre-cavaliere
+il-penduto-storiaTre,storiaTre,il-penduto,L'Appeso,15,Grande,il-penduto-storiaTre-protagonista
+il-mondo-storiaTre,storiaTre,il-mondo,,16,Grande,il-mondo-storiaTre-guerriera
+la-forza-storiaTre,storiaTre,la-forza,,17,Grande,la-forza-storiaTre-forza
+lo-eremita-storiaTre,storiaTre,lo-eremita,,18,Grande,lo-eremita-storiaTre-eremita
+la-giustizia-storiaTre,storiaTre,la-giustizia,,19,Piccola,la-giustizia-storiaTre-amazzoni-giustiziere
+la-torre-storiaTre,storiaTre,la-torre,,20,Piccola,la-torre-storiaTre-fortalizi-maschili
+regina-di-bastoni-storiaTre,storiaTre,regina-di-bastoni,,21,Grande,regina-di-bastoni-storiaTre-regine-punitrici

@@ -1,1 +1,79 @@
 odi:DeckCard,odi:hasName,odi:hasVariantNameInTheText,odi:hasSuit,odi:hasTypology,odi:isNumber,odi:hasCurrentLocation,odi:hasCondition,odi:hasImage,odi:hasAuthor,odi:isContainedIn
+il-matto,Il Matto,Il Matto,,Trionfo,Nessuno,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+il-bagatto,Il Bagatto,Il Bagatto,,Trionfo,I,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-papessa,La Papessa,,,Trionfo,II,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-imepratrice,L'Imperatrice,,,Trionfo,III,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+lo-imperatore,L'Imperatore,,,Trionfo,IIII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+il-papa,Il Papa,,,Trionfo,V,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+lo-amore,L'Innamorato,"L'Amoroso, Gli Amanti",,Trionfo,VI,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+il-carro,Il Carro,,,Trionfo,VII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-giustizia,La Giustizia,,,Trionfo,VIII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+lo-eremita,L'Eremita,,,Trionfo,VIIII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-ruota-della-fortuna,La Ruota della Fortuna,"La Ruota ",,Trionfo,X,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-forza,La Forza,,,Trionfo,XI,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+il-penduto,L'Appeso,,,Trionfo,XII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-morte,La Morte,,,Trionfo,XIII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-temperanza,La Temperanza,,,Trionfo,XIIII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+il-diavolo,Il Diavolo,,,Trionfo,XV,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-torre,La Casa di Dio,"La Torre ",,Trionfo,XVI,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-stella,La Stella,Le Stelle,,Trionfo,XVII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+la-luna,La Luna,,,Trionfo,XVIII,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+il-sole,Il Sole,,,Trionfo,XIX,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+il-giudizio,"Il Giudizio ",L'Angelo,,Trionfo,XX,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+il-mondo,Il Mondo,,,Trionfo,XXI,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+asso-di-spade,Asso di Spade,,Spade,"Numerale ",1,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+due-di-spade,Due di Spade,,Spade,"Numerale ",2,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+tre-di-spade,Tre di Spade,,Spade,"Numerale ",3,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+quattro-di-spade,Quattro di Spade,,Spade,"Numerale ",4,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+cinque-di-spade,Cinque di Spade,,Spade,"Numerale ",5,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+sei-di-spade,Sei di Spade,,Spade,"Numerale ",6,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+sette-di-spade,Sette di Spade,,Spade,"Numerale ",7,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+otto-di-spade,Otto di Spade,,Spade,"Numerale ",8,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+nove-di-spade,Nove di Spade,,Spade,"Numerale ",9,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+dieci-di-spade,Dieci di Spade,,Spade,"Numerale ",10,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+fante-di-spade,Fante di Spade,,Spade,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+cavaliere-di-spade,Cavaliere di Spade,,Spade,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+regina-di-spade,Regina di Spade,,Spade,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+re-di-spade,Re di Spade,,Spade,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+asso-di-bastoni,Asso di Bastoni,,Bastoni,"Numerale ",1,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+due-di-bastoni,Due di Bastoni,,Bastoni,"Numerale ",2,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+tre-di-bastoni,Tre di Bastoni,,Bastoni,"Numerale ",3,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+quattro-di-bastoni,Quattro di Bastoni,,Bastoni,"Numerale ",4,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+cinque-di-bastoni,Cinque di Bastoni,,Bastoni,"Numerale ",5,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+sei-di-bastoni,Sei di Bastoni,,Bastoni,"Numerale ",6,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+sette-di-bastoni,Sette di Bastoni,,Bastoni,"Numerale ",7,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+otto-di-bastoni,Otto di Bastoni,,Bastoni,"Numerale ",8,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+nove-di-bastoni,Nove di Bastoni,,Bastoni,"Numerale ",9,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+dieci-di-bastoni,Dieci di Bastoni,,Bastoni,"Numerale ",10,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+fante-di-bastoni,Fante di Bastoni,,Bastoni,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+cavaliere-di-bastoni,Cavaliere di Bastoni,,Bastoni,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+regina-di-bastoni,Regina di Bastoni,,Bastoni,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+re-di-bastoni,Re di Bastoni,,Bastoni,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+asso-di-coppe,Asso di Coppe,,Coppe,Numerale ,1,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+due-di-coppe,Due di Coppe,,Coppe,Numerale ,2,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+tre-di-coppe,Tre di Coppe,,Coppe,Numerale ,3,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+quattro-di-coppe,Quattro di Coppe,,Coppe,Numerale ,4,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+cinque-di-coppe,Cinque di Coppe,,Coppe,Numerale ,5,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+sei-di-coppe,Sei di Coppe,,Coppe,Numerale ,6,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+sette-di-coppe,Sette di Coppe,,Coppe,Numerale ,7,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+otto-di-coppe,Otto di Coppe,,Coppe,Numerale ,8,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+nove-di-coppe,Nove di Coppe,,Coppe,Numerale ,9,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+dieci-di-coppe,Dieci di Coppe,,Coppe,Numerale ,10,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+fante-di-coppe,Fante di Coppe,,Coppe,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+cavaliere-di-coppe,Cavaliere di Coppe,,Coppe,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+regina-di-coppe,Regina di Coppe,,Coppe,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+re-di-coppe,Re di Coppe,,Coppe,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+asso-di-denari,Asso di Denari,,Denari,Numerale ,1,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+due-di-denari,Due di Denari,,Denari,Numerale ,2,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+tre-di-denari,Tre di Denari,,Denari,Numerale ,3,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+quattro-di-denari,Quattro di Denari,,Denari,Numerale ,4,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+cinque-di-denari,Cinque di Denari,,Denari,Numerale ,5,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+sei-di-denari,Sei di Denari,,Denari,Numerale ,6,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+sette-di-denari,Sette di Denari,,Denari,Numerale ,7,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+otto-di-denari,Otto di Denari,,Denari,Numerale ,8,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+nove-di-denari,Nove di Denari,,Denari,Numerale ,9,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+dieci-di-denari,Dieci di Denari,,Denari,Numerale ,10,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+fante-di-denari,Fante di Denari,,Denari,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+cavaliere-di-denari,Cavaliere di Denari,,Denari,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+regina-di-denari,Regina di Denari,,Denari,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
+re-di-denari,Re di Denari,,Denari,Carta di corte,,Yale University Library,Presente,https://collections.library.yale.edu/catalog/10991686,Paul Marteau,mazzo-la-taverna-dei-destini-incrociati
