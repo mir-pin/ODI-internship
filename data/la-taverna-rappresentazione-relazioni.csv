@@ -35,3 +35,6 @@ due-di-coppe-storiaQuattro-brindisi-di-sangue,odi:carriedOutBy,la-stella-storiaQ
 il-diavolo-storiaQuattro-figura-demoniaca,odi:isRelatedWith,il-mondo-storiaQuattro-riconciliazione-forze-terrestri-e-celesti
 la-torre2-storiaQuattro-caduta-della-regina,odi:carriedOutBy,regina-di-coppe-storiaQuattro-regina
 la-torre-storiaQuattro-caduta-della-regina,odi:isRelatedWith,il-penduto-storiaQuattro-regina-appesa-ai-fili
+il-bagatto-storiaCinque-chierico-vagante,odi:sameAs,il-diavolo-storiaCinque-mefistofele
+il-bagatto-storiaSei-mago-merlino,odi:isRelatedWith,il-diavolo-storiaSei-potenze-infernali
+due-di-denari-storiaCinque-baratto,odi:implies,la-temperanza-storiaCinque-anima

@@ -110,3 +110,40 @@ la-torre-storiaQuattro,storiaQuattro,la-torre,,33,Piccola,la-torre-storiaQuattro
 il-bagatto-storiaQuattro,storiaQuattro,il-bagatto,,34,Piccola,il-bagatto-storiaQuattro-ingegneri
 la-torre2-storiaQuattro,storiaQuattro,la-torre,,35,Grande,la-torre-storiaQuattro-caduta-della-regina
 il-penduto2-storiaQuattro,storiaQuattro,il-penduto,,36,Grande,il-penduto-storiaQuattro-regina-appesa-ai-fili
+re-di-denari-storiaCinque,storiaCinque,re-di-denari,,1,Grande,re-di-denari-storiaCinque-protagonista
+tre-di-coppe-storiaCinque,storiaCinque,tre-di-coppe,,2,Piccola,tre-di-coppe-storiaCinque-elemento-alchemico
+sette-di-denari-storiaCinque,storiaCinque,sette-di-denari,,3,Piccola,sette-di-denari-storiaCinque-oro-elemento-alchemico
+fante-di-coppe-storiaCinque,storiaCinque,fante-di-coppe,,4,Grande,fante-di-coppe-storiaCinque-famulo
+asso-di-coppe-storiaCinque,storiaCinque,asso-di-coppe,,5,Grande,"asso-di-coppe-storiaCinque-pietra-filosofale"
+il-sole-storiaCinque,storiaCinque,il-sole,,6,Piccola,il-sole-storiaCinque-astro-dell-oro
+la-ruota-della-fortuna-storiaCinque,storiaCinque,la-ruota-della-fortuna,,7,,la-ruota-della-fortuna-storiaCinque-moto-perpetuo
+il-giudizio-storiaCinque,storiaCinque,il-giudizio,,8,Piccola,il-giudizio-storiaCinque-morte-e-resurrezione
+lo-eremita-storiaCinque,storiaCinque,lo-eremita,,9,Grande,lo-eremita-storiaCinque-sapienza-solitaria
+la-torre-storiaCinque,storiaCinque,la-torre,,10,Grande,la-torre-storiaCinque-cella-in-cima-alla-torre
+il-bagatto-storiaCinque,storiaCinque,il-bagatto,,11,Grande,il-bagatto-storiaCinque-chierico-vagante
+il-mondo-storiaCinque,storiaCinque,il-mondo,Arcano XXI,12,Grande,il-mondo-storiaCinque-brodo-originario
+lo-amore-storiaCinque,storiaCinque,lo-amore,Arcano dell'amore,13,,lo-amore-storiaCinque-amore-e-giovinezza
+due-di-coppe-storiaCinque,storiaCinque,due-di-coppe,,14,Grande,due-di-coppe-storiaCinque-segreto-alchemico
+due-di-denari-storiaCinque,storiaCinque,due-di-denari,,15,Grande,due-di-denari-storiaCinque-baratto
+la-temperanza-storiaCinque,storiaCinque,la-temperanza,,16,Grande,la-temperanza-storiaCinque-anima
+il-diavolo-storiaCinque,storiaCinque,il-diavolo,,17,Grande,il-diavolo-storiaCinque-mefistofele
+asso-di-denari-storiaCinque,storiaCinque,asso-di-denari,,18,Grande,asso-di-denari-storiaCinque-terra-trasformata-in-oro
+la-stella-storiaCinque,storiaCinque,la-stella,Arcano numero XVII,19,Grande,la-stella-storiaCinque-rinascita-di-Venere
+cavaliere-di-spade-storiaSei,storiaSei,cavaliere-di-spade,,1,Grande,cavaliere-di-spade-storiaSei-protagonista
+due-di-denari-storiaSei,storiaSei,due-di-denari,,2,Piccola,due-di-denari-storiaSei-lungo-percorso
+due-di-spade-storiaSei,storiaSei,due-di-spade,,3,Piccola,due-di-spade-storiaSei-sfida
+il-diavolo-storiaSei,storiaSei,il-diavolo,,4,,il-diavolo-storiaSei-potenze-infernali
+il-bagatto-storiaSei,storiaSei,il-bagatto,,5,Piccola,il-bagatto-storiaSei-mago-merlino
+sette-di-bastoni-storiaSei,storiaSei,sette-di-bastoni,,6,Piccola,sette-di-bastoni-storiaSei-foresta-di-brocelianda
+dieci-di-coppe-storiaSei,storiaSei,dieci-di-coppe,,7,Piccola,dieci-di-coppe-storiaSei-tavola-rotonda
+re-di-spade-storiaSei,storiaSei,re-di-spade,,8,Piccola,re-di-spade-storiaSei-re-artu
+asso-di-coppe-storiaSei,storiaSei,asso-di-coppe,,9,Grande,asso-di-coppe-storiaSei-santo-graal
+il-papa-storiaSei,storiaSei,il-papa,,10,Piccola,il-papa-storiaSei-religione-romana
+lo-eremita-storiaSei,storiaSei,lo-eremita,,11,Piccola,lo-eremita-storiaSei-religione-celtica
+il-sole-storiaSei,storiaSei,il-sole,,12,Piccola,il-sole-storiaSei-innocenza-del-fanciullio-cavaliere
+la-ruota-della-fortuna-storiaSei,storiaSei,la-ruota-della-fortuna,,13,,la-ruota-della-fortuna-storiaSei-incantesimo-del-bosco
+il-giudizio-storiaSei,storiaSei,il-giudizio,,14,Piccola,il-giudizio-storiaSei-chiamata-celeste
+la-stella-storiaSei,storiaSei,la-stella,,15,Grande,"la-stella-storiaSei-nascita-di-parsifal"
+la-luna-storiaSei,storiaSei,la-luna,,16,Grande,la-luna-storiaSei-terre-desolate
+la-torre-storiaSei,storiaSei,la-torre,,17,Grande,la-torre-storiaSei-torre-di-amfortas
+re-di-denari-storiaSei,storiaSei,re-di-denari,,18,Grande,re-di-denari-storiasei-amfortas
