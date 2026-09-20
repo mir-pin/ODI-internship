@@ -1,2 +1,4 @@
 odi:Event,relation,target
 il-carro-storiaUno-viaggio,odi:carriedOutBy,cavaliere-di-coppe-storiaUno-protagonista
+due-di-bastoni-storiaUno-necessità-di-una-scelta,odi:carriedOutBy,fante-di-denari-storiaUno
+due-di-bastoni-storiaUno-necessità-di-una-scelta,odi:implies,asso-di-denari-storiaUno-moneta-testa;cinque-di-bastoni-storiaUno-moneta-croce

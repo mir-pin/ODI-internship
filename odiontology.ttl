@@ -1,0 +1,788 @@
+@prefix : <https://purl.org/ebr/odi#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://purl.org/ebr/odi#> .
+
+<https://purl.org/ebr/odi#> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/ebr/odi#arrivesAt
+:arrivesAt rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :FinctionalPlace ;
+           rdfs:comment "It means that a main character arrives at a place in his story."@en ,
+                        "Significa che un protagonista arriva in un luogo nella sua storia."@it ;
+           rdfs:label "Arriva a"@it ,
+                      "Arrives at"@en .
+
+
+###  https://purl.org/ebr/odi#bumpsInto
+:bumpsInto rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :Character ;
+           rdfs:comment "It means that a main character meets by chance another character during his story."@en ,
+                        "Significa che un protagonista incontra per caso un altro personaggio durante la sua storia."@it ;
+           rdfs:label "Bumps into"@en ,
+                      "Si imbatte in"@it .
+
+
+###  https://purl.org/ebr/odi#carriedOutby
+:carriedOutby rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Event ;
+              rdfs:range :Character ;
+              rdfs:comment "An event is carried out by one or more characters."@en ,
+                           "Un evento viene realizzato da uno o più personaggi."@it ;
+              rdfs:label "Carried out by"@en ,
+                         "È eseguito da"@it .
+
+
+###  https://purl.org/ebr/odi#carriesRepresentation
+:carriesRepresentation rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdfs:domain :Storycard ;
+                       rdfs:range :Representation ;
+                       rdfs:comment "It shows what represent a card in a story."@en ,
+                                    "Mostra cosa rappresenta una carta in una storia."@it ;
+                       rdfs:label "Carries representation"@en ,
+                                  "Porta la rappresentazione"@it .
+
+
+###  https://purl.org/ebr/odi#changesIn
+:changesIn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :Character ;
+           rdfs:comment "Questa proprietà indica che un personaggio è rappresentato da due carte che rappresentano un suo diverso modo di essere nella stessa storia."@it ,
+                        "This property indicates that a character is represented by two cards representing a different way of being in the same story."@en ;
+           rdfs:label "Cambia in"@it ,
+                      "Changes in"@en .
+
+
+###  https://purl.org/ebr/odi#climbs
+:climbs rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:range :InanimateObject ;
+        rdfs:comment "Questa proprietà indica che un protagonista si arrampica su un tronco nella sua storia."@it ,
+                     "This property indicates that a main character climbs a log in his story."@en ;
+        rdfs:label "Climbs"@en ,
+                   "Si arrampica"@it .
+
+
+###  https://purl.org/ebr/odi#contains
+:contains rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          owl:inverseOf :isContainedIn ;
+          rdfs:domain :TarotDeck ;
+          rdfs:range :DeckCard ;
+          rdfs:comment "Collega il mazzo di tarocchi con le carte che lo compongono."@it ,
+                       "It connects the tarot deck with its constituent cards."@en ;
+          rdfs:label "Contains"@en ,
+                     "Contiene"@it .
+
+
+###  https://purl.org/ebr/odi#discovers
+:discovers rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :Character ,
+                      :InanimateObject ;
+           rdfs:comment "It connects a main character with another character or an event whose true identity or existence is discovered by him during his story."@en ,
+                        "Mette in relazione un protagonista con un altro personaggio o evento la cui vera identità o esistenza viene scoperta da lui nel corso della sua storia."@it ;
+           rdfs:label "Discovers"@en ,
+                      "Scopre"@it .
+
+
+###  https://purl.org/ebr/odi#hasAParticularConditionOf
+:hasAParticularConditionOf rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty ;
+                           rdfs:domain :Character ;
+                           rdfs:range :Symbol ;
+                           rdfs:comment "It shows a particular condition of the main character in his story."@en ,
+                                        "Mostra una condizione particolare del protagonista nella sua storia."@it ;
+                           rdfs:label "Ha una particolare condizione di"@it ,
+                                      "Has a particular condition of"@en .
+
+
+###  https://purl.org/ebr/odi#hasAuthor
+:hasAuthor rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :DeckCard ,
+                       :Edition ,
+                       :TarotDeck ;
+           rdfs:range :Person ;
+           rdfs:comment "Questa proprietà rende esplicito l'autore sia del mazzo di tarocchi sia di una specifica carta del mazzo."@it ,
+                        "This property makes explicit the author of both the tarot deck and a specific card in the tarot deck."@en ;
+           rdfs:label "Ha autore"@it ,
+                      "Has author"@en .
+
+
+###  https://purl.org/ebr/odi#hasCard
+:hasCard rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         owl:inverseOf :isACardOf ;
+         rdfs:domain :Story ;
+         rdfs:range :Storycard ;
+         rdfs:comment "Collega ogni storia alle sue carte."@it ,
+                      "It connects each story with its cards."@en ;
+         rdfs:label "Ha la carta"@it ,
+                    "Has card"@en .
+
+
+###  https://purl.org/ebr/odi#hasChapter
+:hasChapter rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Edition ;
+            rdfs:range :Chapter ;
+            rdfs:comment "Questa proprietà mostra un capitolo dell'edizione di riferimento."@it ,
+                         "This property shows a chapter of the edition of reference."@en ;
+            rdfs:label "Ha capitolo"@it ,
+                       "Has chapter"@en .
+
+
+###  https://purl.org/ebr/odi#hasComplexRelationWith
+:hasComplexRelationWith rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty ;
+                        rdfs:domain :Representation ;
+                        rdfs:range :Representation ;
+                        rdfs:comment "Questa proprietà collega un protagonista con un elemento della sua storia che non ha un legame diretto con lui, ma un legame indiretto attraverso un'altra carta della storia."@it ,
+                                     "This property connects a main character with an element of his story that has no direct link to him, but an indirect link through another card of the story."@en ;
+                        rdfs:label "Ha una complessa relazione con"@it ,
+                                   "Has complex relation with"@en .
+
+
+###  https://purl.org/ebr/odi#hasCurrentLocation
+:hasCurrentLocation rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :DeckCard ;
+                    rdfs:range :Place ;
+                    rdfs:comment "Indica il luogo in cui è attualmente conservata ogni carta del mazzo."@it ,
+                                 "It indicates the physical location where each card in the deck is stored." ;
+                    rdfs:label "Has current location"@en ,
+                               "È attualmente conservata"@it .
+
+
+###  https://purl.org/ebr/odi#hasFamilyRelationWith
+:hasFamilyRelationWith rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdfs:domain :Character ;
+                       rdfs:range :Character ;
+                       rdfs:comment "It means that a main character has got a family relation with an another character in his story."@en ,
+                                    "Significa che un protagonista ha una relazione familiare con un altro personaggio nella sua storia."@it ;
+                       rdfs:label "Ha una relazione familiare con"@it ,
+                                  "Has family relation with"@en .
+
+
+###  https://purl.org/ebr/odi#hasIconography
+:hasIconography rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :Storycard ;
+                rdfs:range :Dimension ;
+                rdfs:comment "Indica la dimensione dell'iconografia di ogni carta nella pagina del libro."@it ,
+                             "It indicates the dimension of each card's iconography in the page of the book."@en ;
+                rdfs:label "Ha iconografia"@it ,
+                           "Has iconography"@en .
+
+
+###  https://purl.org/ebr/odi#hasMeaningOf
+:hasMeaningOf rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Representation ;
+              rdfs:range :Meaning ;
+              rdfs:comment "Fornisce una breve descrizione del significato di una carta in una storia."@it ,
+                           "It gives a short description of a card's meaning in a story."@en ;
+              rdfs:label "Ha significato di"@it ,
+                         "Has meaning of"@en .
+
+
+###  https://purl.org/ebr/odi#hasSuit
+:hasSuit rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :DeckCard ;
+         rdfs:range :Suit ;
+         rdfs:comment "Indica il seme di una carta."@it ,
+                      "It indicates the suit of a card."@en ;
+         rdfs:label "Ha seme"@it ,
+                    "Has suit"@en .
+
+
+###  https://purl.org/ebr/odi#hasTypology
+:hasTypology rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :DeckCard ,
+                         :TarotDeck ;
+             rdfs:range :Typology ;
+             rdfs:comment "Indica la tipologia del mazzo di tarocchi e di ciascuna delle sue carte."@it ,
+                          "It indicates the typology of the tarot deck and of each of its cards."@en ;
+             rdfs:label "Ha tipologia"@it ,
+                        "Has typology"@en .
+
+
+###  https://purl.org/ebr/odi#implies
+:implies rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Event ;
+         rdfs:range :InanimateObject ;
+         rdfs:comment "An event implies one or more objects in a story."@en ,
+                      "Un evento implica uno o più oggetti in una storia."@it ;
+         rdfs:label "Implica"@it ,
+                    "Implies"@en .
+
+
+###  https://purl.org/ebr/odi#includes
+:includes rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Chapter ;
+          rdfs:range :Story ;
+          rdfs:comment "Questa proprietà mostra una storia inclusa in un capitolo."@it ,
+                       "This property shows a story included in a chapter."@en ;
+          rdfs:label "Include"@it ,
+                     "Includes"@en .
+
+
+###  https://purl.org/ebr/odi#isACardOf
+:isACardOf rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Storycard ;
+           rdfs:range :Story ;
+           rdfs:comment "Collega ogni carta alla sua storia."@it ,
+                        "It connects each card with its story."@en ;
+           rdfs:label "Is a card of"@en ,
+                      "È una carta di"@it .
+
+
+###  https://purl.org/ebr/odi#isContainedIn
+:isContainedIn rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :DeckCard ;
+               rdfs:range :TarotDeck ;
+               rdfs:comment "Collega ogni carta al relativo mazzo di tarocchi."@it ,
+                            "It connects each card with its tarot deck."@en ;
+               rdfs:label "Is contained in"@en ,
+                          "È contenuta in"@it .
+
+
+###  https://purl.org/ebr/odi#isDefeatedBy
+:isDefeatedBy rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Character ;
+              rdfs:range :Character ;
+              rdfs:comment "Questa proprietà indica che un protagonista viene sconfitto da un altro personaggio nella sua storia."@it ,
+                           "This property indicates that a main character is defeated by another character in his story."@en ;
+              rdfs:label "Is defeated by"@en ,
+                         "È sconfitto da"@it .
+
+
+###  https://purl.org/ebr/odi#isHelpedBy
+:isHelpedBy rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Character ;
+            rdfs:range :Character ;
+            rdfs:comment "Questa proprietà indica che un protagonista è aiutato da un altro personaggio nella sua storia."@it ,
+                         "This property indicates that a main character is helped by another character in his story."@en ;
+            rdfs:label "Is helped by"@en ,
+                       "È aiutato da"@it .
+
+
+###  https://purl.org/ebr/odi#isRelatedWith
+:isRelatedWith rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Representation ;
+               rdfs:range :Representation ;
+               rdfs:comment "Questa proprietà collega due carte che hanno una relazione generale in una storia."@it ,
+                            "This property connects two cards which have a general relation in a story."@en ;
+               rdfs:label "Is related with"@en ,
+                          "È correlata a"@it .
+
+
+###  https://purl.org/ebr/odi#isSpecifiedBy
+:isSpecifiedBy rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Representation ;
+               rdfs:range :Representation ;
+               rdfs:comment "Collega due carte in cui una specifica l'altra in una storia."@it ,
+                            "It connects two cards where one specifies the other in a story."@en ;
+               rdfs:label "Is specified by"@en ,
+                          "È specificata da"@it .
+
+
+###  https://purl.org/ebr/odi#longsFor
+:longsFor rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Character ;
+          rdfs:range :Character ,
+                     :InanimateObject ;
+          rdfs:comment "It connects a main character and another character or an object desired by him in his story."@en ,
+                       "Mette in relazione un protagonista e un altro personaggio o un oggetto da lui desiderato nella sua storia."@it ;
+          rdfs:label "Desidera/Brama"@it ,
+                     "Longs for"@en .
+
+
+###  https://purl.org/ebr/odi#loses
+:loses rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty ;
+       rdfs:domain :Character ;
+       rdfs:range :InanimateObject ;
+       rdfs:comment "It connects a main character and an object which is lost by him in his story."@en ,
+                    "Mette in relazione un protagonista e un oggetto che ha perso nel corso della sua storia."@it ;
+       rdfs:label "Loses"@en ,
+                  "Perde"@it .
+
+
+###  https://purl.org/ebr/odi#marries
+:marries rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Character ;
+         rdfs:range :Character ;
+         rdfs:comment "Questa proprietà indica un protagonista che sposa un personaggio nella sua storia."@it ,
+                      "This property indicates a main character who marries a character in his story."@en ;
+         rdfs:label "Marries"@en ,
+                    "Sposa"@it .
+
+
+###  https://purl.org/ebr/odi#movingThrough
+:movingThrough rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Character ;
+               rdfs:range :FinctionalPlace ;
+               rdfs:comment "It means that a main character is moving through a place in his story."@en ,
+                            "Significa che un protagonista si muove in un luogo nella sua storia."@it ;
+               rdfs:label "Moving through"@en ,
+                          "Si muove per"@it .
+
+
+###  https://purl.org/ebr/odi#placeOfPublication
+:placeOfPublication rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :Edition ;
+                    rdfs:range :Place ;
+                    rdfs:comment "Questa proprietà collega l'edizione di riferimento con il suo luogo di pubblicazione."@it ,
+                                 "This property connects the edition of reference with its place of publication."@en ;
+                    rdfs:label "Luogo di pubblicazione"@it ,
+                               "Place of publication"@en .
+
+
+###  https://purl.org/ebr/odi#publisher
+:publisher rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Edition ;
+           rdfs:range :PublishingHouse ;
+           rdfs:comment "Editore"@it ,
+                        "Publisher"@en ,
+                        "Questa proprietà collega l'edizione di riferimento con la sua casa editrice."@it ,
+                        "This property connects the edition of reference with its publishing house."@en .
+
+
+###  https://purl.org/ebr/odi#receives
+:receives rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Character ;
+          rdfs:range :InanimateObject ;
+          rdfs:comment "It means that a main character receives something during his story."@en ,
+                       "Significa che un protagonista riceve qualcosa durante la sua storia."@it ;
+          rdfs:label "Receives"@en ,
+                     "Riceve"@it .
+
+
+###  https://purl.org/ebr/odi#represents
+:represents rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Character ,
+                        :FinctionalPlace ;
+            rdfs:range :Person ,
+                       :Place ;
+            rdfs:comment "Mostra cosa rappresenta una carta in una storia."@it ,
+                         "This property shows a character as a person and a fictional place as a place."@en ;
+            rdfs:label "Rappresenta"@it ,
+                       "Represents"@en .
+
+
+###  https://purl.org/ebr/odi#sameAs
+:sameAs rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain :Representation ;
+        rdfs:range :Representation ;
+        rdfs:comment "Questa proprietà indica che due carte rappresentano la stessa cosa."@it ,
+                     "This property indicates that two cards represent the same thing."@en ;
+        rdfs:label "Same as"@en ,
+                   "È uguale a"@it .
+
+
+###  https://purl.org/ebr/odi#sees
+:sees rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf owl:topObjectProperty ;
+      rdfs:domain :Character ;
+      rdfs:range :Event ,
+                 :InanimateObject ;
+      rdfs:comment "It connects a main character with an event or object seen by him in his story."@en ,
+                   "Mette in relazione un protagonista con un evento o un oggetto visto da lui nella sua storia."@it ;
+      rdfs:label "Sees"@en ,
+                 "Vede"@it .
+
+
+###  https://purl.org/ebr/odi#speaksTo
+:speaksTo rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:comment "Questa proprietà mostra un personaggio principale che parla a un altro personaggio di una storia."@it ,
+                       "This property shows a main character speaking to another character in a story."@en ;
+          rdfs:label "Parla con"@it ,
+                     "Speaks to"@en .
+
+
+###  https://purl.org/ebr/odi#specifies
+:specifies rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Storycard ;
+           rdfs:range :DeckCard ;
+           rdfs:comment "Questa proprietà specifica una carta del mazzo come carta di una storia."@it ,
+                        "This property specifies a card of the deck as a card of a story."@en ;
+           rdfs:label "Specifica"@it ,
+                      "Specifies"@en .
+
+
+###  https://purl.org/ebr/odi#trades
+:trades rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain :Character ;
+        rdfs:range :InanimateObject ;
+        rdfs:comment "Questa proprietà indica che un protagonista baratta qualcosa nella sua storia."@it ,
+                     "This property indicates that a main character trades something in his story."@en ;
+        rdfs:label "Baratta"@it ,
+                   "Trades"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://purl.org/ebr/odi#hasCurrentNumberOfCards
+:hasCurrentNumberOfCards rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain :TarotDeck ;
+                         rdfs:range xsd:integer ;
+                         rdfs:comment "Indica il numero attuale di carte del mazzo di tarocchi."@it ,
+                                      "It indicates the current number of cards in the tarot deck."@en ;
+                         rdfs:label "Ha numero attuale di carte"@it ,
+                                    "Has current number of cards"@en .
+
+
+###  https://purl.org/ebr/odi#hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :TarotDeck ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Indica il secolo a cui risale il mazzo di tarocchi."@it ,
+                      "It indicates the century the tarot deck dates back to."@en ;
+         rdfs:label "Ha data"@it ,
+                    "Has date"@en .
+
+
+###  https://purl.org/ebr/odi#hasImage
+:hasImage rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :DeckCard ;
+          rdfs:range xsd:anyURI ;
+          rdfs:comment "Links to a photo of each card of the tarot deck."@en ,
+                       "Rimanda ad una foto di ogni carta del mazzo di tarocchi."@it ;
+          rdfs:label "Ha immagine"@it ,
+                     "Has image"@en .
+
+
+###  https://purl.org/ebr/odi#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :TarotDeck ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Indica il nome specifico del mazzo di tarocchi e di ciascuna delle sue carte."@it ,
+                      "It indicates the specific name of the tarot deck and each of its cards."@en ;
+         rdfs:label "Ha nome"@it ,
+                    "Has name"@en .
+
+
+###  https://purl.org/ebr/odi#hasOriginalNumberOfCards
+:hasOriginalNumberOfCards rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf owl:topDataProperty ;
+                          rdfs:domain :TarotDeck ;
+                          rdfs:range xsd:integer ;
+                          rdfs:comment "Indica il numero originale di carte del mazzo di tarocchi."@it ,
+                                       "It indicates the original number of cards in the tarot deck."@en ;
+                          rdfs:label "Ha numero di carte originariamente"@it ,
+                                     "Has original number of cards"@en .
+
+
+###  https://purl.org/ebr/odi#hasPositionInTheText
+:hasPositionInTheText rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Storycard ;
+                      rdfs:range xsd:integer ;
+                      rdfs:comment "Indica l'ordine di apparizione di ogni carta nelle diverse storie."@it ,
+                                   "It indicates the order of appearance of each card in the different stories."@en ;
+                      rdfs:label "Ha posizione nel testo"@it ,
+                                 "Has position in the text"@en .
+
+
+###  https://purl.org/ebr/odi#hasPublicationDate
+:hasPublicationDate rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :Edition ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "Questa proprietà collega l'edizione di riferimento con la sua data di pubblicazione."@it ,
+                                 "This property connects the edition of reference with its date of publication."@en ;
+                    rdfs:label "Ha data di pubblicazione"@it ,
+                               "Has publication date"@en .
+
+
+###  https://purl.org/ebr/odi#hasTextualReference
+:hasTextualReference rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdfs:domain owl:Thing ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "It reports in hooked brackets Calvin's words that give a more accurate description of each card."@en ,
+                                  "Riporta tra parentesi uncinate le parole di Calvino che danno una descrizione più accurata di ogni carta."@it ;
+                     rdfs:label "Ha riferimento testuale"@it ,
+                                "Has textual reference"@en .
+
+
+###  https://purl.org/ebr/odi#hasTitle
+:hasTitle rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Chapter ,
+                      :Edition ,
+                      :Story ;
+          rdfs:range xsd:string ;
+          rdfs:comment "It shows both the title of the reference edition and of a chapter that is also the title of a story."@en ,
+                       "Mostra sia il titolo dell'edizione di riferimento sia di un capitolo che è anche il titolo di una storia."@it ;
+          rdfs:label "Ha titolo"@it ,
+                     "Has title"@en .
+
+
+###  https://purl.org/ebr/odi#hasVariantName
+:hasVariantName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :Storycard ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Indica il nome della variante di una carta presente in una storia."@it ,
+                             "It indicates the variant name of a card in a story."@en ;
+                rdfs:label "Ha variante del nome"@it ,
+                           "Has variant name"@en .
+
+
+###  https://purl.org/ebr/odi#hasVariantNameInTheText
+:hasVariantNameInTheText rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain :DeckCard ;
+                         rdfs:range xsd:string ;
+                         rdfs:comment "Indica quali carte hanno una variante del nome nel libro."@it ,
+                                      "It indicates which cards have a variant name in the book."@en ;
+                         rdfs:label "Ha variante del nome nel testo"@it ,
+                                    "has variant name in the text"@en .
+
+
+###  https://purl.org/ebr/odi#isNumber
+:isNumber rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :DeckCard ;
+          rdfs:range xsd:integer ;
+          rdfs:comment "Indica il numero che rappresenta ogni \"Numerale\"."@it ,
+                       "It indicates the number representing each number card."@en ;
+          rdfs:label "Is number"@en ,
+                     "È numero"@it .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://purl.org/ebr/odi#Chapter
+:Chapter rdf:type owl:Class ;
+         rdfs:subClassOf :Edition ;
+         rdfs:comment "Is a chapter of the book that contains a story."@en ,
+                      "È un capitolo del libro che contiene una storia."@it ;
+         rdfs:label "Capitolo"@it ,
+                    "Chapter"@en .
+
+
+###  https://purl.org/ebr/odi#Character
+:Character rdf:type owl:Class ;
+           rdfs:subClassOf :Representation ;
+           rdfs:comment "A character of a story."@en ,
+                        "Character"@en ,
+                        "Personaggio"@it ,
+                        "Un personaggio di una storia."@it .
+
+
+###  https://purl.org/ebr/odi#Condition
+:Condition rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing ;
+           rdfs:comment "Is the current phisically condition of a card."@en ,
+                        "È lo stato fisico attuale di una carta."@it ;
+           rdfs:label "Condition"@en ,
+                      "Condizione"@it .
+
+
+###  https://purl.org/ebr/odi#DeckCard
+:DeckCard rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing ;
+          rdfs:comment "Is a card which belongs to the deck."@en ,
+                       "È una carta che appartiene al mazzo."@it ;
+          rdfs:label "Carta del mazzo"@it ,
+                     "Deck card"@en .
+
+
+###  https://purl.org/ebr/odi#Dimension
+:Dimension rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing ;
+           rdfs:comment "Is the dimension of the card's iconography in the page of the book."@en ,
+                        "È la dimensione dell'iconografia della carta nella pagina del libro."@it ;
+           rdfs:label "Dimension"@en ,
+                      "Dimensione"@it .
+
+
+###  https://purl.org/ebr/odi#Edition
+:Edition rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing ;
+         rdfs:comment "It is the edition of the book taken as a reference."@en ,
+                      "È l'edizione del libro presa come riferimento."@it ;
+         rdfs:label "Edition"@en ,
+                    "Edizione"@it .
+
+
+###  https://purl.org/ebr/odi#Event
+:Event rdf:type owl:Class ;
+       rdfs:subClassOf :Representation ;
+       rdfs:comment "An event that is carried out by somebody and/or implies something in a story."@en ,
+                    "Event"@en ,
+                    "Un avvenimento che viene eseguito da qualcuno e/o implica degli oggetti in una storia."@it ;
+       rdfs:label "Evento"@it .
+
+
+###  https://purl.org/ebr/odi#FinctionalPlace
+:FinctionalPlace rdf:type owl:Class ;
+                 rdfs:subClassOf :Representation ;
+                 rdfs:comment "A place where a character is moving through or arrives at in a story."@en ,
+                              "Un luogo in cui un personaggio si muove o arriva in una storia."@it ;
+                 rdfs:label "Finctional Place"@en ,
+                            "Luogo ideale"@it .
+
+
+###  https://purl.org/ebr/odi#InanimateObject
+:InanimateObject rdf:type owl:Class ;
+                 rdfs:subClassOf :Representation ;
+                 rdfs:comment "Every kind of an object in a story."@en ,
+                              "Ogni tipo di oggetto in una storia."@it ;
+                 rdfs:label "Inanimate object"@en ,
+                            "Oggetto inanimato"@it .
+
+
+###  https://purl.org/ebr/odi#Meaning
+:Meaning rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing ;
+         rdfs:comment "Is a short meaning of what represent a card in a story."@en ,
+                      "È un breve significato di ciò che rappresenta una carta in una storia."@it ;
+         rdfs:label "Meaning"@en ,
+                    "Significato"@it .
+
+
+###  https://purl.org/ebr/odi#Person
+:Person rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing ;
+        rdfs:comment "Is a real person related to the book (e.g. the author of the book)."@en ,
+                     "È una persona reale legata al libro (es. l'autore del libro)."@it ;
+        rdfs:label "Person"@en ,
+                   "Persona"@it .
+
+
+###  https://purl.org/ebr/odi#Place
+:Place rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing ;
+       rdfs:comment "Is a real place related to the book (e.g. the current location of a card)."@en ,
+                    "È un luogo reale legato al libro (es. la collocazione attuale di una carta)."@it ;
+       rdfs:label "Luogo"@it ,
+                  "Place"@en .
+
+
+###  https://purl.org/ebr/odi#PublishingHouse
+:PublishingHouse rdf:type owl:Class ;
+                 rdfs:subClassOf :Edition ;
+                 rdfs:comment "Is the publishing house of the edition of reference."@en ,
+                              "È la casa editrice dell'edizione di riferimento"@it ;
+                 rdfs:label "Casa editrice"@it ,
+                            "Publishing house"@en .
+
+
+###  https://purl.org/ebr/odi#Representation
+:Representation rdf:type owl:Class ;
+                rdfs:subClassOf owl:Thing ;
+                rdfs:comment "La rappresentazione di una carta."@it ,
+                             "Rappresentazione"@it ,
+                             "Representation"@en ,
+                             "The representation of a card."@en .
+
+
+###  https://purl.org/ebr/odi#Story
+:Story rdf:type owl:Class ;
+       rdfs:subClassOf :Chapter ;
+       rdfs:comment "A story that makes up the book."@en ,
+                    "Una storia che compone il libro."@it ;
+       rdfs:label "Storia"@it ,
+                  "Story"@en .
+
+
+###  https://purl.org/ebr/odi#Storycard
+:Storycard rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing ;
+           rdfs:comment "A card of a story that makes up the book."@en ,
+                        "Una carta di una storia che compone il libro."@it ;
+           rdfs:label "Carta nella storia"@it ,
+                      "Story card"@en .
+
+
+###  https://purl.org/ebr/odi#Suit
+:Suit rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing ;
+      rdfs:comment "Is the suit of a card."@en ,
+                   "È il seme di una carta."@it ;
+      rdfs:label "Seme"@it ,
+                 "Suit"@en .
+
+
+###  https://purl.org/ebr/odi#Symbol
+:Symbol rdf:type owl:Class ;
+        rdfs:subClassOf :Representation ;
+        rdfs:comment "A symbol or an allegory of something expressed by a card."@en ,
+                     "Un simbolo o un'allegoria di qualcosa espressi da una carta."@it ;
+        rdfs:label "Simbolo"@it ,
+                   "Symbol"@en .
+
+
+###  https://purl.org/ebr/odi#TarotDeck
+:TarotDeck rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing ;
+           rdfs:comment "Is a particular type of deck."@en ,
+                        "È un tipo particolare di mazzo."@it ;
+           rdfs:label "Mazzo di tarocchi"@it ,
+                      "Tarot deck"@en .
+
+
+###  https://purl.org/ebr/odi#Typology
+:Typology rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing ;
+          rdfs:comment "Is the typology of the deck and of each card of the deck."@en ,
+                       "È la tipologia del mazzo e di ogni carta del mazzo."@it ;
+          rdfs:label "Tipologia"@it ,
+                     "typology"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
