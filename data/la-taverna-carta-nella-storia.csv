@@ -56,7 +56,7 @@ la-torre-storiaDue,storiaDue,la-torre,,23,Grande,la-torre-storiaDue-torre-di-nem
 cavaliere-di-bastoni-storiaTre,storiaTre,cavaliere-di-bastoni,,1,Grande,cavaliere-di-bastoni-storiaTre-protagonista
 dieci-di-spade-storiaTre,storiaTre,dieci-di-spade,,2,"Grande ",dieci-di-spade-storiaTre-combattimento
 cavaliere-di-spade-storiaTre,storiaTre,cavaliere-di-spade,,3,Grande,cavaliere-di-spade-storiaTre-cavaliere
-due-di-spade-storiaTre,storiaTre,due-di-spade,,4,"Grande ",due-di-spade-storiaTre-due-spade
+due-di-spade-storiaTre,storiaTre,due-di-spade,,4,"Grande ",due-di-spade-storiaTre-duello
 il-giudizio-storiaTre,storiaTre,il-giudizio,,5,Grande,il-giudizio-storiaTre-tromba
 lo-imperatore-storiaTre,storiaTre,lo-imperatore,,6,Grande,lo-imperatore-storiaTre-imperatore
 quattro-di-bastoni-storiaTre,storiaTre,quattro-di-bastoni,,7,Grande,quattro-di-bastoni-storiaTre-bosco
@@ -66,17 +66,17 @@ la-luna-storiaTre,storiaTre,la-luna,,10,Grande,la-luna-storiaTre-paesaggio-nottu
 sei-di-bastoni-storiaTre,storiaTre,sei-di-bastoni,,11,Piccola,sei-di-bastoni-storiaTre-campo-di-morte
 asso-di-denari-storiaTre,storiaTre,asso-di-denari,,12,Piccola,asso-di-denari-storiaTre-scudo
 asso-di-spade-storiaTre,storiaTre,asso-di-spade,,13,Grande,asso-di-spade-storiaTre-spada
-la-stella-storiaTre,storiaTre,la-stella,Le Stelle,14,Grande,la-stella-storiaTre-cavaliere
+la-stella-storiaTre,storiaTre,la-stella,Le Stelle,14,Grande,la-stella-storiaTre-cavaliere-rivelato
 il-penduto-storiaTre,storiaTre,il-penduto,L'Appeso,15,Grande,il-penduto-storiaTre-protagonista
-il-mondo-storiaTre,storiaTre,il-mondo,,16,Grande,il-mondo-storiaTre-guerriera
+il-mondo-storiaTre,storiaTre,il-mondo,,16,Grande,il-mondo-storiaTre-guerriera-gigantesca
 la-forza-storiaTre,storiaTre,la-forza,,17,Grande,la-forza-storiaTre-forza
 lo-eremita-storiaTre,storiaTre,lo-eremita,,18,Grande,lo-eremita-storiaTre-eremita
 la-giustizia-storiaTre,storiaTre,la-giustizia,,19,Piccola,la-giustizia-storiaTre-amazzoni-giustiziere
-la-torre-storiaTre,storiaTre,la-torre,,20,Piccola,la-torre-storiaTre-fortalizi-maschili
+la-torre-storiaTre,storiaTre,la-torre,,20,Piccola,la-torre-storiaTre-crollo-potere-maschile
 regina-di-bastoni-storiaTre,storiaTre,regina-di-bastoni,,21,Grande,regina-di-bastoni-storiaTre-regine-punitrici
-la-morte-storiaQuattro,storiaQuattro,la-morte,Arcano Numero Tredici,1,,
+la-morte-storiaQuattro,storiaQuattro,la-morte,Arcano Numero Tredici,1,,la-morte-storiaQuattro-morte
 fante-di-bastoni-storiaQuattro,storiaQuattro,fante-di-bastoni,,2,Grande,fante-di-bastoni-storiaQuattro-protagonista
-nove-di-coppe-storiaQuattro,storiaQuattro,nove-di-coppe,,3,Piccola,nove-di-coppe-storiaQuattro-urne
+nove-di-coppe-storiaQuattro,storiaQuattro,nove-di-coppe,,3,Piccola,nove-di-coppe-storiaQuattro-urne-funerarie
 otto-di-spade-storiaQuattro,storiaQuattro,otto-di-spade,,4,Piccola,otto-di-spade-storiaQuattro-vanghe-e-badili
 cinque-di-bastoni-storiaQuattro,storiaQuattro,cinque-di-bastoni,,5,Piccola,cinque-di-bastoni-storiaQuattro-croci-storte
 sette-di-denari-storiaQuattro,storiaQuattro,sette-di-denari,,6,Piccola,sette-di-denari-storiaQuattro-fuochi-fatui
@@ -96,20 +96,22 @@ la-papessa-storiaQuattro,storiaQuattro,la-papessa,,19,Grande,la-papessa-storiaQu
 la-stella-storiaQuattro,storiaQuattro,la-stella,,20,Grande,la-stella-storiaQuattro-regina
 il-giudizio-storiaQuattro,storiaQuattro,il-giudizio,,21,Piccola,il-giudizio-storiaQuattro-scoperchiamento-tomba
 due-di-bastoni-storiaQuattro,storiaQuattro,due-di-bastoni,,22,Piccola,due-di-bastoni-storiaQuattro-due-bastoni
-il-penduto-storiaQuattro,storiaQuattro,il-penduto,,23,Grande,il-penduto-storiaQuattro-re-morto
-asso-di-bastoni-storiaQuattro,storiaQuattro,asso-di-bastoni,,24,Piccola,asso-di-bastoni-storiaQuattro-cadavere-rianimato
-fante-di-coppe-storiaQuattro,storiaQuattro,fante-di-coppe,,25,Piccola,fante-di-coppe-storiaQuattro-morto-che-beve
+il-penduto-storiaQuattro,storiaQuattro,il-penduto,,23,Grande,il-penduto-storiaQuattro-cadavere-re
+asso-di-bastoni-storiaQuattro,storiaQuattro,asso-di-bastoni,,24,Piccola,asso-di-bastoni-storiaQuattro-cadavere-re-rianimato
+fante-di-coppe-storiaQuattro,storiaQuattro,fante-di-coppe,,25,Piccola,fante-di-coppe-storiaQuattro-cadavere-re-beve
 due-di-coppe-storiaQuattro,storiaQuattro,due-di-coppe,,26,Grande,due-di-coppe-storiaQuattro-brindisi-di-sangue
-il-diavolo-storiaQuattro,storiaQuattro,il-diavolo,,27,Grande,il-diavolo-storiaQuattro-figura-demoniaca
+il-diavolo-storiaQuattro,storiaQuattro,il-diavolo,,27,Grande,il-diavolo-storiaQuattro-unione-demoniaca
 il-mondo-storiaQuattro,storiaQuattro,il-mondo,,28,Grande,il-mondo-storiaQuattro-riconciliazione-forze-terrestri-e-celesti
-sette-di-spade-storiaQuattro,storiaQuattro,sette-di-spade,,29,Grande,sette-di-spade-storiaQuattro-manovra-militare-offensiva
-la-ruota-della-fortuna2-storiaQuattro,storiaQuattro,la-ruota-della-fortuna,,30,Grande,la-ruota-della-fortuna-storiaQuattro-ridda-degli-spettri;la-ruota-della-fortuna-storiaQuattro-trappola;la-ruota-della-fortuna-storiaQuattro-rampa-di-lancio
-la-luna2-storiaQuattro,storiaQuattro,la-luna,,31,Grande,la-luna-storiaQuattro-terreni-della-luna
+sette-di-spade-storiaQuattro,storiaQuattro,sette-di-spade,,29,Grande,sette-di-spade-storiaQuattro-esercito-reale
+la-ruota-della-fortuna-storiaQuattro,storiaQuattro,la-ruota-della-fortuna,,,Grande,la-ruota-della-fortuna-storiaQuattro-ridda-degli-spettri
+la-ruota-della-fortuna-storiaQuattro,storiaQuattro,la-ruota-della-fortuna,,,Grande,la-ruota-della-fortuna-storiaQuattro-trappola
+la-ruota-della-fortuna-storiaQuattro,storiaQuattro,la-ruota-della-fortuna,,,Grande,la-ruota-della-fortuna-storiaQuattro-rampa-di-lancio
+la-luna2-storiaQuattro,storiaQuattro,la-luna,,31,Grande,la-luna-storiaQuattro-luna
 due-di-denari-storiaQuattro,storiaQuattro,due-di-denari,,32,Grande,due-di-denari-storiaQuattro-traiettoria-dalla-terra-alla-luna
-la-torre-storiaQuattro,storiaQuattro,la-torre,,33,Piccola,la-torre-storiaQuattro-torre-più-elevata
-il-bagatto-storiaQuattro,storiaQuattro,il-bagatto,,34,Piccola,il-bagatto-storiaQuattro-ingegneri
-la-torre2-storiaQuattro,storiaQuattro,la-torre,,35,Grande,la-torre-storiaQuattro-caduta-della-regina
-il-penduto2-storiaQuattro,storiaQuattro,il-penduto,,36,Grande,il-penduto-storiaQuattro-regina-appesa-ai-fili
+la-torre-storiaQuattro,storiaQuattro,la-torre,,33,Piccola,la-torre-storiaQuattro-torre-colpita-fulmine
+il-bagatto-storiaQuattro,storiaQuattro,il-bagatto,,34,Piccola,il-bagatto-storiaQuattro-ingegnere
+la-torre-storiaQuattro,storiaQuattro,la-torre,,35,Grande,la-torre-storiaQuattro-caduta-della-regina
+il-penduto-storiaQuattro,storiaQuattro,il-penduto,,,Grande,il-penduto-storiaQuattro-regina-appesa-ai-fili
 re-di-denari-storiaCinque,storiaCinque,re-di-denari,,1,Grande,re-di-denari-storiaCinque-protagonista
 tre-di-coppe-storiaCinque,storiaCinque,tre-di-coppe,,2,Piccola,tre-di-coppe-storiaCinque-elemento-alchemico
 sette-di-denari-storiaCinque,storiaCinque,sette-di-denari,,3,Piccola,sette-di-denari-storiaCinque-oro-elemento-alchemico

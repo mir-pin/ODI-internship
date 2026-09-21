@@ -2,3 +2,11 @@ odi:Event,relation,target
 il-carro-storiaUno-viaggio,odi:carriedOutBy,cavaliere-di-coppe-storiaUno-protagonista
 due-di-bastoni-storiaUno-necessità-di-una-scelta,odi:carriedOutBy,fante-di-denari-storiaUno
 due-di-bastoni-storiaUno-necessità-di-una-scelta,odi:implies,asso-di-denari-storiaUno-moneta-testa;cinque-di-bastoni-storiaUno-moneta-croce
+due-di-spade-storiaTre-duello,odi:carriedOutBy,cavaliere-di-bastoni-storiaTre-protagonista; cavaliere-di-spade-storiaTre-cavaliere
+lo-amore-storiaQuattro-intrigo-amore,odi:carriedOutBy,regina-di-coppe-storiaQuattro-regina
+il-giudizio-storiaQuattro-scoperchiamento-tomba,odi:carriedOutby,la-stella-storiaQuattro-regina
+il-giudizio-storiaQuattro-scoperchiamento-tomba,odi:implies,due-di-bastoni-storiaQuattro-due-bastoni
+due-di-coppe-storiaQuattro-brindisi-di-sangue,odi:carriedOutBy,fante-di-coppe-storiaQuattro-cadavere-re-beve; la-stella-storiaQuattro-regina
+il-diavolo-storiaQuattro-unione-demoniaca,odi:carriedOutBy,fante-di-coppe-storiaQuattro-cadavere-re-beve; la-stella-storiaQuattro-regina
+il-mondo-storiaQuattro-riconciliazione-forze-terrestri-e-celesti,odi:carriedOutBy,fante-di-coppe-storiaQuattro-cadavere-re-beve; la-stella-storiaQuattro-regina
+la-torre-storiaQuattro-caduta-della-regina,odi:carriedOutBy,il-penduto-storiaQuattro-regina-appesa-ai-fili
