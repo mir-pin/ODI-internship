@@ -188,7 +188,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#hasIconography
 :hasIconography rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
-                rdfs:domain :Storycard ;
+                rdfs:domain :Representation ;
                 rdfs:range :Dimension ;
                 rdfs:comment "Indica la dimensione dell'iconografia di ogni carta nella pagina del libro."@it ,
                              "It indicates the dimension of each card's iconography in the page of the book."@en ;
@@ -205,6 +205,17 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
                            "It gives a short description of a card's meaning in a story."@en ;
               rdfs:label "Ha significato di"@it ,
                          "Has meaning of"@en .
+
+
+###  https://purl.org/ebr/odi#hasReferenceMode
+:hasReferenceMode rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Representation ;
+                  rdfs:range :ReferenceMode ;
+                  rdfs:comment "Indica in che modo la carta è resa esplicita nel testo rispetto alla sua immagine a margine."@it ,
+                               "It indicates how the card is made explicit in the text relative to its marginal image."@en ;
+                  rdfs:label "Ha modalità di riferimento"@it ,
+                             "Has reference mode"@en . 
 
 
 ###  https://purl.org/ebr/odi#hasSuit
@@ -379,10 +390,11 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdfs:domain :Edition ;
            rdfs:range :PublishingHouse ;
-           rdfs:comment "Editore"@it ,
-                        "Publisher"@en ,
-                        "Questa proprietà collega l'edizione di riferimento con la sua casa editrice."@it ,
-                        "This property connects the edition of reference with its publishing house."@en .
+           rdfs:comment "Questa proprietà collega l'edizione di riferimento con la sua casa editrice."@it ,
+                        "This property connects the edition of reference with its publishing house."@en ;
+           rdfs:label "Editore"@it ,
+                        "Publisher"@en .
+                        
 
 
 ###  https://purl.org/ebr/odi#receives
@@ -618,10 +630,10 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 :Character rdf:type owl:Class ;
            rdfs:subClassOf :Representation ;
            rdfs:comment "A character of a story."@en ,
-                        "Character"@en ,
-                        "Personaggio"@it ,
-                        "Un personaggio di una storia."@it .
-
+                        "Un personaggio di una storia."@it ;
+           rdfs:label "Character"@en ,
+                      "Personaggio"@it .
+                       
 
 ###  https://purl.org/ebr/odi#Condition
 :Condition rdf:type owl:Class ;
@@ -722,14 +734,23 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
                             "Publishing house"@en .
 
 
+###  https://purl.org/ebr/odi#ReferenceMode
+:ReferenceMode rdf:type owl:Class ;
+               rdfs:subClassOf owl:Thing ;
+               rdfs:comment "Modalità con cui una carta è esplicitata nel testo rispetto alla sua icona a margine"@it ,
+                        "The way a card is made explicit in the text relative to its marginal image."@en ;
+        rdfs:label "Modalità di riferimento"@it ,
+                "Reference Mode"@en . 
+
+
 ###  https://purl.org/ebr/odi#Representation
 :Representation rdf:type owl:Class ;
                 rdfs:subClassOf owl:Thing ;
                 rdfs:comment "La rappresentazione di una carta."@it ,
-                             "Rappresentazione"@it ,
-                             "Representation"@en ,
-                             "The representation of a card."@en .
-
+                        "The representation of a card."@en ;
+                rdfs:label "Rappresentazione"@it ,
+                        "Representation"@en .
+                             
 
 ###  https://purl.org/ebr/odi#Story
 :Story rdf:type owl:Class ;

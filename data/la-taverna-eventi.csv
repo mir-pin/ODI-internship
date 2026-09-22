@@ -10,3 +10,6 @@ due-di-coppe-storiaQuattro-brindisi-di-sangue,odi:carriedOutBy,fante-di-coppe-st
 il-diavolo-storiaQuattro-unione-demoniaca,odi:carriedOutBy,fante-di-coppe-storiaQuattro-cadavere-re-beve; la-stella-storiaQuattro-regina
 il-mondo-storiaQuattro-riconciliazione-forze-terrestri-e-celesti,odi:carriedOutBy,fante-di-coppe-storiaQuattro-cadavere-re-beve; la-stella-storiaQuattro-regina
 la-torre-storiaQuattro-caduta-della-regina,odi:carriedOutBy,il-penduto-storiaQuattro-regina-appesa-ai-fili
+due-di-spade-storiaSei-sfida,odi:carriedOutBy,cavaliere-di-spade-storiaSei-protagonista; il-diavolo-storiaSei-potenze-infernali
+due-di-denari-storiaCinque-baratto,odi:carriedOutBy,re-di-denari-storiaCinque-protagonista; il-diavolo-storiaCinque-mefistofele
+due-di-denari-storiaCinque-baratto,odi:implies,la-temperanza-storiaCinque-anima-faust
