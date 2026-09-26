@@ -13,3 +13,5 @@ la-torre-storiaQuattro-caduta-della-regina,odi:carriedOutBy,il-penduto-storiaQua
 due-di-spade-storiaSei-sfida,odi:carriedOutBy,cavaliere-di-spade-storiaSei-protagonista; il-diavolo-storiaSei-potenze-infernali
 due-di-denari-storiaCinque-baratto,odi:carriedOutBy,re-di-denari-storiaCinque-protagonista; il-diavolo-storiaCinque-mefistofele
 due-di-denari-storiaCinque-baratto,odi:implies,la-temperanza-storiaCinque-anima-faust
+asso-di-bastoni-storiaNove-rissa,odi:carriedOutBy,fante-di-denari-storiaNove-protagonista
+asso-di-bastoni-storiaNove-rissa,odi:implies,asso-di-spade-storiaNove-arma-da-taglio
