@@ -2567,6 +2567,9 @@ bacodi:mefistofele a odi:Meaning ;
 bacodi:mondo-sublunare a odi:Meaning ;
     rdfs:label "Mondo sublunare"@it .
 
+bacodi:morte a odi:Meaning ;
+    rdfs:label "Morte"@it .
+
 bacodi:morte-e-resurrezione-alchemica a odi:Meaning ;
     rdfs:label "Morte e resurrezione alchemica"@it .
 
@@ -3491,7 +3494,7 @@ bacodi:la-luna-storiaSei-terre-desolate a odi:FictionalPlace ;
 
 bacodi:la-morte-storiaQuattro-morte a odi:Symbol ;
     odi:hasIconography bacodi:Piccola ;
-    odi:hasMeaningOf bacodi:la-morte ;
+    odi:hasMeaningOf bacodi:morte ;
     odi:hasReferenceMode bacodi:ExplicitReference ;
     odi:hasTextualReference "«sembra intrattenere con l'Arcano Numero Tredici una brusca confidenza»"^^xsd:string .
 
@@ -3943,6 +3946,16 @@ bacodi:due-di-denari a odi:DeckCard ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 2 .
 
+bacodi:la-morte a odi:DeckCard ;
+    odi:hasAuthor bacodi:paul-marteau ;
+    odi:hasCondition bacodi:Presente ;
+    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
+    odi:hasName "La Morte"^^xsd:string ;
+    odi:hasTypology bacodi:Trionfo ;
+    odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
+    odi:isNumber 13 .
+
 bacodi:la-papessa a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
     odi:hasCondition bacodi:Presente ;
@@ -4036,18 +4049,6 @@ bacodi:la-giustizia a odi:DeckCard ;
     odi:hasTypology bacodi:Trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 8 .
-
-bacodi:la-morte a odi:DeckCard,
-        odi:Meaning ;
-    rdfs:label "La Morte"@it ;
-    odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
-    odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
-    odi:hasName "La Morte"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
-    odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
-    odi:isNumber 13 .
 
 bacodi:il-carro a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;

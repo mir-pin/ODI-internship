@@ -74,7 +74,7 @@ lo-eremita-storiaTre-eremita,Grande,ExplicitReference,Character,Eremita,,"""«un
 la-giustizia-storiaTre-amazzoni-giustiziere,Piccola,ImplicitReference,Character,Amazzoni giustiziere,,"""«l'esercito delle amazzoni giustiziere travolge e massacra i reggimenti e gli imperi»"""
 la-torre-storiaTre-crollo-potere-maschile,Piccola,ImplicitReference,Symbol,Crollo del potere maschile,,"""«I fieri fortilizi del nostro sesso crollano uno a uno»"""
 regina-di-bastoni-storiaTre-regine-punitrici,Grande,ImplicitReference,Character,Regine punitrici,,"""Una delle «Regine punitrici governeranno per i prossimi millenni»"""
-la-morte-storiaQuattro-morte,Piccola,"ExplicitReference ",Symbol,La Morte,,"""«sembra intrattenere con l'Arcano Numero Tredici una brusca confidenza»"""
+la-morte-storiaQuattro-morte,Piccola,"ExplicitReference ",Symbol,Morte,,"""«sembra intrattenere con l'Arcano Numero Tredici una brusca confidenza»"""
 fante-di-bastoni-storiaQuattro-protagonista,Grande,ExplicitReference,Character,"Protagonista ",,"""«è un omaccione non diverso da quello che si vede nella carte del Fante di Bastoni» / «il legno a cui si appoggia nella figura sia il manico di una pala affondata in terra e lui eserciti il mestiere di becchino»"""
 nove-di-coppe-storiaQuattro-urne-funerarie,Piccola,SuitOnlyReference,InanimateObject,"Urne funerarie ",,"""«le Coppe si profilano come urne arche avelli tra le ortiche»"""
 otto-di-spade-storiaQuattro-vanghe-e-badili,Piccola,"SuitOnlyReference ",InanimateObject,Vanghe e badili,,"""«le Spade risuonano metalliche come vanghe o badili contro i coperchi di piombo»"""
