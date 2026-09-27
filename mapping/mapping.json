@@ -1,0 +1,263 @@
+{
+    "la-taverna-capitoli.csv": {
+        "odi:Chapter": {
+            "type": "class", 
+            "role": "subject_id"
+        },
+        "odi:includes": {
+            "type": "object_property", 
+            "domain": "odi:Chapter", 
+            "range": "odi:Story"
+        }
+    },
+
+    "la-taverna-carta-nel-mazzo.csv": {
+        "odi:DeckCard": { 
+            "type": "class", 
+            "role": "subject_id" 
+        },
+        "odi:hasName": {
+            "type": "data_property", 
+            "domain": "odi:DeckCard", 
+            "datatype": "xsd:string"
+        },
+        "odi:hasVariantNameInTheText": { 
+            "type": "data_property", 
+            "domain": "odi:DeckCard", 
+            "datatype": "xsd:string" 
+        },
+        "odi:hasSuit": { 
+            "type": "object_property", 
+            "domain": "odi:DeckCard", 
+            "range": "odi:Suit" 
+        },
+        "odi:hasTypology": { 
+            "type": "object_property", 
+            "domain": "odi:DeckCard", 
+            "range": "odi:Typology" 
+        },
+        "odi:isNumber": { 
+            "type": "data_property", 
+            "domain": "odi:DeckCard", 
+            "datatype": "xsd:integer" 
+        },
+        "odi:hasCurrentLocation": { 
+            "type": "object_property", 
+            "domain": "odi:DeckCard", 
+            "range": "odi:Place" 
+        },
+        "odi:hasCondition": {
+            "type": "object_property", 
+            "domain": "odi:DeckCard", 
+            "range": "odi:Condition"
+        },
+        "odi:hasImage": { 
+            "type": "data_property", 
+            "domain": "odi:DeckCard", 
+            "datatype": "xsd:anyURI" 
+        },
+        "odi:hasAuthor": { 
+            "type": "object_property", 
+            "domain": "odi:DeckCard", 
+            "range": "odi:Person" 
+        },
+        "odi:isContainedIn": { 
+            "type": "object_property", 
+            "domain": "odi:DeckCard", 
+            "range": "odi:TarotDeck" 
+        }
+    },
+
+    "la-taverna-carta-nella-storia.csv": {
+        "odi:StoryCard": { 
+            "type": "class", 
+            "role": "subject_id" 
+        },
+        "odi:isACardOf": { 
+            "type": "object_property", 
+            "domain": "odi:Storycard", 
+            "range": "odi:Story" 
+        },
+        "odi:specifies": { 
+            "type": "object_property", 
+            "domain": "odi:Storycard", 
+            "range": "odi:DeckCard" 
+        },
+        "odi:hasVariantName": { 
+            "type": "data_property", 
+            "domain": "odi:Storycard", 
+            "datatype": "xsd:string" 
+        },
+        "odi:hasPositionInTheText": {
+            "type": "data_property", 
+            "domain": "odi:Storycard", 
+            "datatype": "xsd:integer"
+        },
+        "odi:carriesRepresentation": {
+            "type": "object_property_new_subject", 
+            "domain": "odi:Storycard", 
+            "range": "odi:Representation"
+        }
+    },
+
+    "la-taverna-edizione.csv": {
+        "odi:Edition": { 
+            "type": "class", 
+            "role": "subject_id" 
+        },
+        "odi:hasTitle": { 
+            "type": "data_property", 
+            "domain": "odi:Edition", 
+            "datatype": "xsd:string" 
+        },
+        "odi:hasAuthor": { 
+            "type": "object_property", 
+            "domain": "odi:Edition", 
+            "range": "odi:Person" 
+        },
+        "odi:hasPublicationDate": {
+            "type": "data_property", 
+            "domain": "odi:Edition", 
+            "datatype": "xsd:string"
+        },
+        "odi:publisher": { 
+            "type": "object_property", 
+            "domain": "odi:Edition", 
+            "range": "odi:PublishingHouse" 
+        },
+        "odi:placeOfPublication": { 
+            "type": "object_property", 
+            "domain": "odi:Edition", 
+            "range": "odi:Place" 
+        },
+        "odi:hasChapter": { 
+            "type": "object_property", 
+            "domain": "odi:Edition", 
+            "range": "odi:Chapter" }
+    },
+
+    "la-taverna-eventi.csv": {
+        "odi:Event": { 
+            "type": "class", 
+            "role": "subject_id" 
+        },
+        "relation": {
+            "type": "generic_relation_column",
+            "note": "⚠️colonna che contiene il nome della proprietà da applicare riga per riga; per Event i candidati in ontologia sono odi:carriedOutby (range Character) e odi:implies (range InanimateObject)"
+        },
+        "target": { 
+            "type": "generic_relation_target", 
+            "note": "id dell'entità target della relation indicata" 
+        }
+    },
+
+    "la-taverna-mazzo.csv": {
+        "odi:TarotDeck": { 
+            "type": "class", 
+            "role": "subject_id" 
+        },
+        "odi:hasTypology": { 
+            "type": "object_property", 
+            "domain": "odi:TarotDeck", 
+            "range": "odi:Typology" 
+        },
+        "odi:hasName": { 
+            "type": "data_property", 
+            "domain": "odi:TarotDeck", 
+            "datatype": "xsd:string" 
+        },
+        "odi:hasDate": { 
+            "type": "data_property", 
+            "domain": "odi:TarotDeck", 
+            "datatype": "xsd:string" 
+        },
+        "odi:hasAuthor": { 
+            "type": "object_property", 
+            "domain": "odi:TarotDeck", 
+            "range": "odi:Person" 
+        },
+        "odi:hasOriginalNumberOfCards": { 
+            "type": "data_property", 
+            "domain": "odi:TarotDeck", 
+            "datatype": "xsd:integer" 
+        },
+        "odi:hasCurrentNumberOfCards": { 
+            "type": "data_property", 
+            "domain": "odi:TarotDeck", 
+            "datatype": "xsd:integer" }
+    },
+
+    "la-taverna-rappresentazione-relazioni.csv": {
+        "sourceRepresentation": { 
+            "type": "class", 
+            "role": "subject_id", 
+            "rdf_type": "odi:Representation" 
+        },
+        "relation": {
+            "type": "generic_relation_column",
+            "note": "⚠️proprietà tra due Representation; candidati in ontologia: isRelatedWith, isSpecifiedBy, hasComplexRelationWith, sameAs, changesIn, bumpsInto, discovers, isDefeatedBy, isHelpedBy, hasFamilyRelationWith, marries, longsFor, arrivesAt, movingThrough, receives, sees, loses, trades, climbs, speaksTo"
+        },
+        "targetRepresentation": { 
+            "type": "object_property_target", 
+            "range": "odi:Representation" 
+        }
+
+    },
+    "la-taverna-rappresentazione-significato.csv": {
+        "odi:Representation": { 
+            "type": "class", 
+            "role": "subject_id" 
+        },
+        "odi:hasIconography": {
+            "type": "object_property", 
+            "domain": "odi:Representation", 
+            "range": "odi:Dimension"
+        },
+        "odi:hasReferenceMode": {
+            "type": "object_property", 
+            "domain": "odi:Representation",
+            "range": "odi:ReferenceMode"
+        },
+        "rdf:type": {
+            "type": "rdf_type",
+            "value_mapping": { 
+                "Character": "odi:Character", 
+                "Event": "odi:Event", 
+                "InanimateObject": "odi:InanimateObject", 
+                "FictionalPlace": "odi:FictionalPlace", 
+                "Symbol": "odi:Symbol" 
+            }
+        },
+        "meaningLabel": {
+            "type": "data_property via nuova istanza :Meaning",
+            "note": "mappa su odi:hasMeaningOf (domain Representation, range Meaning): crea un'istanza :Meaning con rdfs:label = meaningLabel"
+        },
+        "odi:represents": {
+            "type": "object_property_new_subject", 
+            "domain": "odi:Representation", 
+            "range": "odi:Person o odi:Place",
+            "note": "⚠️ manca una colonna tipo 'istanceOf2' per sapere se il target è Person o Place — da chiarire come distinguerlo"
+        },
+        "odi:hasTextualReference": { 
+            "type": "data_property", 
+            "domain": "odi:Representation", 
+            "datatype": "xsd:string" }
+    },
+
+    "la-taverna-storie.csv": {
+        "odi:Story": { 
+            "type": "class", 
+            "role": "subject_id" 
+        },
+        "odi:hasTitle": { 
+            "type": "data_property", 
+            "domain": "odi:Story", 
+            "datatype": "xsd:string" 
+        },
+        "odi:hasTotalNumberOfCards": {
+            "type": "data_property (proposta)", 
+            "domain": "odi:Story", 
+            "datatype": "xsd:integer"
+        }
+    }
+}

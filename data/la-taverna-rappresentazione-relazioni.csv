@@ -63,6 +63,7 @@ fante-di-spade-storiaDieci-protagonista,odi:hasFamilyRelationWith,lo-imperatore-
 fante-di-spade-storiaDieci-protagonista,odi:changesIn,il-matto-storiaDieci-protagonista
 il-matto-storiaDieci-protagonista,odi:hasParticularConditionOf,lo-amore-storiaDieci-follia-amore
 la-temperanza-storiaDieci-ofelia,odi:changesIn,il-mondo-storiaDieci-ofelia-fuori-di-se
+il-mondo-storiaDieci-ofelia-fuori-di-se,odi:changesIn,la-stella-storiaDieci-ofelia-sta-per-annegare
 regina-di-spade-storiaUndici-protagonista,odi:sees,lo-eremita-storiaUndici-spettro-di-banquo
 regina-di-spade-storiaUndici-protagonista,odi:changesIn,la-stella-storiaUndici-protagonista
 re-di-coppe-storiaDodici-protagonista,odi:hasFamilyRelationWith,regina-di-bastoni-storiaDodici-regana

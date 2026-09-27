@@ -1,4 +1,4 @@
-odi:StoryCard,odi:isACardOf,odi:specifies,odi:hasVariantName,odi:hasPositionInText,odi:hasIconography,odi:carriesRepresentation
+odi:StoryCard,odi:isACardOf,odi:specifies,odi:hasVariantName,odi:hasPositionInTheText,odi:hasIconography,odi:carriesRepresentation
 cavaliere-di-coppe-storiaUno,storiaUno,cavaliere-di-coppe,,1,Grande,cavaliere-di-coppe-storiaUno-protagonista
 otto-di-coppe-storiaUno,storiaUno,otto-di-coppe,,2,Piccola,otto-di-coppe-storiaUno-banchetto-di-nozze
 dieci-di-bastoni-storiaUno,storiaUno,dieci-di-bastoni,,3,Piccola,dieci-di-bastoni-storiaUno-bosco
@@ -198,10 +198,11 @@ la-imperatrice-storiaDieci,storiaDieci,la-imperatrice,,,,la-imperatrice-storiaDi
 lo-eremita-storiaDieci,storiaDieci,lo-eremita,,,,lo-eremita-storiaDieci-polonio
 fante-di-denari-storiaDieci,storiaDieci,fante-di-denari,,,,fante-di-denari-storiaDieci-protagonista
 il-mondo-storiaDieci,storiaDieci,il-mondo,,,,il-mondo-storiaDieci-ofelia-fuori-di-se
-la-stella-storiaDieci,storiaDieci,la-stella,,,,la-stella-storiaDieci-ofelia-affogata
+la-stella-storiaDieci,storiaDieci,la-stella,,,,la-stella-storiaDieci-ofelia-sta-per-annegare
+la-morte-storiaDieci,storiaDieci,la-morte,,,,la-morte-storiaDieci-meditazione-sulla-morte
+il-matto-storiaDieci,storiaDieci,il-matto,,,,il-matto-storiaDieci-Yorick-buffone
 due-di-spade-storiaDieci,storiaDieci,due-di-spade,,,,due-di-spade-storiaDieci-duello
-il-carro-storiaDieci,storiaDieci,il-carro,,,,
-la-morte-storiaDieci,storiaDieci,la-morte,,,,
+il-carro-storiaDieci,storiaDieci,il-carro,,,,il-carro-storiaDieci-arrivo-fortebraccio-di-norvegia
 la-torre-storiaUndici,storiaUndici,la-torre,,,,la-torre-storiaUndici-castello-dunsinane
 dieci-di-bastoni-storiaUndici,storiaUndici,dieci-di-bastoni,,,,dieci-di-bastoni-storiaUndici-foresta-che-cammina
 asso-di-spade-storiaUndici,storiaUndici,asso-di-spade,,,,asso-di-spade-storiaUndici-parto-cesareo-macduff
@@ -213,7 +214,7 @@ regina-di-spade-storiaUndici,storiaUndici,regina-di-spade,,,,regina-di-spade-sto
 lo-eremita-storiaUndici,storiaUndici,lo-eremita,,,,lo-eremita-storiaUndici-spettro-di-banquo
 lo-eremita-storiaUndici,storiaUndici,lo-eremita,,,,lo-eremita-storiaUndici-macbeth
 la-stella-storiaUndici,storiaUndici,la-stella,,,,la-stella-storiaUndici-protagonista
-il-carro-storiaUndici,storiaUndici,il-carro,,,,
+il-carro-storiaUndici,storiaUndici,il-carro,,,,il-carro-storiaundici-re-di-scozia-avanza-vittorioso
 re-di-coppe-storiaDodici,storiaDodici,re-di-coppe,,,,re-di-coppe-storiaDodici-protagonista
 regina-di-bastoni-storiaDodici,storiaDodici,regina-di-bastoni,,,,regina-di-bastoni-storiaDodici-regana
 regina-di-denari-storiaDodici,storiaDodici,regina-di-denari,,,,regina-di-denari-storiaDodici-gonerilla
@@ -223,4 +224,4 @@ lo-eremita-storiaDodici,storiaDodici,lo-eremita,,,,lo-eremita-storiaDodici-prota
 il-matto-storiaDodici,storiaDodici,il-matto,,,,il-matto-storiaDodici-buffone-del-re
 la-temperanza-storiaDodici,storiaDodici,la-temperanza,,,,la-temperanza-storiaDodici-cordelia
 la-stella-storiaDodici,storiaDodici,la-stella,,,,la-stella-storiaDodici-cordelia-esule
-il-carro-storiaDodici,storiaDodici,il-carro
+il-carro-storiaDodici,storiaDodici,il-carro,,,,il-carro-storiaDodici-arrivo-re-di-francia

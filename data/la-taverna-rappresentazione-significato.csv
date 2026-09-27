@@ -196,12 +196,13 @@ la-temperanza-storiaDieci-ofelia,Grande,ExplicitReference,Character,Ofelia,,"""O
 il-bagatto-storiaDieci-compagnia-di-saltimbanchi,Grande,ExplicitReference,Character,Compagnia di saltimbanchi,,"""«una compagnia di saltimbanchi o attori girovaghi è arrivata a dar spettacolo a corte»"""
 la-imperatrice-storiaDieci-gertrude,Grande,ExplicitReference,Character,Gertrude,,"""«un'Imperatrice adultera e assassina»"""
 lo-eremita-storiaDieci-polonio,Piccola,ExplicitReference,Character,Polonio,,"""«il vecchio Polonio, inchiodato per sempre nell'atto di origiliare»"""
-fante-di-denari-storiaDieci-protagonista,Piccola,ExplicitRefernce,Character,Protagonista,,"""«assorto nella contemplazione d'un disegno circolare»"""
+fante-di-denari-storiaDieci-protagonista,Piccola,ExplicitRefernce,Character,Protagonista,,"""«assorto nella contemplazione d'un disegno circolare» / «Amleto pensa alla Morte sollvando il teschio smascellato di Yorick il buffone»"""
 il-mondo-storiaDieci-ofelia-fuori-di-se,Grande,ExplicitReference,Character,Ofelia fuori di sé,,"""«Ofelia esce di senno, cinguetta non-sensi e filastrocche, vaga per i prati cinta di ghirlande»"""
-la-stella-storiaDieci-ofelia-affogata,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+la-stella-storiaDieci-ofelia-sta-per-annegare,Grande,ExplicitReference,Character,Ofelia che sta per annegare,,"""«Ofelia sulla riva d'un ruscello, protesta sulla corrente vitrea e mucillaginosa che tra un'istante l'affogherà»"""
+la-morte-storiaDieci-meditazione-sulla-morte,,ExplicitReferenceNoImage,Event,"Meditazione sulla morte ",,"""«Nascosto tra le tombe del cimitero, Amleto pensa alla Morte»"""
+il-matto-storiaDieci-Yorick-buffone,,ExplicitReferenceNoImage,Character,Yorick il buffone,,"""«Yorick il buffone»"""
+due-di-spade-storiaDieci-duello,Grande,ExplicitReference,Event,Duello,,"""«Due Spade s'incrociano in un duello: [...] una è aguzza e l'altra ottusa, l'una è avvelenata e l'altra asettica»"""
+il-carro-storiaDieci-arrivo-fortebraccio-di-norvegia,Grande,ExplicitReference,Event,Arrivo di Fortebraccio di Norvegia,,"""«Fortebraccio di Norvegia sbarca sulla pallida isola del Baltico»"""
 la-torre-storiaUndici-castello-dunsinane,Grande,ExplicitReference,FictionalPlace,Castello di Dunsinane,la-torre-storiaUndici-castello-dunsinane-luogo,"""«il castello di Dunsinane quando si scatenerà la vendetta che le streghe hanno oscuramente annunciato»"""
 dieci-di-bastoni-storiaUndici-foresta-che-cammina,Piccola,ExplicitReference,Event,Foresta che cammina,,"""«la foresta di Birnam si muoverà risalendo le pendici della collina, schere e schiere d'alberi verranno avanti sulle radici arrancate fuori della terra»"""
 asso-di-spade-storiaUndici-parto-cesareo-macduff,Piccola,ExplicitReference,Event,Nascita di Macduff per parto cesareo,,"""«Macduff, nato da un taglio di spada»"""
@@ -213,6 +214,7 @@ regina-di-spade-storiaUndici-protagonista,Grande,ExplicitReference,Character,Pro
 lo-eremita-storiaUndici-spettro-di-banquo,Piccola,ExplicitRefernce,Character,Spettro di Banquo,,"""«una nuova apparizioen spettrale, l'ombra incappucciata di Banquo morto sgozzato che avanza a stento per i corridoi del castello»"""
 lo-eremita-storiaUndici-macbeth,Piccola,ExplicitReference,Character,Macbeth,,"""«suo marito in persona, Macbeth» / «Mani di sangue e cuore pallido!»"""
 la-stella-storiaUndici-protagonista,Grande,ExplicitReference,Character,Protagonista,,"""«sonnambula che s'alza di notte senza vesti e a occhi chiusi contempla macchie di sangue sulle sue mani e s'affanna in inutili lavacri»"""
+il-carro-storiaundici-re-di-scozia-avanza-vittorioso,Grande,ExplicitReference,Event,Re di Scozia avanza vittorioso,,"""«il legittimo erede del trono usurpato da Macbeth, ed il suo carro avanzi alla testa dell'esercito inglese»"""
 re-di-coppe-storiaDodici-protagonista,Grande,ExplicitReference,Character,Protagonista,,"""«un vegliardo, che nell'altra mano solleva la figura del Re di Coppe, certo per farsi riconoscere, dato che nessuno degli attributi regali resta sulla sua persona derelitta»"""
 regina-di-bastoni-storiaDodici-regana,Piccola,ImplicitReference,Character,Regana,,"""«le sue due figlie snaturate»"""
 regina-di-denari-storiaDodici-gonerilla,Piccola,ImplicitReference,Character,Gonerilla,,"""«le sue due figlie snaturate»"""
@@ -222,3 +224,4 @@ lo-eremita-storiaDodici-protagonista,Grande,ExplicitReference,Character,Protagon
 il-matto-storiaDodici-buffonde-del-re,Grande,ExplicitReference,Character,Buffone del re,,"""«col Matto per unico sostegno e specchio della sua follia»"""
 la-temperanza-storiaDodici-cordelia,,ExplicitReferenceNoImage,Character,Cordelia,,"""«l'angelica Cordelia [...] la figlia da lui incompresa e ingiustamente scacciata»"""
 la-stella-storiaDodici-cordelia-esule,Grande,ExplicitReference,Character,Cordelia esule,,"""«Senza più asilo né panni per coprirsi s'è rifugiata in queste lande deserte, e beve l'acqua dei fossi»"""
+il-carro-storiaDodici-arrivo-re-di-francia,Grande,ExplicitReference,Event,Arrivo del Re di Francia,,«è il re di Francia sposo a Cordelia che ha attraversato la Manica in soccorso a Lear»

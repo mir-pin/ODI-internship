@@ -163,6 +163,17 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
                                    "Has complex relation with"@en .
 
 
+###  https://purl.org/ebr/odi#hasCondition
+:hasCondition rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :DeckCard ;
+              rdfs:range :Condition ;
+              rdfs:comment "Questa proprietà indica lo stato fisico attuale di ogni carta del mazzo."@it , 
+                           "This property indicates the physical condition of each card of the deck."@en ;
+              rdfs:label "Has condition"@en, 
+                         "Ha condizione"@it .
+
+
 ###  https://purl.org/ebr/odi#hasCurrentLocation
 :hasCurrentLocation rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf owl:topObjectProperty ;
@@ -515,7 +526,8 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#hasName
 :hasName rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
-         rdfs:domain :TarotDeck ;
+         rdfs:domain :TarotDeck, 
+                     :DeckCard ;
          rdfs:range xsd:string ;
          rdfs:comment "Indica il nome specifico del mazzo di tarocchi e di ciascuna delle sue carte."@it ,
                       "It indicates the specific name of the tarot deck and each of its cards."@en ;
@@ -578,6 +590,17 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
                        "Mostra sia il titolo dell'edizione di riferimento sia di un capitolo che è anche il titolo di una storia."@it ;
           rdfs:label "Ha titolo"@it ,
                      "Has title"@en .
+
+
+###  https://purl.org/ebr/odi#hasTotalNumberOfCards
+:hasTotalNumberOfCards rdf:type owl:DatatypeProperty ;
+          rdfs:sub owl:topDataProperty ;
+          rdfs: domain :Story ;
+          rdfs:range xsd:integer ;
+          rdfs:comment "Indica il numero totale di carte nella storia"@it,
+                       "it indicates the total number of cards in the story"@en ;
+          rdfs:label "Ha numero totale di carte"@it , 
+                     "Has total number of cards"@en .
 
 
 ###  https://purl.org/ebr/odi#hasVariantName
