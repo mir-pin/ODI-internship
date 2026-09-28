@@ -20,7 +20,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 :arrivesAt rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdfs:domain :Character ;
-           rdfs:range :FinctionalPlace ;
+           rdfs:range :FictionalPlace ;
            rdfs:comment "It means that a main character arrives at a place in his story."@en ,
                         "Significa che un protagonista arriva in un luogo nella sua storia."@it ;
            rdfs:label "Arriva a"@it ,
@@ -378,7 +378,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 :movingThrough rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain :Character ;
-               rdfs:range :FinctionalPlace ;
+               rdfs:range :FictionalPlace ;
                rdfs:comment "It means that a main character is moving through a place in his story."@en ,
                             "Significa che un protagonista si muove in un luogo nella sua storia."@it ;
                rdfs:label "Moving through"@en ,
@@ -423,7 +423,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 :represents rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdfs:domain :Character ,
-                        :FinctionalPlace ;
+                        :FictionalPlace ;
             rdfs:range :Person ,
                        :Place ;
             rdfs:comment "Mostra cosa rappresenta una carta in una storia."@it ,
@@ -703,12 +703,12 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
        rdfs:label "Evento"@it .
 
 
-###  https://purl.org/ebr/odi#FinctionalPlace
-:FinctionalPlace rdf:type owl:Class ;
+###  https://purl.org/ebr/odi#FictionalPlace
+:FictionalPlace rdf:type owl:Class ;
                  rdfs:subClassOf :Representation ;
                  rdfs:comment "A place where a character is moving through or arrives at in a story."@en ,
                               "Un luogo in cui un personaggio si muove o arriva in una storia."@it ;
-                 rdfs:label "Finctional Place"@en ,
+                 rdfs:label "Fictional Place"@en ,
                             "Luogo ideale"@it .
 
 

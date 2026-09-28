@@ -75,27 +75,27 @@
         },
         "odi:isACardOf": { 
             "type": "object_property", 
-            "domain": "odi:Storycard", 
+            "domain": "odi:StoryCard", 
             "range": "odi:Story" 
         },
         "odi:specifies": { 
             "type": "object_property", 
-            "domain": "odi:Storycard", 
+            "domain": "odi:StoryCard", 
             "range": "odi:DeckCard" 
         },
         "odi:hasVariantName": { 
             "type": "data_property", 
-            "domain": "odi:Storycard", 
+            "domain": "odi:StoryCard", 
             "datatype": "xsd:string" 
         },
         "odi:hasPositionInTheText": {
             "type": "data_property", 
-            "domain": "odi:Storycard", 
+            "domain": "odi:StoryCard", 
             "datatype": "xsd:integer"
         },
         "odi:carriesRepresentation": {
             "type": "object_property_new_subject", 
-            "domain": "odi:Storycard", 
+            "domain": "odi:StoryCard", 
             "range": "odi:Representation"
         }
     },
@@ -187,6 +187,23 @@
             "datatype": "xsd:integer" }
     },
 
+    "la-taverna-rappresentazione-entità.csv": {
+        "odi:Representation": {
+            "type": "subject_only"
+        },
+        "odi:represents": {
+            "type": "object_property_new_subject",
+            "domain": "odi:Representation",
+            "range": "odi:Person o odi:Place",
+            "note": "il tipo (Person/Place) è dedotto dal suffisso -persona / -luogo dell'id"
+        },
+        "entityLabel": {
+            "type": "label_of_target",
+            "target_column": "odi:represents",
+            "note": "rdfs:label del target di odi:represents (Person o Place)"
+        }
+    },
+
     "la-taverna-rappresentazione-relazioni.csv": {
         "sourceRepresentation": { 
             "type": "class", 
@@ -231,12 +248,6 @@
         "meaningLabel": {
             "type": "data_property via nuova istanza :Meaning",
             "note": "mappa su odi:hasMeaningOf (domain Representation, range Meaning): crea un'istanza :Meaning con rdfs:label = meaningLabel"
-        },
-        "odi:represents": {
-            "type": "object_property_new_subject", 
-            "domain": "odi:Representation", 
-            "range": "odi:Person o odi:Place",
-            "note": "⚠️ manca una colonna tipo 'istanceOf2' per sapere se il target è Person o Place — da chiarire come distinguerlo"
         },
         "odi:hasTextualReference": { 
             "type": "data_property", 

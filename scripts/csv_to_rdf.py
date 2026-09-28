@@ -24,6 +24,19 @@ SUFFIX_TYPES = {
     "-luogo": "odi:Place",
 }
 
+# Columns where the target individual must be created 
+NEW_SUBJ_COLS = {
+    "odi:hasAuthor",
+    "odi:hasSuit",
+    "odi:hasTypology",
+    "odi:hasCurrentLocation",
+    "odi:hasCondition",
+    "odi:publisher",
+    "odi:placeOfPublication",
+    "odi:hasIconography",
+    "odi:hasReferenceMode"
+}
+
 ROMAN_NUMERALS = {
     "I": 1, "II": 2, "III": 3, "IIII": 4, "IV": 4, "V": 5, "VI": 6, "VII": 7,
     "VIII": 8, "VIIII": 9, "IX": 9, "X": 10, "XI": 11, "XII": 12, "XIII": 13,
@@ -34,7 +47,8 @@ ROMAN_NUMERALS = {
 RELATION_SOURCE_TYPE = "class"
 RELATION_NAME_TYPE = "generic_relation_column"
 RELATION_TARGET_TYPES = {"generic_relation_target", "object_property_target"}
-
+LABEL_OF_TARGET_TYPE = "label_of_target"
+SUBJECT_ONLY_TYPE = "subject_only"
 
 def curie(s: str):
     """'odi:hasName' -> full URI. Unknown/missing prefix falls back to odi:."""
@@ -70,7 +84,7 @@ def apply_rule(g, subj, row_id, col, value, rule):
     type = rule["type"]
     value = value.strip() if value else ""
 
-    if type in (RELATION_NAME_TYPE, *RELATION_TARGET_TYPES):
+    if type in (RELATION_NAME_TYPE, *RELATION_TARGET_TYPES, LABEL_OF_TARGET_TYPE, SUBJECT_ONLY_TYPE):
         return  # handled once per row in process_file, not per column
 
     if type == RELATION_SOURCE_TYPE:
@@ -89,15 +103,16 @@ def apply_rule(g, subj, row_id, col, value, rule):
     if type.startswith("object_property"):
             if not value:
                 return
-            if col == "odi:hasAuthor":
-                value = strip_wrapping_quotes(value)
+            if col in NEW_SUBJ_COLS:
+                cls = rule.get("range")
                 for item in value.split(","):
                     part = item.strip()
                     if not part:
                         continue
                     target = uri(slugify(part))
                     g.add((subj, curie(col), target))
-                    g.add((target, RDF.type, ODI.Person))
+                    if cls:
+                        g.add((target, RDF.type, curie(cls)))
                     g.add((target, RDFS.label, Literal(part)))
                 return
             
@@ -149,7 +164,7 @@ def process_file(g, filename, colmap):
         if "type" not in rule:
             raise ValueError(f"mapping.json: column '{col}' in '{filename}' is missing a \"type\"")
 
-    id_col = next((c for c, r in colmap.items() if r["type"] == RELATION_SOURCE_TYPE), None)
+    id_col = next((c for c, r in colmap.items() if r["type"] in (RELATION_SOURCE_TYPE, SUBJECT_ONLY_TYPE)), None)    
     relation_name_col = next((c for c, r in colmap.items() if r["type"] == RELATION_NAME_TYPE), None)
     relation_target_col = next((c for c, r in colmap.items() if r["type"] in RELATION_TARGET_TYPES), None)
     has_rdf_type_col = any(r["type"] == "rdf_type" for r in colmap.values())
@@ -162,6 +177,15 @@ def process_file(g, filename, colmap):
             if not row_id:
                 continue
             subj = uri(row_id)
+
+            for col, rule in colmap.items():
+                if rule["type"] == LABEL_OF_TARGET_TYPE:
+                    label = strip_wrapping_quotes(row.get(col, "").strip())
+                    target_id = row.get(rule["target_column"], "").strip()
+                    if label and target_id:
+                        g.add((uri(target_id), RDFS.label, Literal(label)))
+                    elif label:
+                        warn(f"label '{label}' without target in '{rule['target_column']}' (row {row_id})")
 
             for col, rule in colmap.items():
                 if rule["type"] == RELATION_SOURCE_TYPE and has_rdf_type_col:

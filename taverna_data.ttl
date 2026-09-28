@@ -39,9 +39,9 @@ bacodi:asso-di-coppe-storiaQuattro a odi:StoryCard ;
     odi:specifies bacodi:asso-di-coppe .
 
 bacodi:asso-di-coppe-storiaQuattro-città-del-re a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:città-del-re ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«La città che lui ha costruita è sfaccetatata come un cristallo o come l'Asso di Coppe, [...] una città le cui cuspidi sovrastano le nuvole e che seppellisce le ali oscure dei suoi miasmi nelle viscere del suolo»"^^xsd:string .
 
 bacodi:asso-di-coppe-storiaSei a odi:StoryCard ;
@@ -160,23 +160,23 @@ bacodi:cinque-di-coppe-storiaUno a odi:StoryCard ;
 
 bacodi:cinque-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Cinque di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 5 .
 
 bacodi:cinque-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Cinque di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 5 .
 
@@ -275,9 +275,9 @@ bacodi:due-di-denari-storiaSei a odi:StoryCard ;
     odi:specifies bacodi:due-di-denari .
 
 bacodi:due-di-denari-storiaSei-lungo-giro a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:lungo-giro ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Ma dovrà fare un lungo giro (come indica il segno serpeggiante del Due di Denari)»"^^xsd:string .
 
 bacodi:due-di-denari-storiaSette a odi:StoryCard ;
@@ -495,9 +495,9 @@ bacodi:il-matto-storiaDodici a odi:StoryCard ;
     odi:specifies bacodi:il-matto .
 
 bacodi:il-matto-storiaDodici-buffonde-del-re a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:buffone-del-re ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«col Matto per unico sostegno e specchio della sua follia»"^^xsd:string .
 
 bacodi:il-matto-storiaDue a odi:StoryCard ;
@@ -531,9 +531,9 @@ bacodi:il-mondo-storiaCinque a odi:StoryCard ;
     odi:specifies bacodi:il-mondo .
 
 bacodi:il-mondo-storiaCinque-brodo-primordiale a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:brodo-primordiale ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Il brodo che era alle origini del Mondo»"^^xsd:string .
 
 bacodi:il-mondo-storiaDieci a odi:StoryCard ;
@@ -581,9 +581,9 @@ bacodi:il-papa-storiaSei a odi:StoryCard ;
     odi:specifies bacodi:il-papa .
 
 bacodi:il-papa-storiaSei-papa a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:religione-romana ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«tener viva la battaglia tra Il Papa e il Druido-Eremita»"^^xsd:string .
 
 bacodi:il-papa-storiaSette a odi:StoryCard ;
@@ -745,9 +745,9 @@ bacodi:la-luna-storiaTre a odi:StoryCard ;
     odi:specifies bacodi:la-luna .
 
 bacodi:la-luna-storiaTre-paesaggio-notturno-desolato a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:paesaggio-notturno-desolato ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Scansando l'ululato degli sciacalli [...] Al lume della Luna»"^^xsd:string .
 
 bacodi:la-luna-storiaUndici a odi:StoryCard ;
@@ -925,8 +925,8 @@ bacodi:la-taverna-dei-destini-incrociati a odi:Edition ;
         bacodi:capitolo-uno ;
     odi:hasPublicationDate "2025"^^xsd:string ;
     odi:hasTitle "La taverna dei destini incrociati"^^xsd:string ;
-    odi:placeOfPublication bacodi:Milano ;
-    odi:publisher bacodi:Mondadori .
+    odi:placeOfPublication bacodi:milano ;
+    odi:publisher bacodi:mondadori .
 
 bacodi:la-temperanza-storiaCinque a odi:StoryCard ;
     odi:carriesRepresentation bacodi:la-temperanza-storiaCinque-anima-faust ;
@@ -1078,9 +1078,9 @@ bacodi:lo-eremita-storiaSei a odi:StoryCard ;
     odi:specifies bacodi:lo-eremita .
 
 bacodi:lo-eremita-storiaSei-druido-eremita a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:religione-celtica ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«tener viva la battaglia tra Il Papa e il Druido-Eremita»"^^xsd:string .
 
 bacodi:lo-eremita-storiaSette a odi:StoryCard ;
@@ -1124,12 +1124,12 @@ bacodi:lo-imperatore-storiaTre a odi:StoryCard ;
 
 bacodi:nove-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Nove di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 9 .
 
@@ -1147,23 +1147,23 @@ bacodi:nove-di-denari-storiaUno a odi:StoryCard ;
 
 bacodi:nove-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Nove di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 9 .
 
 bacodi:otto-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Otto di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 8 .
 
@@ -1180,12 +1180,12 @@ bacodi:otto-di-coppe-storiaUno a odi:StoryCard ;
 
 bacodi:otto-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Otto di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 8 .
 
@@ -1203,34 +1203,34 @@ bacodi:quattro-di-bastoni-storiaTre a odi:StoryCard ;
 
 bacodi:quattro-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Quattro di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 4 .
 
 bacodi:quattro-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Quattro di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 4 .
 
 bacodi:quattro-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Quattro di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 4 .
 
@@ -1258,9 +1258,9 @@ bacodi:re-di-denari-storiaSei a odi:StoryCard ;
     odi:specifies bacodi:re-di-denari .
 
 bacodi:re-di-denari-storiasei-amfortas a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:amfortas-il-re-pescatore ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«Amfortas, il Re Pescatore [...] vecchio e magagnato»"^^xsd:string .
 
 bacodi:re-di-spade-storiaQuattro a odi:StoryCard ;
@@ -1357,9 +1357,9 @@ bacodi:sei-di-bastoni-storiaTre a odi:StoryCard ;
     odi:specifies bacodi:sei-di-bastoni .
 
 bacodi:sei-di-bastoni-storiaTre-albero a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:albero ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«vede luccicare appesi a un albero»"^^xsd:string .
 
 bacodi:sei-di-bastoni-storiaUno a odi:StoryCard ;
@@ -1370,23 +1370,23 @@ bacodi:sei-di-bastoni-storiaUno a odi:StoryCard ;
 
 bacodi:sei-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Sei di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 6 .
 
 bacodi:sei-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Sei di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 6 .
 
@@ -1440,12 +1440,12 @@ bacodi:sette-di-spade-storiaQuattro a odi:StoryCard ;
 
 bacodi:tre-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Tre di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 3 .
 
@@ -1463,12 +1463,12 @@ bacodi:tre-di-denari-storiaDue a odi:StoryCard ;
 
 bacodi:tre-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Tre di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 3 .
 
@@ -1506,44 +1506,44 @@ bacodi:arrivo-di-fortebraccio-di-norvegia a odi:Meaning ;
     rdfs:label "Arrivo di Fortebraccio di Norvegia"@it .
 
 bacodi:asso-di-bastoni-storiaDue-clava a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:clava ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«si butta sul brigante mulinando la sua clava»"^^xsd:string .
 
 bacodi:asso-di-bastoni-storiaNove-rissa a odi:Event ;
     odi:carriedOutBy bacodi:fante-di-denari-storiaNove-protagonista ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:rissa ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una rissa da strada, anzi da trivio, quando due carri non vogliono darsi il passo e restano coi mozzi delle ruote incastrati e i conducenti saltano a terra imbestialiti»"^^xsd:string ;
     odi:implies bacodi:asso-di-spade-storiaNove-arma-da-taglio .
 
 bacodi:asso-di-bastoni-storiaQuattro-cadavere-re-rianimato a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:cadavere-del-re-rianimato ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«ecco che il morto s'erige coem l'Asso di Bastoni»"^^xsd:string .
 
 bacodi:asso-di-bastoni-storiaQuattro-cadavere-rianimato a odi:Representation ;
     odi:changesIn bacodi:fante-di-coppe-storiaQuattro-cadavere-re-beve .
 
 bacodi:asso-di-coppe-storiaSei-graal a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:graal ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il talismano custodito dal Re Pescatore, il vaso misterioso [...], la Grolla che continua a essere contesa»"^^xsd:string .
 
 bacodi:asso-di-spade-storiaUndici-macduff-uccide-machbeth a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:macduff-uccide-macbeth ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Macduff [...] è colui che con un taglio di Spada gli taglierà la testa»"^^xsd:string .
 
 bacodi:asso-di-spade-storiaUndici-parto-cesareo-macduff a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:nascita-di-macduff-per-parto-cesareo ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Macduff, nato da un taglio di spada»"^^xsd:string .
 
 bacodi:astro-delloro a odi:Meaning ;
@@ -1630,37 +1630,37 @@ bacodi:catena-di-mutazioni-e-evoluzioni a odi:Meaning ;
 
 bacodi:cavaliere-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Cavaliere di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:cavaliere-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Cavaliere di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:cavaliere-di-denari-storiaDue-cavaliere a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:il-penduto-storiaDue-cavaliere ;
     odi:hasFamilyRelationWith bacodi:lo-imperatore-storiaDue-imperatore ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:cavaliere ;
-    odi:hasReferenceMode bacodi:NameOnlyReference ;
+    odi:hasReferenceMode bacodi:nameonlyreference ;
     odi:hasTextualReference "«un bel Cavaliere»"^^xsd:string .
 
 bacodi:cavaliere-di-spade-storiaSette-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Per sentieri d'inchiostro s'allontana al galoppo lo slancio guerriero della giovinezza, l'ansia esistenziale, l'energia dell'avventura spesi in una carneficina di cancellature e fogli appallottolati»"^^xsd:string .
 
 bacodi:cavaliere-rivelato a odi:Meaning ;
@@ -1679,38 +1679,38 @@ bacodi:ciclo-evolutivo-della-vita a odi:Meaning ;
     rdfs:label "Ciclo evolutivo della vita"@it .
 
 bacodi:cinque-di-bastoni-storiaQuattro-croci-storte a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:croci-storte ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«i Bastoni nereggiano come croci storte»"^^xsd:string .
 
 bacodi:cinque-di-bastoni-storiaSette-legni-di-pioppo a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:legni-di-pioppo ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«legni di pioppo da cui s'impasta la bianca cellulosa e se ne sfogliano risme di pagine»"^^xsd:string .
 
 bacodi:cinque-di-bastoni-storiaSette-primi-segni-bambini a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:prime-segni-dei-bambini ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«aste che fanno i bambini a scuola, primo balbettio di chi prova a comunicare tracciando dei segni»"^^xsd:string .
 
 bacodi:cinque-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Cinque di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 5 .
 
 bacodi:cinque-di-coppe-storiaUno-destini-intercambiabili a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:destini-intercambiabili ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«ogni tarocco e ogni pozzo sono uguali [...] come i destini ti si squadernano davanti intercambiabili»"^^xsd:string .
 
 bacodi:città-del-re a odi:Meaning ;
@@ -1762,49 +1762,49 @@ bacodi:destini-intercambiabili a odi:Meaning ;
     rdfs:label "Destini intercambiabili"@it .
 
 bacodi:dieci-di-bastoni-storiaUndici-foresta-che-cammina a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:foresta-che-cammina ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la foresta di Birnam si muoverà risalendo le pendici della collina, schere e schiere d'alberi verranno avanti sulle radici arrancate fuori della terra»"^^xsd:string .
 
 bacodi:dieci-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Dieci di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 10 .
 
 bacodi:dieci-di-coppe-storiaSei-tavola-rotonda a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:tavola-rotonda ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«se vorrà alla fine essere ammesso a sedersi alla Tavola Rotonda»"^^xsd:string .
 
 bacodi:dieci-di-denari-storiaQuattro-ricchezza a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:ricchezza ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«i Denari circolanti e ben investiti»"^^xsd:string .
 
 bacodi:dieci-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Dieci di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 10 .
 
 bacodi:dieci-di-spade-storiaTre-combattimento a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:combattimento ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«a fil di spada gli eserciti opposti s'aprono la strada uno nell'altro come in un Dieci di Spade»"^^xsd:string .
 
 bacodi:donna-della-scelta-mancata-o-via-della-sapienza a odi:Meaning ;
@@ -1826,86 +1826,86 @@ bacodi:due-coppe a odi:Meaning ;
     rdfs:label "Due coppe"@it .
 
 bacodi:due-di-bastoni-storiaNove-incrocio a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:incrocio ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un crocicchio sulla polverosa strada maestra [...] il posto in cui la strada che viene da Corinto incrocia quella che va a Tebe»"^^xsd:string .
 
 bacodi:due-di-bastoni-storiaUno-necessità-di-una-scelta a odi:Event ;
     odi:carriedOutBy bacodi:fante-di-denari-storiaUno ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:necessità-di-una-scelta ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«l'incrocio di due strade»"^^xsd:string ;
     odi:implies bacodi:asso-di-denari-storiaUno-moneta-testa,
         bacodi:cinque-di-bastoni-storiaUno-moneta-croce .
 
 bacodi:due-di-coppe-storiaCinque-segreto-alchemico a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:segreto-della-trasmutazione-alchemica ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«promemoria del segreto per fare l'oro [...] gli spiriti dello Zolfo e del Mercurio [...] l'unione del Sole e della Luna, o la lotta del Fisso e del Volatile»"^^xsd:string .
 
 bacodi:due-di-coppe-storiaDue-due-coppe a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:due-coppe ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«versa Due Coppe d'una bevanda di cui lei sola ha la ricetta»"^^xsd:string .
 
 bacodi:due-di-coppe-storiaQuattro-brindisi-di-sangue a odi:Event ;
     odi:carriedOutBy bacodi:fante-di-coppe-storiaQuattro-cadavere-re-beve,
         bacodi:la-stella-storiaQuattro-regina ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:brindisi-di-sangue ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«brindano insieme, alzando bicchieri rosseggianti d'un sangue fresco e senza coaguli»"^^xsd:string .
 
 bacodi:due-di-coppe-storiaUno-due-pozzi a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:due-pozzi ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«due pozzi uguali»"^^xsd:string .
 
 bacodi:due-di-denari-storiaCinque-baratto a odi:Event ;
     odi:carriedOutBy bacodi:il-diavolo-storiaCinque-mefistofele,
         bacodi:re-di-denari-storiaCinque-protagonista ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:baratto ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«uno scambio, un baratto, un do-ut-des»"^^xsd:string ;
     odi:implies bacodi:la-temperanza-storiaCinque-anima-faust .
 
-bacodi:due-di-denari-storiaQuattro-traiettoria-dalla-terra-alla-luna odi:hasIconography bacodi:Grande ;
+bacodi:due-di-denari-storiaQuattro-traiettoria-dalla-terra-alla-luna odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:traiettoria-dalla-terra-alla-luna ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "\"«contempla con sguardo ansioso la curva che allaccia il Due di Denari come se scrutasse la traiettoria dalla Terra alla Luna"^^xsd:string .
 
 bacodi:due-di-denari-storiaSette-scrittura-come-scambio a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:scrittura-come-forma-di-scambio ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un segno di scambio, di quello scambio che è in ogni segno, [...] il segno di scrittura imparentato con gli scambi d'altra roba, non per niente inventato dai fenici»"^^xsd:string .
 
 bacodi:due-di-spade-storiaDieci-duello a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:duello ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Due Spade s'incrociano in un duello: [...] una è aguzza e l'altra ottusa, l'una è avvelenata e l'altra asettica»"^^xsd:string .
 
 bacodi:due-di-spade-storiaSei-sfida a odi:Event ;
     odi:carriedOutBy bacodi:cavaliere-di-spade-storiaSei-protagonista,
         bacodi:il-diavolo-storiaSei-potenze-infernali ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:sfida ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«sfidare (Due di Spade) le potenze infernali»"^^xsd:string .
 
 bacodi:due-di-spade-storiaTre-duello a odi:Event ;
     odi:carriedOutBy bacodi:cavaliere-di-bastoni-storiaTre-protagonista,
         bacodi:cavaliere-di-spade-storiaTre-cavaliere ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:duello ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«le Due Spade intrecciate [...] indicano che i due si sono appartati per un duello singolare»"^^xsd:string .
 
 bacodi:due-gemelli a odi:Meaning ;
@@ -1921,30 +1921,30 @@ bacodi:famulo-o-assistente a odi:Meaning ;
     rdfs:label "Famulo o assistente"@it .
 
 bacodi:fante-di-bastoni-storiaDue-brigante a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:brigante ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«un brigante di passo, che gli svuota le tasche dell'ultimo quattrino»"^^xsd:string .
 
 bacodi:fante-di-bastoni-storiaQuattro-protagonista a odi:Character,
         odi:Representation ;
     odi:hasComplexRelationWith bacodi:la-morte-storiaQuattro-morte ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«è un omaccione non diverso da quello che si vede nella carte del Fante di Bastoni» / «il legno a cui si appoggia nella figura sia il manico di una pala affondata in terra e lui eserciti il mestiere di becchino»"^^xsd:string ;
     odi:speaksTo bacodi:re-di-spade-storiaQuattro-re .
 
 bacodi:fante-di-coppe-storiaCinque-famulo a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:famulo-o-assistente ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«famulo o assistente»"^^xsd:string .
 
 bacodi:fante-di-denari-storiaDieci-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitRefernce ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«assorto nella contemplazione d'un disegno circolare» / «Amleto pensa alla Morte sollvando il teschio smascellato di Yorick il buffone»"^^xsd:string .
 
 bacodi:fante-di-denari-storiaUno a odi:StoryCard ;
@@ -1955,21 +1955,21 @@ bacodi:fante-di-denari-storiaUno a odi:StoryCard ;
 
 bacodi:fante-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Fante di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:fante-di-spade-storiaDieci-protagonista a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:il-matto-storiaDieci-protagonista ;
     odi:hasFamilyRelationWith bacodi:lo-imperatore-storiaDieci-spettro-re-danimarca ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«un giovane che porta la spada per grattarsi sotto la fluente capigliatura bionda» / Amleto"^^xsd:string .
 
 bacodi:fattucchiera-profetante a odi:Meaning ;
@@ -2012,132 +2012,132 @@ bacodi:guerriera-gigantesca a odi:Meaning ;
     rdfs:label "Guerriera gigantesca"@it .
 
 bacodi:il-bagatto-storiaDieci-compagnia-di-saltimbanchi a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:compagnia-di-saltimbanchi ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una compagnia di saltimbanchi o attori girovaghi è arrivata a dar spettacolo a corte»"^^xsd:string .
 
 bacodi:il-bagatto-storiaQuattro-ingegnere a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:ingegnere-che-ripara-il-cervello-meccanico ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "Uno degli «ingegneri che in quel momento s'affannano a smontare il gran Cervello Meccanico per trovare il guasto»"^^xsd:string .
 
 bacodi:il-bagatto-storiaSei-mago-merlino a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:mago-merlino ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«evocate dal Mago Merlino (Il Bagatto)»"^^xsd:string ;
     odi:isRelatedWith bacodi:il-diavolo-storiaSei-potenze-infernali .
 
 bacodi:il-bagatto-storiaSette-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un giocoliere o illusionista che dispone sul suo banco da fiera un certo numero di figure e spostandole, connettendole e scambiandole ottiene un certo numero d'effetti»"^^xsd:string .
 
 bacodi:il-carro-storiaDieci-arrivo-fortebraccio-di-norvegia a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:arrivo-di-fortebraccio-di-norvegia ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Fortebraccio di Norvegia sbarca sulla pallida isola del Baltico»"^^xsd:string .
 
 bacodi:il-carro-storiaDodici-arrivo-re-di-francia a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:arrivo-del-re-di-francia ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«è il re di Francia sposo a Cordelia che ha attraversato la Manica in soccorso a Lear»"^^xsd:string .
 
 bacodi:il-carro-storiaDue-carro a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:carro ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«salito sul suo Carro parte senza nemmeno voltarsi»"^^xsd:string .
 
 bacodi:il-carro-storiaNove-carro a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:carro ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«partire alla ventura su un Carro riccamente addobbato»"^^xsd:string .
 
 bacodi:il-carro-storiaUno-viaggio a odi:Event ;
     odi:carriedOutBy bacodi:cavaliere-di-coppe-storiaUno-protagonista ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:viaggio ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«poteva liberarlo solo un viaggio» / «i due cavalli tirano il pomposo veicolo per le vie accidentate del bosco»"^^xsd:string .
 
 bacodi:il-carro-storiaundici-re-di-scozia-avanza-vittorioso a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:re-di-scozia-avanza-vittorioso ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il legittimo erede del trono usurpato da Macbeth, ed il suo carro avanzi alla testa dell'esercito inglese»"^^xsd:string .
 
 bacodi:il-diavolo-storiaQuattro-unione-demoniaca a odi:Event,
         odi:Representation ;
     odi:carriedOutBy bacodi:fante-di-coppe-storiaQuattro-cadavere-re-beve,
         bacodi:la-stella-storiaQuattro-regina ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:unione-demoniaca ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Di questo empio rito i tarocchi riportano due versioni [...] l'una rozza che si sforza di raffigurare una figura esecrabile, a un tempo uomo donna pipistrello»"^^xsd:string ;
     odi:isRelatedWith bacodi:il-mondo-storiaQuattro-riconciliazione-forze-terrestri-e-celesti .
 
 bacodi:il-diavolo-storiaSette-brulicare-demoniaco-personale a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:brulicare-demoniaco-personale ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la materia prima dello scrivere non è tutto un risalire alla superficie di grinfie pelose, azzannamenti cagneschi» / «questo brulicare demoniaco all'interno delle persone singole e plurali»"^^xsd:string .
 
 bacodi:il-diavolo-storiaSette-diavolo a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:diavolo ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il Marchese tanto diabolico da esser detto divino»"^^xsd:string .
 
 bacodi:il-giudizio-storiaCinque-morte-e-resurrezione a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:morte-e-resurrezione-alchemica ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la morte e resurrezione (dei metalli e dell'anima)»"^^xsd:string .
 
 bacodi:il-giudizio-storiaDue-giorno-del-giudizio a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:giorno-del-giudizio ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Riconoscono il giorno del Giudizio com'è rappresentato nei tarocchi»"^^xsd:string .
 
 bacodi:il-giudizio-storiaNove-scoperta-trauma-edipico a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:scoperta-del-trauma-edipico ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la scena primaria a cui rimanda la dottrina sigismondiana dei sogni: il tenero angioletto che [...] vede i grandi che non si sa cosa stanno facendo, tutti nudi e in posizioni incomprensibili»"^^xsd:string .
 
 bacodi:il-giudizio-storiaQuattro-scoperchiamento-tomba a odi:Event ;
     odi:carriedOutby bacodi:la-stella-storiaQuattro-regina ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:scoperchiamento-duna-tomba ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«è dello scoperchiamento d'una tomba che qui si tratta, scena che un altro tarocco prevede per il giorno del Giudizio alla fine dei tempi»"^^xsd:string ;
     odi:implies bacodi:due-di-bastoni-storiaQuattro-due-bastoni .
 
 bacodi:il-giudizio-storiaSei-chiamata-celeste a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:chiamata-celeste ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la chiamata celeste»"^^xsd:string .
 
 bacodi:il-giudizio-storiaTre-tromba a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:olifante ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una tromba che pare quella dell'Angelo del Giudizio» / «è l'olifante che chiama a raccolta i fedeli»"^^xsd:string .
 
 bacodi:il-giudizio-storiaUno-terremoto-finale a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:terremoto-finale-fine-del-mondo ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il disfacimento, la discesa fino al centro della terra nelle colate degli elementi, [...] cataclismi che rimescolano il mazzo dei tarocchi e riportano alla luce gli strati sepolti»"^^xsd:string .
 
 bacodi:il-mare-che-disseta a odi:Meaning ;
@@ -2145,61 +2145,62 @@ bacodi:il-mare-che-disseta a odi:Meaning ;
 
 bacodi:il-matto-storiaDieci-Yorick-buffone a odi:Character ;
     odi:hasMeaningOf bacodi:yorick-il-buffone ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«Yorick il buffone»"^^xsd:string .
 
 bacodi:il-matto-storiaNove-conducente-impazzito a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:conducente-impazzito ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«lo sconossciuto, quello proveniente da Tebe [...] così impara a controllare i suoi nervi»"^^xsd:string .
 
 bacodi:il-matto-storiaQuattro-buffone a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:buffone-o-nano-di-corte ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«accompagnato dal suo buffone o nano di corte»"^^xsd:string .
 
 bacodi:il-mondo-storiaDue-nudità a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:nudità-rivelata ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«al giovane s'era rivelata la nudità di lei, trasfigurata in una danza amorosa»"^^xsd:string .
 
 bacodi:il-mondo-storiaUno-catena-di-mutazioni a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:catena-di-mutazioni-e-evoluzioni ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la sola cosa che lui voleva era uscire dalla limitazione individuale [...], ecco la via» / \"«ogni specie ed individuo e tutta la storia del genere umano non sono che un casuale anello d'una catena di mutazioni e evoluzioni»\""^^xsd:string .
 
 bacodi:il-papa-storiaDue-papa a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:papa ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«solo Il Papa può sciogliermi dal primo matrimonio»"^^xsd:string .
 
-bacodi:il-papa-storiaSette-sigismondo-di-vindobona-freud-persona a odi:Person .
+bacodi:il-papa-storiaSette-sigismondo-di-vindobona-persona a odi:Person ;
+    rdfs:label "Sigmund Freud" .
 
 bacodi:il-penduto-storiaOtto-parte-lesa-amore a odi:Symbol ;
     odi:hasMeaningOf bacodi:parte-lesa-in-amore ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«c'è chi gode [...] e chi a stare Appeso per i piedi»"^^xsd:string .
 
 bacodi:il-penduto-storiaQuattro-cadavere-re a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:cadavere-del-re ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un morto dall'aspetto ben conservato; dal cranio pallido pende una capigliatura folta d'un nero quasi azzzurro; gli occhi sono sbarrati come da morte violenta, le labbra contratte sui denti canini»"^^xsd:string .
 
 bacodi:il-sole-storiaCinque-astro-dell-oro a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:astro-delloro ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«l'astro dell'oro»"^^xsd:string .
 
 bacodi:il-sole-storiaQuattro-trasparenza a odi:Symbol ;
     odi:hasMeaningOf bacodi:trasparenza-delle-azioni ;
-    odi:hasReferenceMode <https://purl.org/ebr/odi/data/solo_nome_+_no_immagine> ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "tutto ciò che fa sua moglie può apparire alla luce del Sole"^^xsd:string .
 
 bacodi:incantesimo-del-bosco a odi:Meaning ;
@@ -2224,262 +2225,264 @@ bacodi:italo-calvino a odi:Person ;
     rdfs:label "Italo Calvino" .
 
 bacodi:la-forza-storiaTre-forza a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:forza ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la loro Forza di fulminee leonesse»"^^xsd:string .
 
 bacodi:la-giustizia-storiaDieci-giustizia a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:giustizia ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«ritornato a chiedere Giustizia»"^^xsd:string .
 
 bacodi:la-giustizia-storiaDue-giustizia a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:giustizia ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«mi presenterò a chiedere Giustizia»"^^xsd:string .
 
 bacodi:la-giustizia-storiaQuattro-giustizia-amministrativa a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:giustizia-amministrativa ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una Giustizia rigorosa e razionale quale quella che affaccia nella sua carta un fisso volto d'impiegata allo sportello»"^^xsd:string .
 
 bacodi:la-imperatrice-storiaDieci-gertrude a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:gertrude ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un'Imperatrice adultera e assassina»"^^xsd:string .
 
 bacodi:la-luna-storiaDieci-mondo-sublunare a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:mondo-sublunare ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il nostro mondo sublunare orripilando i raggi della Luna»"^^xsd:string .
 
 bacodi:la-luna-storiaDue-desolazione-urbana a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:desolazione-urbana ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«sulle dune ululano gli sciacalli, nei palazzi abbandonati sotto la Luna le finestre s'aprono come occhiaie vuote»"^^xsd:string .
 
 bacodi:la-luna-storiaQuattro-luna a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:luna ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«scaricarla sui terreni vaghi della Luna, che da troppo tempo governa gli estri dei licantropi, le generazioni delle zanzare, i mestrui»"^^xsd:string .
 
 bacodi:la-luna-storiaQuattro-paesaggio-notturno a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:paesaggio-notturno ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Appena una nuvola scopre La Luna si leva l'ululato degli sciacalli»"^^xsd:string .
 
 bacodi:la-luna-storiaUndici-notte-delle-streghe a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:notte-delle-streghe ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Luna o notte in cui tre volte miagola il gatto tigrato e grunisce il porcospino»"^^xsd:string .
 
 bacodi:la-luna-storiaUno-cataclisma a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:cataclisma ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un cataclisma, il sollevarsi del livello degli oceani verso le città abbandonate [...] mentre l'esercito dei crostacei avanza dal fondo degli abissi a riconquisatre il globo»"^^xsd:string .
 
 bacodi:la-morte-storiaDieci-meditazione-sulla-morte a odi:Event ;
     odi:hasMeaningOf bacodi:meditazione-sulla-morte ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«Nascosto tra le tombe del cimitero, Amleto pensa alla Morte»"^^xsd:string .
 
 bacodi:la-morte-storiaNove-conducente-ucciso a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:conducente-ucciso ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«lo sconosciuto [...] rimasto in terra»"^^xsd:string .
 
 bacodi:la-morte-storiaTre-morte a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:morte-sul-campo-di-battaglia ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Alcuni che La Morte non ha ancora irrigidito annaspano come imparando a nuotare nella fanghiglia nera del loro sangue»"^^xsd:string .
 
 bacodi:la-papessa-storiaNove-sibilla-delfica a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:sibilla-delfica ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la Sibilla Delfica [...]: la vecchia con la tiara e il libro aperto»"^^xsd:string .
 
 bacodi:la-papessa-storiaQuattro-strega a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:la-stella-storiaQuattro-regina ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:donna-esperta-in-filtri-e-libri-dincantesimi ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una figura incappucciata in un mantello da monaca» / una delle donne tra «una mala genìa di donne [...] esperte in filtri e libri d'incantesimi, che vanno in cerca d'ingredienti per i loro malefizi»"^^xsd:string .
 
 bacodi:la-papessa-storiaUndici-fattucchiera-profetante a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:fattucchiera-profetante ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la vendetta che le streghe hanno oscuramente annunciato»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiUno-ciclo-della-vita a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:ciclo-evolutivo-della-vita ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il grande giro della Ruota in cui evolve la vita animale e di cui non puoi mai dire qual è l'alto e quale il basso»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaCinque-moto-perpetuo a odi:Event ;
     odi:hasMeaningOf bacodi:moto-perpetuo ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«il moto perpetuo»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaDue-ruota-degli-ingranaggi a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:ruota-degli-ingranaggi ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«i macchinari i motori le turbine continuano a ronzare e a vibrare, ogni Ruota a ingranare i suoi denti in altre ruote»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaNove-sfinge-custode-tebe a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:sfinge-custode-di-tebe ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "Sfinge"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaOtto-ruota-dei-supplizi a odi:Symbol ;
     odi:hasMeaningOf bacodi:ruota-dei-supplizi ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«c'è chi gode a far girare la Ruota dei supplizi»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaQuattro-rampa-di-lancio a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:rampa-di-lancio ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la rampa di lancio in cui il Re ha incapsulato l'infernale selvaggina per scaraventarla in un'orbita senza ritorno»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaQuattro-ridda-degli-spettri a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:ridda-degli-spettri-zoomorfi ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la ridda degli spettri zoomorfi»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaQuattro-ruota-del-grande-meccanismo a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:ruota-del-grande-meccanismo ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la Ruota del grande meccanismo che gira per forza propria giorno e notte»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaQuattro-trappola a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:trappola ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la trappola messa su con materiali di fortuna»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaSei-incantesimo-del-bosco a odi:Event ;
     odi:hasMeaningOf bacodi:incantesimo-del-bosco ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«l'incantesimo del bosco»"^^xsd:string .
 
 bacodi:la-ruota-della-fortuna-storiaUndici-rimestio-calderone a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:rimestio-del-calderone ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«rimestio del gorgoliante calderone in cui si disfano mummie di maliarda, fiele di capra, [...] i segni più insensati che le streghe impastano nel loro intruglio»"^^xsd:string .
 
 bacodi:la-stella-storiaDue-scorrere-del-tempo a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:scorrere-del-tempo ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«in breve volgere di Stelle»"^^xsd:string .
 
 bacodi:la-stella-storiaSei-nascita-parsifal a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:nascita-di-parsifal ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la nascita alla bella stella»"^^xsd:string .
 
 bacodi:la-temperanza-storiaDieci-ofelia a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:il-mondo-storiaDieci-ofelia-fuori-di-se ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:ofelia ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "Ofelia"^^xsd:string .
 
 bacodi:la-torre-storiaCinque-cella-alchimista a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:cella-dellalchimista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un lampo illumina la sua celletta in cima alla Torre»"^^xsd:string .
 
 bacodi:la-torre-storiaDieci-castello-elsinore a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:castello-delsinore ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«gli spalti del castello d'Elsinore»"^^xsd:string ;
     odi:represents bacodi:la-torre-storiaDieci-castello-elsinore-luogo .
 
-bacodi:la-torre-storiaDieci-castello-elsinore-luogo a odi:Place .
+bacodi:la-torre-storiaDieci-castello-elsinore-luogo a odi:Place ;
+    rdfs:label "Castello di Elsinore" .
 
 bacodi:la-torre-storiaDodici-re-cacciato a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:re-cacciato-dalla-sua-reggia ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la prova di come egli è stato cacciato dalla sua reggia, rovesciato fuori dalle mura come un bidone d'immondizia»"^^xsd:string .
 
 bacodi:la-torre-storiaDue-torre-di-nembrotte a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:torre-di-nembrotte ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«verrà il giorno in cui una piuma butterà giù la torre di Nembrotte»"^^xsd:string .
 
 bacodi:la-torre-storiaNove-peste a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:peste ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«la peste infesta Tebe, [...] i corpi dànno fuori bubboni rossi e blu e cascano stecchiti per le strade»"^^xsd:string .
 
 bacodi:la-torre-storiaQuattro-caduta-della-regina a odi:Event ;
     odi:carriedOutBy bacodi:il-penduto-storiaQuattro-regina-appesa-ai-fili ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:caduta-della-regina-dal-balcone ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una donna che precipita da vertiginosa altezza nel vuoto tra le facciate dei grattacieli»"^^xsd:string .
 
 bacodi:la-torre-storiaQuattro-torre-colpita-fulmine a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:torre-colpita-da-un-fulmine ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la Torre più elevata che gratti il cielo della metropoli»"^^xsd:string .
 
 bacodi:la-torre-storiaSei-torre-di-amfortas a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:torre-di-amfortas-re-pescatore ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«In riva a un lago d'acque morte c'è un castello sulla cui Torre s'è abbattuta una maledizione»"^^xsd:string .
 
 bacodi:la-torre-storiaTre-crollo-potere-maschile a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:crollo-del-potere-maschile ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«I fieri fortilizi del nostro sesso crollano uno a uno»"^^xsd:string .
 
 bacodi:la-torre-storiaUndici-castello-dunsinane a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:castello-di-dunsinane ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il castello di Dunsinane quando si scatenerà la vendetta che le streghe hanno oscuramente annunciato»"^^xsd:string ;
     odi:represents bacodi:la-torre-storiaUndici-castello-dunsinane-luogo .
 
-bacodi:la-torre-storiaUndici-castello-dunsinane-luogo a odi:Place .
+bacodi:la-torre-storiaUndici-castello-dunsinane-luogo a odi:Place ;
+    rdfs:label "Castello di Dunsinane" .
 
 bacodi:la-torre-storiaUno-mura-diroccate a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:mura-diroccate ;
-    odi:hasReferenceMode bacodi:ExplicitReference_\(minuscolo\) ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un fulmine che picchia sulla vetta dell'albero diroccando ogni mura e torre della città sospesa»"^^xsd:string .
 
 bacodi:lancio-della-moneta-croce a odi:Meaning ;
@@ -2492,56 +2495,56 @@ bacodi:legni-di-pioppo a odi:Meaning ;
     rdfs:label "Legni di pioppo"@it .
 
 bacodi:lo-amore-storiaCinque-amore-e-giovinezza a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:promessa-dellamore-e-della-giovinezza ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«l'Arcano dell'Amore, in cui la storia di Faust si confonde con quella di Don Giovanni Tenorio»"^^xsd:string .
 
 bacodi:lo-amore-storiaDue-invaghimento a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:invaghimento ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«invaghimento del principe è confermato» / «il giovanotto risultava sposato»"^^xsd:string .
 
 bacodi:lo-amore-storiaOtto-amore a odi:Symbol ;
     odi:hasMeaningOf bacodi:amore ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«promiscui segreti dell'Amore»"^^xsd:string .
 
 bacodi:lo-amore-storiaQuattro-intrigo-amore a odi:Event ;
     odi:carriedOutBy bacodi:regina-di-coppe-storiaQuattro-regina ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:intrigo-damore ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«sospetta un intrigo d'amore»"^^xsd:string .
 
 bacodi:lo-eremita-storiaDieci-polonio a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:polonio ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il vecchio Polonio, inchiodato per sempre nell'atto di origiliare»"^^xsd:string .
 
 bacodi:lo-eremita-storiaOtto-eremita a odi:Character ;
     odi:hasMeaningOf bacodi:eremita ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«un Eremita la butta sotto e approfitta delle sue grazie alle sue spalle»"^^xsd:string .
 
 bacodi:lo-eremita-storiaSette-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«topo di biblioteca che perlustra a lume di lanterna una sapienza dimenticata tra le note a piè di pagina e i rimandi degli indici analitici»"^^xsd:string .
 
 bacodi:lo-eremita-storiaUndici-macbeth a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:macbeth ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«suo marito in persona, Macbeth» / «Mani di sangue e cuore pallido!»"^^xsd:string .
 
 bacodi:lo-imperatore-storiaTre-imperatore a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:imperatore ;
-    odi:hasReferenceMode bacodi:ExplicitReference .
+    odi:hasReferenceMode bacodi:explicitreference .
 
 bacodi:luna a odi:Meaning ;
     rdfs:label "Luna"@it .
@@ -2563,6 +2566,12 @@ bacodi:meditazione-sulla-morte a odi:Meaning ;
 
 bacodi:mefistofele a odi:Meaning ;
     rdfs:label "Mefistofele"@it .
+
+bacodi:milano a odi:Place ;
+    rdfs:label "Milano" .
+
+bacodi:mondadori a odi:PublishingHouse ;
+    rdfs:label "Mondadori" .
 
 bacodi:mondo-sublunare a odi:Meaning ;
     rdfs:label "Mondo sublunare"@it .
@@ -2592,43 +2601,43 @@ bacodi:necessità-di-una-scelta a odi:Meaning ;
     rdfs:label "Necessità di una scelta"@it .
 
 bacodi:nicolas-conver a odi:Person ;
-    rdfs:label "Nicolas Conver" .
+    rdfs:label "Nicolas Conver\"" .
 
 bacodi:notte-delle-streghe a odi:Meaning ;
     rdfs:label "Notte delle streghe"@it .
 
 bacodi:nove-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Nove di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 9 .
 
 bacodi:nove-di-coppe-storiaQuattro-urne-funerarie a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:urne-funerarie ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«le Coppe si profilano come urne arche avelli tra le ortiche»"^^xsd:string .
 
 bacodi:nove-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Nove di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 9 .
 
 bacodi:nove-di-denari-storiaUno-cristalli a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:cristalli ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«immobilità definitiva dei cristalli»"^^xsd:string .
 
 bacodi:nudità-rivelata a odi:Meaning ;
@@ -2650,32 +2659,32 @@ bacodi:oro-come-elemento-alchemico a odi:Meaning ;
     rdfs:label "Oro come elemento alchemico"@it .
 
 bacodi:otto-di-coppe-storiaNove-banchetto-nozze a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:banchetto-di-nozze ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«le Coppe del banchetto di nozze»"^^xsd:string .
 
 bacodi:otto-di-coppe-storiaUno-banchetto-di-nozze a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:banchetto-di-nozze ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un accaldato banchetto» / «la festa delle proprie nozze»"^^xsd:string .
 
 bacodi:otto-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Otto di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 8 .
 
 bacodi:otto-di-spade-storiaQuattro-vanghe-e-badili a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:vanghe-e-badili ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«le Spade risuonano metalliche come vanghe o badili contro i coperchi di piombo»"^^xsd:string .
 
 bacodi:padre a odi:Meaning ;
@@ -2722,12 +2731,12 @@ bacodi:provvigione a odi:Meaning ;
 
 bacodi:quattro-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Quattro di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 4 .
 
@@ -2745,30 +2754,30 @@ bacodi:re-cacciato-dalla-sua-reggia a odi:Meaning ;
 
 bacodi:re-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Re di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:re-di-bastoni-storiaSette-protagonista a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:fante-di-coppe-storiaSette-protagonista ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«regge un arnese puntuto con la punta in giù [...] e difatti questo arnese a guardarlo bene somiglia a uno stile o calamo o matita ben temperata o penna a sfera»"^^xsd:string .
 
 bacodi:re-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Re di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:re-di-coppe-storiaDodici-protagonista a odi:Character,
@@ -2777,19 +2786,19 @@ bacodi:re-di-coppe-storiaDodici-protagonista a odi:Character,
     odi:hasFamilyRelationWith bacodi:la-temperanza-storiaDodici-cordelia,
         bacodi:regina-di-bastoni-storiaDodici-regana,
         bacodi:regina-di-denari-storiaDodici-gonerilla ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
     odi:hasParticularConditionOf bacodi:la-luna-storiaDodici-desolazione-vuoto ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un vegliardo, che nell'altra mano solleva la figura del Re di Coppe, certo per farsi riconoscere, dato che nessuno degli attributi regali resta sulla sua persona derelitta»"^^xsd:string .
 
 bacodi:re-di-scozia-avanza-vittorioso a odi:Meaning ;
     rdfs:label "Re di Scozia avanza vittorioso"@it .
 
 bacodi:re-di-spade-storiaSei-re-artu a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:re-artù ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Re Artù»"^^xsd:string .
 
 bacodi:regana a odi:Meaning ;
@@ -2801,41 +2810,41 @@ bacodi:regina-di-bastoni-storiaDue-protagonista a odi:Character,
         bacodi:il-penduto-storiaDue-cavaliere ;
     odi:hasFamilyRelationWith bacodi:il-sole-storiaDue-due-gemelli,
         bacodi:lo-eremita-storiaDue-padre ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
     odi:hasParticularConditionOf bacodi:la-forza-storiaDue-forza ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una gigantesca giovinetta» / nelle sode fattezze campagnole, incorniciate dai rigopgliosi capelli canuti, e nel portamento brusco«»"^^xsd:string .
 
 bacodi:regina-di-coppe-storiaOtto-protagonista a odi:Character,
         odi:Representation ;
     odi:hasFamilyRelationWith bacodi:regina-di-spade-storiaOtto-Giulietta ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«due sorelle [...] una angelica» e che «ha preso il velo» / «Giustina»"^^xsd:string ;
     odi:speaksTo bacodi:la-papessa-storiaOtto-badessa .
 
 bacodi:regina-di-coppe-storiaUno-donna-via-della-sapienza a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:donna-della-scelta-mancata-o-via-della-sapienza ;
-    odi:hasReferenceMode bacodi:NameOnlyReference ;
+    odi:hasReferenceMode bacodi:nameonlyreference ;
     odi:hasTextualReference "«due Regine affacciate a due balconi» / «impugnano ciascuna una spada sguainata, [...] l'altra – certo per simmetria – con la sinistra. Oppure [...] poteva anche essere una penna d'oca, o un compasso chiuso, o un flauto, o un tagliacarte» / «la via della speranza»"^^xsd:string ;
     odi:isRelatedWith bacodi:regina-di-spade-storiaUno-donna-via-delle-passioni .
 
 bacodi:regina-di-denari-storiaNove-regina-giocasta a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:regina-giocasta ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la Regina Giocasta [...] donna desiderabile benché matura»"^^xsd:string .
 
 bacodi:regina-di-spade-storiaUndici-protagonista a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:la-stella-storiaUndici-protagonista ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "Lady Macbeth"^^xsd:string ;
     odi:sees bacodi:lo-eremita-storiaUndici-spettro-di-banquo .
 
@@ -2903,104 +2912,104 @@ bacodi:segreto-della-trasmutazione-alchemica a odi:Meaning ;
     rdfs:label "Segreto della trasmutazione alchemica"@it .
 
 bacodi:sei-di-bastoni-storiaDue-foresta a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:foresta ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«la foresta in cui sono stata allevata»"^^xsd:string .
 
 bacodi:sei-di-bastoni-storiaQuattro-bosco a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:bosco ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«nel bosco dove c'eravamo tutti smarriti»"^^xsd:string .
 
 bacodi:sei-di-bastoni-storiaUno-bosco a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:bosco ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«lancinante germogliare del bosco»"^^xsd:string .
 
 bacodi:sei-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Sei di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 6 .
 
 bacodi:sei-di-spade-storiaUno-scomposizione-del-se a odi:Event ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:scomposizione-del-sé ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«sminuzzato [...] nei suoi elementi primi»"^^xsd:string .
 
 bacodi:sette-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Sette di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 7 .
 
 bacodi:sette-di-bastoni-storiaSei-foresta-di-brocelianda a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:foresta-di-brocelianda ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«nella foresta di Brocelianda (Sette di Bastoni)»"^^xsd:string .
 
 bacodi:sette-di-coppe-storiaQuattro-abbondanza a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:abbondanza ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«le Coppe dell'abbondanza offerte alla sete festosa della prodiga clientela»"^^xsd:string .
 
 bacodi:sette-di-coppe-storiaSette-calamai-prosciugati a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:calamai-prosciugati ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«calamai prosciugati aspettando che nel buio dell'inchiostro vengano a galla i demoni»"^^xsd:string .
 
 bacodi:sette-di-coppe-storiaUno-crateri-vulcani a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:crateri-dei-vulcani ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«era passato per i crateri dei vulcani [...] attraverso tutte le ere della terra»"^^xsd:string .
 
 bacodi:sette-di-denari-storiaCinque-oro a odi:InanimateObject,
         odi:Representation ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:oro-come-elemento-alchemico ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«potrebbero servire a definirlo come un alchimista che ha speso la sua vita a indagare le combinazioni degli elementi e le loro metamorfosi»"^^xsd:string ;
     odi:isRelatedWith bacodi:tre-di-coppe-storiaCinque-strumenti-alchemici .
 
 bacodi:sette-di-denari-storiaQuattro-fuochi-fatui a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:fuochi-fatui ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«gli Ori ammiccano come fuochi fatui»"^^xsd:string .
 
 bacodi:sette-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Sette di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 7 .
 
 bacodi:sette-di-spade-storiaQuattro-esercito-reale a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:esercito-del-re ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«potrei far ricorso al mio esercito, addestrato alla manovra aggirante e premente, al mettere a fuoco e al ferro»"^^xsd:string .
 
 bacodi:sfida a odi:Meaning ;
@@ -3029,6 +3038,9 @@ bacodi:spettro-di-banquo a odi:Meaning ;
 
 bacodi:strumenti-alchemici a odi:Meaning ;
     rdfs:label "Strumenti alchemici"@it .
+
+bacodi:tarocchi-di-marsiglia a odi:Typology ;
+    rdfs:label "Tarocchi di Marsiglia" .
 
 bacodi:tavola-rotonda a odi:Meaning ;
     rdfs:label "Tavola Rotonda"@it .
@@ -3059,30 +3071,30 @@ bacodi:trasparenza-delle-azioni a odi:Meaning ;
 
 bacodi:tre-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Tre di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 3 .
 
 bacodi:tre-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Tre di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 3 .
 
 bacodi:tre-di-denari-storiaDue-provvigione a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:provvigione ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una modesta provvigione»"^^xsd:string .
 
 bacodi:tronco a odi:Meaning ;
@@ -3110,51 +3122,51 @@ bacodi:yorick-il-buffone a odi:Meaning ;
     rdfs:label "Yorick il buffone"@it .
 
 bacodi:asso-di-bastoni-storiaUno-tronco a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:tronco ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il tronco nodoso»"^^xsd:string .
 
 bacodi:asso-di-coppe-storiaCinque-pietra-filosofale a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:pietra-filosofale ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«contiene il flogisto o la pietra dei filosofi o l'elisir di lunga vita»"^^xsd:string .
 
 bacodi:asso-di-coppe-storiaUno-città-del-tutto a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:città-del-tutto ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una città con tante torri e guglie e minareti e cupole che sporgono fuori dalle mura» / «questa città sembra in equilibrio in cima a una piramide [...] la vetta del grande albero» / «città sospesa sui rami più alti come un nido d'uccelli» / «È la Città del Tutto? È la città dove tutte le parti si congiungono»"^^xsd:string .
 
 bacodi:asso-di-denari-storiaCinque-terra-trasformata-in-oro a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:pianeta-terra-trasformato-in-oro ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il globo terracqueo diventato una sfera d'oro massiccio»"^^xsd:string .
 
 bacodi:asso-di-denari-storiaTre-scudo a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:scudo-dorato ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«uno scudo dorato»"^^xsd:string .
 
 bacodi:asso-di-denari-storiaUno-moneta-testa a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:lancio-della-moneta-testa ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "Rappresenta la testa nel «testa o croce?»"^^xsd:string .
 
 bacodi:asso-di-spade-storiaNove-arma-da-taglio a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:arma-da-taglio ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«tira fuori dalla tasca un'arma da taglio»"^^xsd:string .
 
 bacodi:asso-di-spade-storiaTre-spada a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:spada-dargento ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«una Spada d'argento»"^^xsd:string .
 
 bacodi:banchetto-di-nozze a odi:Meaning ;
@@ -3167,9 +3179,9 @@ bacodi:cavaliere-di-bastoni-storiaTre-protagonista a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:il-penduto-storiaTre-protagonista ;
     odi:discovers bacodi:la-stella-storiaTre-cavaliere ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«che attillata uniforme indossava, guernita di lucenti piastre di corazza, con una gardenia alla fibbia d'un gambale» / «i capelli bianchi, l'occhio vaneggiante, la lancia spezzata e ridotta a un troncone. A meno che si trattasse non d'un pezzo di lancia [...] ma d'un foglio di pergamena arrotolato, un messaggio che gli era stato ordinato di recapitare»"^^xsd:string ;
     odi:isDefeatedBy bacodi:il-mondo-storiaTre-guerriera-gigantesca ;
     odi:isHelpedBy bacodi:lo-eremita-storiaTre-eremita ;
@@ -3185,9 +3197,9 @@ bacodi:cavaliere-di-coppe-storiaUno-protagonista a odi:Character,
     odi:changesIn bacodi:fante-di-denari-storiaUno-protagonista,
         bacodi:il-penduto-storiaUno-protagonista ;
     odi:climbs bacodi:asso-di-bastoni-storiaUno-tronco ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«nella faccia, ansiosa, a occhi sgranati, coi capelli lunghi che gli scendono sulle spalle, diventati bianchi»"^^xsd:string ;
     odi:longsFor bacodi:la-stella-storiaUno-mare-che-disseta ;
     odi:movingThrough bacodi:dieci-di-bastoni-storiaUno-bosco ;
@@ -3195,42 +3207,42 @@ bacodi:cavaliere-di-coppe-storiaUno-protagonista a odi:Character,
 
 bacodi:cavaliere-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Cavaliere di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:cavaliere-di-denari-storiaUno-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la propria identica forma umana» / «Ma è davvero lui o non piuttosto un suo sosia?»"^^xsd:string .
 
 bacodi:cavaliere-di-spade-storiaSei-protagonista a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
     odi:hasParticularConditionOf bacodi:il-sole-storiaSei-innocenza-fanciullesca ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«chi con la bella incoscienza della gioventù si sente di riconoscersi nella più baldanzosa figura di guerriero di tutto il mazzo» / «Perceval-Parzival-Parsifal»"^^xsd:string ;
     odi:longsFor bacodi:asso-di-coppe-storiaSei-graal ;
     odi:movingThrough bacodi:la-luna-storiaSei-terre-desolate .
 
 bacodi:cavaliere-di-spade-storiaTre-cavaliere a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:cavaliere ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un Cavaliere di Spade che spicca sugli altri per l'eleganza dell'equipaggiamento umano ed equino» / «la sua armatura [...] è completa d'ogni ammennicolo e tutta d'un colore dall'elmo ai cosciali: un blu pervinca»"^^xsd:string ;
     odi:sameAs bacodi:la-stella-storiaTre-cavaliere-rivelato .
 
 bacodi:cinque-di-bastoni-storiaUno-moneta-croce a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:lancio-della-moneta-croce ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "Rappresenta la croce nel «testa o croce?»"^^xsd:string .
 
 bacodi:diavolo a odi:Meaning ;
@@ -3238,42 +3250,42 @@ bacodi:diavolo a odi:Meaning ;
 
 bacodi:dieci-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Dieci di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 10 .
 
 bacodi:dieci-di-bastoni-storiaUno-bosco a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:bosco ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«prendere aria nel bosco» / «farsi uccel di bosco»"^^xsd:string .
 
 bacodi:dieci-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Dieci di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 10 .
 
 bacodi:dieci-di-denari-storiaCinque-casseforti-oro a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:casseforti-piene-doro ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«casseforti traboccanti di lingotti fatti in casa»"^^xsd:string .
 
 bacodi:due-di-bastoni-storiaQuattro-due-bastoni a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:due-bastoni ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Con l'aiuto di Due Bastoni»"^^xsd:string .
 
 bacodi:duello a odi:Meaning ;
@@ -3284,18 +3296,18 @@ bacodi:eremita a odi:Meaning ;
 
 bacodi:fante-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Fante di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:fante-di-coppe-storiaSette-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«mi ritrae mentre mi chino a scrutare dentro l'involucro di me stesso»"^^xsd:string .
 
 bacodi:fante-di-denari-storiaNove-protagonista a odi:Character,
@@ -3303,15 +3315,15 @@ bacodi:fante-di-denari-storiaNove-protagonista a odi:Character,
     odi:changesIn bacodi:lo-eremita-storiaNove-protagonista,
         bacodi:lo-imperatore-storiaNove-protagonista ;
     odi:hasComplexRelationWith bacodi:il-papa-storiaSette-sigismondo-di-vindobona ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un giovane [...] che vuole allontanare da sé una nera profezia: parricidio e nozze con la propria madre» / «Edipo»"^^xsd:string .
 
 bacodi:fante-di-denari-storiaUno-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il giovane mentre butta in aria una moneta»"^^xsd:string .
 
 bacodi:forza a odi:Meaning ;
@@ -3322,109 +3334,109 @@ bacodi:giustizia a odi:Meaning ;
 
 bacodi:il-bagatto-storiaCinque-chierico-vagante a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:chierico-vagante ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«forse è un chierico vagante, o un Bagatto ciarlatano» / «losco fattucchiere»"^^xsd:string ;
     odi:sameAs bacodi:il-diavolo-storiaCinque-mefistofele .
 
 bacodi:il-diavolo-storiaUno-diavolo a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:diavolo ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«l'angelo che abita nel punto in cui le linee si biforcano»"^^xsd:string .
 
 bacodi:il-matto-storiaDieci-protagonista a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
     odi:hasParticularConditionOf bacodi:lo-amore-storiaDieci-follia-amore ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«altro non è che la parte ch'egli stesso s'è imposto, per meglio studiare un piano di vendetta e nascondere l'animo sconvolto»"^^xsd:string .
 
 bacodi:il-matto-storiaDue-uomo-in-fuga a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:uomo-in-fuga ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un uomo che scappa come un Matto, inseguito dai lupi»"^^xsd:string .
 
 bacodi:il-matto-storiaTre-soldato-ferito a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:soldato-ferito ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«qualcuno così lordo e sbrindellato [...] si scopriva essere un soldato ferito e zoppicante in fuga dal campo della carneficina»"^^xsd:string .
 
 bacodi:il-mondo-storiaDieci-ofelia-fuori-di-se a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:la-stella-storiaDieci-ofelia-sta-per-annegare ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:ofelia-fuori-di-sé ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Ofelia esce di senno, cinguetta non-sensi e filastrocche, vaga per i prati cinta di ghirlande»"^^xsd:string .
 
 bacodi:il-mondo-storiaQuattro-riconciliazione-forze-terrestri-e-celesti a odi:Event ;
     odi:carriedOutBy bacodi:fante-di-coppe-storiaQuattro-cadavere-re-beve,
         bacodi:la-stella-storiaQuattro-regina ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:riconciliazione-delle-forze-terrestri-e-celesti ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Di questo empio rito i tarocchi riportano due versioni [...] l'altra tutta festoni e ghirlande, che celebra la riconciliazione delle forze terrestri con quelle del cielo a simbolo della totalità del Mondo, mediante la danza d'una maga o ninfa ignuda tripudiante»"^^xsd:string .
 
 bacodi:il-mondo-storiaTre-guerriera-gigantesca a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:guerriera-gigantesca ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "Una delle «bagnanti nude dalle lunghe gambe» / «un reggimento di guerriere gigantesche»"^^xsd:string .
 
 bacodi:il-papa-storiaSette-sigismondo-di-vindobona a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:sigismondo-di-vindobona ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il gran pastore d'anime e interprete di sogni Sigismondo di vindobona»"^^xsd:string ;
-    odi:represents bacodi:il-papa-storiaSette-sigismondo-di-vindobona-freud-persona .
+    odi:represents bacodi:il-papa-storiaSette-sigismondo-di-vindobona-persona .
 
 bacodi:il-penduto-storiaDue-cavaliere a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:cavaliere ;
-    odi:hasReferenceMode bacodi:ExplicitReference_\(minuscolo\) ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«appeso per i piedi a un ramo»"^^xsd:string .
 
 bacodi:il-penduto-storiaQuattro-regina-appesa-ai-fili a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:regina-impigliata-nei-fili-elettrici ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il corpo che prima di sfracellarsi al suolo s'impiglia per i piedi nei fili»"^^xsd:string .
 
 bacodi:il-penduto-storiaTre-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«si sente afferrato per le braccia e le gambe, legato, Appeso a testa in giù»"^^xsd:string .
 
 bacodi:il-penduto-storiaUno-protagonista a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:cavaliere-di-denari-storiaUno-protagonista ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Appeso per i piedi ai sargassi che galleggiano a mezz'acqua sotto la superficie opaca dell'oceano»"^^xsd:string .
 
 bacodi:il-sole-storiaDue-due-gemelli a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:due-gemelli ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Dà alla luce del Sole due gemelli»"^^xsd:string .
 
 bacodi:il-sole-storiaSei-innocenza-fanciullesca a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:innocenza-fanciullesca ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«l'innocenza del fanciullio cavaliere»"^^xsd:string .
 
 bacodi:il-sole-storiaUno-due-bambini a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:due-bambini ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«due monelli» / «due gemelli: uguali identici, scalzi, biondi biondi»"^^xsd:string .
 
 bacodi:imperatore a odi:Meaning ;
@@ -3432,213 +3444,213 @@ bacodi:imperatore a odi:Meaning ;
 
 bacodi:la-forza a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Forza"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 11 .
 
 bacodi:la-forza-storiaDue-forza a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:forza ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Ho educato la mia forza giocando coi cinghiali e coi lupi»"^^xsd:string .
 
 bacodi:la-giustizia-storiaTre-amazzoni-giustiziere a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:amazzoni-giustiziere ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«l'esercito delle amazzoni giustiziere travolge e massacra i reggimenti e gli imperi»"^^xsd:string ;
     odi:isRelatedWith bacodi:regina-di-bastoni-storiaTre-regine-punitrici .
 
 bacodi:la-giustizia-storiaUno-angelo-coronato a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:il-diavolo-storiaUno-diavolo ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:angelo-che-veglia-sulle-decisioni-e-gli-equilibri ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«la potenza coronata ora brandisce una bilancia e una spada» / «angelo che veglia sulle decisioni e gli equilibri, dall'alto della costellazione della Libra»"^^xsd:string .
 
 bacodi:la-imperatrice a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "L'Imperatrice"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 3 .
 
 bacodi:la-imperatrice-storiaUno-angelo-coronato a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:la-giustizia-storiaUno-angelo-coronato ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:angelo-coronato ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«un personaggio dagli attributi regali, divinità in trono o angelo coronato»"^^xsd:string .
 
 bacodi:la-luna-storiaDodici-desolazione-vuoto a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:desolazione-e-vuoto ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«nulla al mondo gli hanno lasciato» / «il paesaggio squallido della Luna»"^^xsd:string .
 
 bacodi:la-luna-storiaSei-terre-desolate a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:terre-desolate ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«terre desolate s'estendono»"^^xsd:string .
 
 bacodi:la-morte-storiaQuattro-morte a odi:Symbol ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:morte ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«sembra intrattenere con l'Arcano Numero Tredici una brusca confidenza»"^^xsd:string .
 
 bacodi:la-papessa-storiaOtto-badessa a odi:Character ;
     odi:hasMeaningOf bacodi:badessa ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«la badessa»"^^xsd:string .
 
 bacodi:la-stella-storiaCinque-rinascita-di-Venere a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:rinascita-continua-di-venere ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«vedrà Venere rinascere continuamente sulle rive di Cipro, dissipando le macchie di nafta, la schiuma di detersivo»"^^xsd:string .
 
 bacodi:la-stella-storiaDieci-ofelia-sta-per-annegare a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:ofelia-che-sta-per-annegare ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Ofelia sulla riva d'un ruscello, protesta sulla corrente vitrea e mucillaginosa che tra un'istante l'affogherà»"^^xsd:string .
 
 bacodi:la-stella-storiaDodici-cordelia-esule a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:cordelia-esule ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Senza più asilo né panni per coprirsi s'è rifugiata in queste lande deserte, e beve l'acqua dei fossi»"^^xsd:string .
 
 bacodi:la-stella-storiaTre-cavaliere-rivelato a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:cavaliere-rivelato ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Il guerriero sconosciuto è fermo sulla riva e si sta spogliando dell'armatura» / «ha la pelle di giovinetta, polpe di dama, seno e grembo di regina»"^^xsd:string .
 
 bacodi:la-stella-storiaUndici-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«sonnambula che s'alza di notte senza vesti e a occhi chiusi contempla macchie di sangue sulle sue mani e s'affanna in inutili lavacri»"^^xsd:string .
 
 bacodi:la-stella-storiaUno-mare-che-disseta a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:il-mare-che-disseta ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la cisterna dove le acque di tutti i pozzi e tutti i fiumi sfociano e si confondono [...] il mare» / «una dea nuda prende due caraffe che contengono chissà quali succhi messi in fresco per chi ha sete [...] e le rovescia a innaffiare la riva di ghiaia»"^^xsd:string .
 
 bacodi:la-temperanza-storiaDodici-cordelia a odi:Character,
         odi:Representation ;
     odi:changesIn bacodi:la-stella-storiaDodici-cordelia-esule ;
     odi:hasMeaningOf bacodi:cordelia ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«l'angelica Cordelia [...] la figlia da lui incompresa e ingiustamente scacciata»"^^xsd:string .
 
 bacodi:lo-amore-storiaDieci-follia-amore a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:follia-damore ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«sua madre l'ha sorpreso a delirare per Ofelia: la diagnosi è presto fatta, chiamiamola follia d'amore»"^^xsd:string .
 
 bacodi:lo-eremita-storiaCinque-vita-solitaria a odi:Symbol ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:vita-solitaria ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«dubita della sapienza che s'accumula in una solitaria vita d'Eremita»"^^xsd:string .
 
 bacodi:lo-eremita-storiaDodici-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la sua mente ormai albergava solo vento e fulmini e follia» / «le curve spalle rincantucciate non più nel manto d'ermellino ma in un saio da Eremita»"^^xsd:string .
 
 bacodi:lo-eremita-storiaDue-padre a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:padre ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un padre che, non aspettandosi più niente di buono dal mondo civile, s'era fatto Eremita in questi boschi»"^^xsd:string .
 
 bacodi:lo-eremita-storiaNove-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Edipo [...] si strappa il lume degli occhi [...] e prende la via di Colono col mantello e il bastone del pellegrino»"^^xsd:string .
 
 bacodi:lo-eremita-storiaTre-eremita a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:eremita ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un Eremita che a lume di lanterna percorre i luoghi della battaglia componendo le spoglie dei morti e medicando le piaghe dei mutilati»"^^xsd:string .
 
 bacodi:lo-eremita-storiaUndici-spettro-di-banquo a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:spettro-di-banquo ;
-    odi:hasReferenceMode bacodi:ExplicitRefernce ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una nuova apparizioen spettrale, l'ombra incappucciata di Banquo morto sgozzato che avanza a stento per i corridoi del castello»"^^xsd:string .
 
 bacodi:lo-imperatore-storiaDieci-spettro-re-danimarca a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:spettro-del-re-di-danimarca ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«uno spettro somigliante nella barba brizzolata e nell'elmo e corazza splendenti [...] al defunto re di Danimarca»"^^xsd:string .
 
 bacodi:lo-imperatore-storiaDue-imperatore a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:imperatore ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«all'Imperatore in persona, che riconoscerà in me la vera sposa del suo erede»"^^xsd:string .
 
 bacodi:lo-imperatore-storiaNove-protagonista a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«l'ingresso in Tebe come un Imperatore trionfante»"^^xsd:string .
 
 bacodi:otto-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Otto di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 8 .
 
 bacodi:quattro-di-bastoni-storiaTre-bosco a odi:FictionalPlace ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:bosco ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«L'ufficiale si butta nel bosco»"^^xsd:string .
 
 bacodi:re-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Re di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:re-di-denari-storiaCinque-protagonista a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
     odi:hasParticularConditionOf bacodi:lo-eremita-storiaCinque-vita-solitaria ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un uomo anziano che in mezzo alla parapiglia conserva la sua calma meditativa»\" / «un alchimista» / «dottor Faust»"^^xsd:string ;
     odi:longsFor bacodi:asso-di-coppe-storiaCinque-pietra-filosofale,
         bacodi:la-stella-storiaCinque-rinascita-di-Venere ;
@@ -3649,95 +3661,95 @@ bacodi:re-di-denari-storiaCinque-protagonista a odi:Character,
 
 bacodi:re-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Re di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:regina a odi:Meaning ;
     rdfs:label "Regina"@it .
 
 bacodi:regina-di-bastoni-storiaDodici-regana a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:regana ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«le sue due figlie snaturate»"^^xsd:string .
 
 bacodi:regina-di-bastoni-storiaTre-regine-punitrici a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:regine-punitrici ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "Una delle «Regine punitrici governeranno per i prossimi millenni»"^^xsd:string .
 
 bacodi:regina-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Regina di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:regina-di-denari-storiaDodici-gonerilla a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:gonerilla ;
-    odi:hasReferenceMode bacodi:ImplicitReference ;
+    odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«le sue due figlie snaturate»"^^xsd:string .
 
 bacodi:regina-di-spade-storiaOtto-Giulietta a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:giulietta ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«due sorelle [...] l'altra perversa» / «Giulietta»"^^xsd:string .
 
 bacodi:regina-di-spade-storiaUno-donna-via-delle-passioni a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:donna-della-scelta-mancata-o-via-delle-passioni ;
-    odi:hasReferenceMode bacodi:NameOnlyReference ;
+    odi:hasReferenceMode bacodi:nameonlyreference ;
     odi:hasTextualReference "«due Regine affacciate a due balconi» / «impugnano ciascuna una spada sguainata, l'una con la destra» / «la via delle passioni»"^^xsd:string ;
     odi:isRelatedWith bacodi:lo-amore-storiaUno-pena-di-cuore .
 
 bacodi:sette-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Sette di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 7 .
 
 bacodi:tre-di-coppe-storiaCinque-strumenti-alchemici a odi:InanimateObject ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:strumenti-alchemici ;
-    odi:hasReferenceMode bacodi:SuitOnlyReference ;
+    odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«potrebbero servire a definirlo come un alchimista che ha speso la sua vita a indagare le combinazioni degli elementi e le loro metamorfosi»"^^xsd:string .
 
 bacodi:asso-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Asso di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 1 .
 
 bacodi:asso-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Asso di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 1 .
 
@@ -3746,178 +3758,181 @@ bacodi:cavaliere a odi:Meaning ;
 
 bacodi:cavaliere-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Cavaliere di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:cinque-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Cinque di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 5 .
 
 bacodi:due-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Due di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 2 .
 
 bacodi:due-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Due di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 2 .
 
 bacodi:fante-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Fante di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:fante-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Fante di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:il-diavolo-storiaCinque-mefistofele a odi:Character ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:mefistofele ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«non restano dubbi sulla sua identità di diavolo»"^^xsd:string .
 
 bacodi:il-diavolo-storiaSei-potenze-infernali a odi:Character ;
     odi:hasMeaningOf bacodi:potenze-infernali ;
-    odi:hasReferenceMode bacodi:ExplicitReferenceNoImage ;
+    odi:hasReferenceMode bacodi:explicitreferencenoimage ;
     odi:hasTextualReference "«le potenze infernali»"^^xsd:string .
 
 bacodi:il-papa a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Il Papa"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 5 .
 
 bacodi:la-temperanza a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Temperanza"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 14 .
 
 bacodi:la-temperanza-storiaCinque-anima-faust a odi:InanimateObject ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:anima-di-faust ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«l'anima del nostro commensale, ci è agevole riconoscerne un'ingenua allegoria nella fluida apparizione alata dell'arcano La Temperanza»"^^xsd:string .
 
 bacodi:lo-amore-storiaUno-pena-di-cuore a odi:Event ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:pena-di-cuore ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una pena di cuore» / «forse ci sono due donne nella sua vita, e lui non sa scegliere»"^^xsd:string .
+
+bacodi:nameonlyreference a odi:ReferenceMode ;
+    rdfs:label "NameOnlyReference" .
 
 bacodi:re-di-spade-storiaQuattro-re a odi:Character,
         odi:Representation ;
     odi:hasFamilyRelationWith bacodi:regina-di-coppe-storiaQuattro-regina ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:re ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un Re che s'avanza perplesso»"^^xsd:string .
 
 bacodi:regina-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Regina di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:regina-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Regina di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:regina-di-spade a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Regina di Spade"^^xsd:string ;
-    odi:hasSuit bacodi:Spade ;
-    odi:hasTypology bacodi:Carta_di_corte ;
+    odi:hasSuit bacodi:spade ;
+    odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:sette-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Sette di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 7 .
 
 bacodi:asso-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Asso di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 1 .
 
 bacodi:asso-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Asso di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 1 .
 
@@ -3926,186 +3941,186 @@ bacodi:bosco a odi:Meaning ;
 
 bacodi:due-di-coppe a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Due di Coppe"^^xsd:string ;
-    odi:hasSuit bacodi:Coppe ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:coppe ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 2 .
 
 bacodi:due-di-denari a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Due di Denari"^^xsd:string ;
-    odi:hasSuit bacodi:Denari ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:denari ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 2 .
 
 bacodi:la-morte a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Morte"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 13 .
 
 bacodi:la-papessa a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Papessa"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 2 .
 
 bacodi:lo-imperatore a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "L'Imperatore"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 4 .
 
 bacodi:regina-di-coppe-storiaQuattro-regina a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:regina ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«sua moglie»"^^xsd:string .
 
 bacodi:sei-di-bastoni a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Sei di Bastoni"^^xsd:string ;
-    odi:hasSuit bacodi:Bastoni ;
-    odi:hasTypology bacodi:Numerale ;
+    odi:hasSuit bacodi:bastoni ;
+    odi:hasTypology bacodi:numerale ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 6 .
 
 bacodi:fante-di-coppe-storiaQuattro-cadavere-re-beve a odi:Character ;
-    odi:hasIconography bacodi:Piccola ;
+    odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:cadavere-del-re-che-beve ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«porta alle labbra un calice che la strega gli ah offerto»"^^xsd:string .
 
 bacodi:il-bagatto a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Il Bagatto"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:hasVariantNameInTheText "Il Bagatto"^^xsd:string ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 1 .
 
 bacodi:il-diavolo a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Il Diavolo"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 15 .
 
 bacodi:il-penduto a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "L'Appeso"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 12 .
 
 bacodi:il-sole a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Il Sole"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 19 .
 
 bacodi:la-giustizia a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Giustizia"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 8 .
 
 bacodi:il-carro a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Il Carro"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 7 .
 
 bacodi:il-matto a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Il Matto"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:hasVariantNameInTheText "Il Matto"^^xsd:string ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
 bacodi:il-mondo a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Il Mondo"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 21 .
 
 bacodi:la-stella-storiaQuattro-regina a odi:Character,
         odi:Representation ;
-    odi:hasIconography bacodi:Grande ;
+    odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:regina ;
-    odi:hasReferenceMode bacodi:ExplicitReference ;
+    odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«vediamo la donna togliersi il manto e le bende monacali [...] è bella; è nuda [...] assomiglia alla regina»"^^xsd:string ;
     odi:sameAs bacodi:regina-di-coppe-storiaQuattro-regina .
 
 bacodi:lo-amore a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "L'Innamorato"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:hasVariantNameInTheText "L'Amoroso, Gli Amanti"^^xsd:string ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 6 .
 
 bacodi:il-giudizio a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "Il Giudizio"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:hasVariantNameInTheText "L'Angelo"^^xsd:string ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 20 .
@@ -4115,54 +4130,54 @@ bacodi:storiaOtto a odi:Story ;
 
 bacodi:la-ruota-della-fortuna a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Ruota della Fortuna"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:hasVariantNameInTheText "La Ruota"^^xsd:string ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 10 .
 
 bacodi:la-luna a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Luna"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 18 .
 
 bacodi:la-stella a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Stella"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:hasVariantNameInTheText "Le Stelle"^^xsd:string ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 17 .
 
 bacodi:la-torre a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "La Casa di Dio"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:hasVariantNameInTheText "La Torre"^^xsd:string ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 16 .
 
 bacodi:lo-eremita a odi:DeckCard ;
     odi:hasAuthor bacodi:paul-marteau ;
-    odi:hasCondition bacodi:Presente ;
-    odi:hasCurrentLocation bacodi:Yale_University_Library ;
+    odi:hasCondition bacodi:presente ;
+    odi:hasCurrentLocation bacodi:yale-university-library ;
     odi:hasImage "https://collections.library.yale.edu/catalog/10991686"^^xsd:anyURI ;
     odi:hasName "L'Eremita"^^xsd:string ;
-    odi:hasTypology bacodi:Trionfo ;
+    odi:hasTypology bacodi:trionfo ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 9 .
 
@@ -4175,8 +4190,26 @@ bacodi:storiaSette a odi:Story ;
 bacodi:storiaUndici a odi:Story ;
     odi:hasTitle "Tre storie di follia e distruzione"^^xsd:string .
 
+bacodi:explicitreferencenoimage a odi:ReferenceMode ;
+    rdfs:label "ExplicitReferenceNoImage" .
+
+bacodi:bastoni a odi:Suit ;
+    rdfs:label "Bastoni" .
+
+bacodi:coppe a odi:Suit ;
+    rdfs:label "Coppe" .
+
+bacodi:denari a odi:Suit ;
+    rdfs:label "Denari" .
+
+bacodi:spade a odi:Suit ;
+    rdfs:label "Spade" .
+
 bacodi:storiaNove a odi:Story ;
     odi:hasTitle "Anch'io cerco di dire la mia"^^xsd:string .
+
+bacodi:carta-di-corte a odi:Typology ;
+    rdfs:label "Carta di corte" .
 
 bacodi:storiaDieci a odi:Story ;
     odi:hasTitle "Tre storie di follia e distruzione"^^xsd:string .
@@ -4185,13 +4218,22 @@ bacodi:storiaSei a odi:Story ;
     odi:hasTitle "Due storie in cui si cerca e ci si perde"^^xsd:string ;
     odi:hasTotalNumberOfCards 18 .
 
+bacodi:suitonlyreference a odi:ReferenceMode ;
+    rdfs:label "SuitOnlyReference" .
+
 bacodi:storiaCinque a odi:Story ;
     odi:hasTitle "Due storie in cui si cerca e ci si perde"^^xsd:string ;
     odi:hasTotalNumberOfCards 20 .
 
+bacodi:implicitreference a odi:ReferenceMode ;
+    rdfs:label "ImplicitReference" .
+
 bacodi:storiaTre a odi:Story ;
     odi:hasTitle "Storia del guerriero sopravvissuto"^^xsd:string ;
     odi:hasTotalNumberOfCards 21 .
+
+bacodi:trionfo a odi:Typology ;
+    rdfs:label "Trionfo" .
 
 bacodi:storiaDue a odi:Story ;
     odi:hasTitle "Storia della foresta che si vendica"^^xsd:string ;
@@ -4208,6 +4250,9 @@ bacodi:storiaQuattro a odi:Story ;
     odi:hasTitle "Storia del regno dei vampiri"^^xsd:string ;
     odi:hasTotalNumberOfCards 36 .
 
+bacodi:numerale a odi:Typology ;
+    rdfs:label "Numerale" .
+
 bacodi:mazzo-la-taverna-dei-destini-incrociati a odi:TarotDeck ;
     odi:hasAuthor bacodi:nicolas-conver,
         bacodi:paul-marteau ;
@@ -4215,8 +4260,24 @@ bacodi:mazzo-la-taverna-dei-destini-incrociati a odi:TarotDeck ;
     odi:hasDate "1930"^^xsd:string ;
     odi:hasName "Ancien Tarot de Marseille"^^xsd:string ;
     odi:hasOriginalNumberOfCards 78 ;
-    odi:hasTypology bacodi:Tarocchi_di_Marsiglia .
+    odi:hasTypology bacodi:tarocchi-di-marsiglia .
+
+bacodi:presente a odi:Condition ;
+    rdfs:label "Presente" .
+
+bacodi:yale-university-library a odi:Place ;
+    rdfs:label "Yale University Library" .
 
 bacodi:paul-marteau a odi:Person ;
-    rdfs:label "Paul Marteau" .
+    rdfs:label "\"Paul Marteau",
+        "Paul Marteau" .
+
+bacodi:piccola a odi:Dimension ;
+    rdfs:label "Piccola" .
+
+bacodi:grande a odi:Dimension ;
+    rdfs:label "Grande" .
+
+bacodi:explicitreference a odi:ReferenceMode ;
+    rdfs:label "ExplicitReference" .
 
