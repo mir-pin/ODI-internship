@@ -38,8 +38,8 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
                       "Si imbatte in"@it .
 
 
-###  https://purl.org/ebr/odi#carriedOutby
-:carriedOutby rdf:type owl:ObjectProperty ;
+###  https://purl.org/ebr/odi#carriedOutBy
+:carriedOutBy rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdfs:domain :Event ;
               rdfs:range :Character ;
@@ -52,7 +52,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#carriesRepresentation
 :carriesRepresentation rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf owl:topObjectProperty ;
-                       rdfs:domain :Storycard ;
+                       rdfs:domain :StoryCard ;
                        rdfs:range :Representation ;
                        rdfs:comment "It shows what represent a card in a story."@en ,
                                     "Mostra cosa rappresenta una carta in una storia."@it ;
@@ -134,7 +134,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
          rdfs:subPropertyOf owl:topObjectProperty ;
          owl:inverseOf :isACardOf ;
          rdfs:domain :Story ;
-         rdfs:range :Storycard ;
+         rdfs:range :StoryCard ;
          rdfs:comment "Collega ogni storia alle sue carte."@it ,
                       "It connects each story with its cards."@en ;
          rdfs:label "Ha la carta"@it ,
@@ -277,7 +277,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#isACardOf
 :isACardOf rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:domain :Storycard ;
+           rdfs:domain :StoryCard ;
            rdfs:range :Story ;
            rdfs:comment "Collega ogni carta alla sua storia."@it ,
                         "It connects each card with its story."@en ;
@@ -467,7 +467,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#specifies
 :specifies rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:domain :Storycard ;
+           rdfs:domain :StoryCard ;
            rdfs:range :DeckCard ;
            rdfs:comment "Questa proprietà specifica una carta del mazzo come carta di una storia."@it ,
                         "This property specifies a card of the deck as a card of a story."@en ;
@@ -549,7 +549,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#hasPositionInTheText
 :hasPositionInTheText rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
-                      rdfs:domain :Storycard ;
+                      rdfs:domain :StoryCard ;
                       rdfs:range xsd:integer ;
                       rdfs:comment "Indica l'ordine di apparizione di ogni carta nelle diverse storie."@it ,
                                    "It indicates the order of appearance of each card in the different stories."@en ;
@@ -594,8 +594,8 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 
 ###  https://purl.org/ebr/odi#hasTotalNumberOfCards
 :hasTotalNumberOfCards rdf:type owl:DatatypeProperty ;
-          rdfs:sub owl:topDataProperty ;
-          rdfs: domain :Story ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Story ;
           rdfs:range xsd:integer ;
           rdfs:comment "Indica il numero totale di carte nella storia"@it,
                        "it indicates the total number of cards in the story"@en ;
@@ -606,7 +606,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#hasVariantName
 :hasVariantName rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
-                rdfs:domain :Storycard ;
+                rdfs:domain :StoryCard ;
                 rdfs:range xsd:string ;
                 rdfs:comment "Indica il nome della variante di una carta presente in una storia."@it ,
                              "It indicates the variant name of a card in a story."@en ;
@@ -698,9 +698,9 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 :Event rdf:type owl:Class ;
        rdfs:subClassOf :Representation ;
        rdfs:comment "An event that is carried out by somebody and/or implies something in a story."@en ,
-                    "Event"@en ,
                     "Un avvenimento che viene eseguito da qualcuno e/o implica degli oggetti in una storia."@it ;
-       rdfs:label "Evento"@it .
+       rdfs:label "Evento"@it ,
+                  "Event"@en .
 
 
 ###  https://purl.org/ebr/odi#FictionalPlace
@@ -784,8 +784,8 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
                   "Story"@en .
 
 
-###  https://purl.org/ebr/odi#Storycard
-:Storycard rdf:type owl:Class ;
+###  https://purl.org/ebr/odi#StoryCard
+:StoryCard rdf:type owl:Class ;
            rdfs:subClassOf owl:Thing ;
            rdfs:comment "A card of a story that makes up the book."@en ,
                         "Una carta di una storia che compone il libro."@it ;
@@ -826,7 +826,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
           rdfs:comment "Is the typology of the deck and of each card of the deck."@en ,
                        "È la tipologia del mazzo e di ogni carta del mazzo."@it ;
           rdfs:label "Tipologia"@it ,
-                     "typology"@en .
+                     "Typology"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

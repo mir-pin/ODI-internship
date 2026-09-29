@@ -6,7 +6,7 @@ due-di-bastoni-storiaUno-necessità-di-una-scelta,odi:implies,cinque-di-bastoni-
 due-di-spade-storiaTre-duello,odi:carriedOutBy,cavaliere-di-bastoni-storiaTre-protagonista
 due-di-spade-storiaTre-duello,odi:carriedOutBy,cavaliere-di-spade-storiaTre-cavaliere
 lo-amore-storiaQuattro-intrigo-amore,odi:carriedOutBy,regina-di-coppe-storiaQuattro-regina
-il-giudizio-storiaQuattro-scoperchiamento-tomba,odi:carriedOutby,la-stella-storiaQuattro-regina
+il-giudizio-storiaQuattro-scoperchiamento-tomba,odi:carriedOutBy,la-stella-storiaQuattro-regina
 il-giudizio-storiaQuattro-scoperchiamento-tomba,odi:implies,due-di-bastoni-storiaQuattro-due-bastoni
 due-di-coppe-storiaQuattro-brindisi-di-sangue,odi:carriedOutBy,fante-di-coppe-storiaQuattro-cadavere-re-beve
 due-di-coppe-storiaQuattro-brindisi-di-sangue,odi:carriedOutBy,la-stella-storiaQuattro-regina

@@ -14,7 +14,7 @@ cavaliere-di-coppe-storiaUno-protagonista,odi:longsFor,la-stella-storiaUno-mare-
 cavaliere-di-coppe-storiaUno-protagonista,odi:changesIn,il-penduto-storiaUno-protagonista
 il-penduto-storiaUno-protagonista,odi:changesIn,cavaliere-di-denari-storiaUno-protagonista
 regina-di-bastoni-storiaDue-protagonista,odi:hasFamilyRelationWith,lo-eremita-storiaDue-padre
-regina-di-bastoni-storiaDue-protagonista,odi:hasParticularConditionOf,la-forza-storiaDue-forza
+regina-di-bastoni-storiaDue-protagonista,hasAParticularConditionOf,la-forza-storiaDue-forza
 regina-di-bastoni-storiaDue-protagonista,odi:bumpsInto,il-penduto-storiaDue-cavaliere
 cavaliere-di-denari-storiaDue-cavaliere,odi:changesIn,il-penduto-storiaDue-cavaliere
 regina-di-bastoni-storiaDue-protagonista,odi:hasFamilyRelationWith,il-sole-storiaDue-due-gemelli
@@ -42,7 +42,7 @@ asso-di-bastoni-storiaQuattro-cadavere-rianimato,odi:changesIn,fante-di-coppe-st
 il-diavolo-storiaQuattro-unione-demoniaca,odi:isRelatedWith,il-mondo-storiaQuattro-riconciliazione-forze-terrestri-e-celesti
 sette-di-denari-storiaCinque-oro,odi:isRelatedWith,tre-di-coppe-storiaCinque-strumenti-alchemici
 re-di-denari-storiaCinque-protagonista,odi:longsFor,asso-di-coppe-storiaCinque-pietra-filosofale
-re-di-denari-storiaCinque-protagonista,odi:hasParticularConditionOf,lo-eremita-storiaCinque-vita-solitaria
+re-di-denari-storiaCinque-protagonista,hasAParticularConditionOf,lo-eremita-storiaCinque-vita-solitaria
 re-di-denari-storiaCinque-protagonista,odi:speaksTo,il-bagatto-storiaCinque-chierico-vagante
 re-di-denari-storiaCinque-protagonista,odi:sees,dieci-di-denari-storiaCinque-casseforti-oro
 il-bagatto-storiaCinque-chierico-vagante,odi:sameAs,il-diavolo-storiaCinque-mefistofele
@@ -51,7 +51,7 @@ re-di-denari-storiaCinque-protagonista,odi:receives,asso-di-denari-storiaCinque-
 re-di-denari-storiaCinque-protagonista,odi:longsFor,la-stella-storiaCinque-rinascita-di-Venere
 cavaliere-di-spade-storiaSei-protagonista,odi:longsFor,asso-di-coppe-storiaSei-graal
 il-bagatto-storiaSei-mago-merlino,odi:isRelatedWith,il-diavolo-storiaSei-potenze-infernali
-cavaliere-di-spade-storiaSei-protagonista,odi:hasParticularConditionOf,il-sole-storiaSei-innocenza-fanciullesca
+cavaliere-di-spade-storiaSei-protagonista,hasAParticularConditionOf,il-sole-storiaSei-innocenza-fanciullesca
 cavaliere-di-spade-storiaSei-protagonista,odi:movingThrough,la-luna-storiaSei-terre-desolate
 re-di-bastoni-storiaSette-protagonista,odi:changesIn,fante-di-coppe-storiaSette-protagonista
 regina-di-coppe-storiaOtto-protagonista,odi:hasFamilyRelationWith,regina-di-spade-storiaOtto-Giulietta
@@ -61,14 +61,14 @@ fante-di-denari-storiaNove-protagonista,odi:changesIn,lo-imperatore-storiaNove-p
 fante-di-denari-storiaNove-protagonista,odi:changesIn,lo-eremita-storiaNove-protagonista
 fante-di-spade-storiaDieci-protagonista,odi:hasFamilyRelationWith,lo-imperatore-storiaDieci-spettro-re-danimarca
 fante-di-spade-storiaDieci-protagonista,odi:changesIn,il-matto-storiaDieci-protagonista
-il-matto-storiaDieci-protagonista,odi:hasParticularConditionOf,lo-amore-storiaDieci-follia-amore
+il-matto-storiaDieci-protagonista,hasAParticularConditionOf,lo-amore-storiaDieci-follia-amore
 la-temperanza-storiaDieci-ofelia,odi:changesIn,il-mondo-storiaDieci-ofelia-fuori-di-se
 il-mondo-storiaDieci-ofelia-fuori-di-se,odi:changesIn,la-stella-storiaDieci-ofelia-sta-per-annegare
 regina-di-spade-storiaUndici-protagonista,odi:sees,lo-eremita-storiaUndici-spettro-di-banquo
 regina-di-spade-storiaUndici-protagonista,odi:changesIn,la-stella-storiaUndici-protagonista
 re-di-coppe-storiaDodici-protagonista,odi:hasFamilyRelationWith,regina-di-bastoni-storiaDodici-regana
 re-di-coppe-storiaDodici-protagonista,odi:hasFamilyRelationWith,regina-di-denari-storiaDodici-gonerilla
-re-di-coppe-storiaDodici-protagonista,odi:hasParticularConditionOf,la-luna-storiaDodici-desolazione-vuoto
+re-di-coppe-storiaDodici-protagonista,hasAParticularConditionOf,la-luna-storiaDodici-desolazione-vuoto
 re-di-coppe-storiaDodici-protagonista,odi:changesIn,lo-eremita-storiaDodici-protagonista
 re-di-coppe-storiaDodici-protagonista,odi:hasFamilyRelationWith,la-temperanza-storiaDodici-cordelia
 la-temperanza-storiaDodici-cordelia,odi:changesIn,la-stella-storiaDodici-cordelia-esule

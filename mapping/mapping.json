@@ -143,7 +143,7 @@
         },
         "relation": {
             "type": "generic_relation_column",
-            "note": "⚠️colonna che contiene il nome della proprietà da applicare riga per riga; per Event i candidati in ontologia sono odi:carriedOutby (range Character) e odi:implies (range InanimateObject)"
+            "note": "⚠️colonna che contiene il nome della proprietà da applicare riga per riga; per Event i candidati in ontologia sono odi:carriedOutBy (range Character) e odi:implies (range InanimateObject)"
         },
         "target": { 
             "type": "generic_relation_target", 
@@ -206,9 +206,7 @@
 
     "la-taverna-rappresentazione-relazioni.csv": {
         "sourceRepresentation": { 
-            "type": "class", 
-            "role": "subject_id", 
-            "rdf_type": "odi:Representation" 
+            "type": "subject_only"
         },
         "relation": {
             "type": "generic_relation_column",

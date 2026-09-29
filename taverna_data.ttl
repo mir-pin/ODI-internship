@@ -559,8 +559,7 @@ bacodi:il-mondo-storiaTre a odi:StoryCard ;
     odi:isACardOf bacodi:storiaTre ;
     odi:specifies bacodi:il-mondo .
 
-bacodi:il-mondo-storiaTre-guerriera a odi:Representation ;
-    odi:isRelatedWith bacodi:la-giustizia-storiaTre-amazzoni-giustiziere .
+bacodi:il-mondo-storiaTre-guerriera odi:isRelatedWith bacodi:la-giustizia-storiaTre-amazzoni-giustiziere .
 
 bacodi:il-mondo-storiaUno a odi:StoryCard ;
     odi:carriesRepresentation bacodi:il-mondo-storiaUno-catena-di-mutazioni ;
@@ -609,8 +608,7 @@ bacodi:il-penduto-storiaQuattro a odi:StoryCard ;
     odi:isACardOf bacodi:storiaQuattro ;
     odi:specifies bacodi:il-penduto .
 
-bacodi:il-penduto-storiaQuattro-re-morto a odi:Representation ;
-    odi:changesIn bacodi:asso-di-bastoni-storiaQuattro-cadavere-rianimato ;
+bacodi:il-penduto-storiaQuattro-re-morto odi:changesIn bacodi:asso-di-bastoni-storiaQuattro-cadavere-rianimato ;
     odi:sameAs bacodi:re-di-spade-storiaQuattro-re .
 
 bacodi:il-penduto-storiaTre a odi:StoryCard ;
@@ -1309,8 +1307,7 @@ bacodi:regina-di-coppe-storiaUno a odi:StoryCard ;
     odi:isACardOf bacodi:storiaUno ;
     odi:specifies bacodi:regina-di-coppe .
 
-bacodi:regina-di-coppe-storiaUno-donna-via-della-sapeinza a odi:Representation ;
-    odi:isRelatedWith bacodi:lo-amore-storiaUno-pena-di-cuore .
+bacodi:regina-di-coppe-storiaUno-donna-via-della-sapeinza odi:isRelatedWith bacodi:lo-amore-storiaUno-pena-di-cuore .
 
 bacodi:regina-di-denari-storiaDodici a odi:StoryCard ;
     odi:carriesRepresentation bacodi:regina-di-denari-storiaDodici-gonerilla ;
@@ -1525,8 +1522,7 @@ bacodi:asso-di-bastoni-storiaQuattro-cadavere-re-rianimato a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«ecco che il morto s'erige coem l'Asso di Bastoni»"^^xsd:string .
 
-bacodi:asso-di-bastoni-storiaQuattro-cadavere-rianimato a odi:Representation ;
-    odi:changesIn bacodi:fante-di-coppe-storiaQuattro-cadavere-re-beve .
+bacodi:asso-di-bastoni-storiaQuattro-cadavere-rianimato odi:changesIn bacodi:fante-di-coppe-storiaQuattro-cadavere-re-beve .
 
 bacodi:asso-di-coppe-storiaSei-graal a odi:InanimateObject ;
     odi:hasIconography bacodi:grande ;
@@ -1648,8 +1644,7 @@ bacodi:cavaliere-di-coppe a odi:DeckCard ;
     odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
-bacodi:cavaliere-di-denari-storiaDue-cavaliere a odi:Character,
-        odi:Representation ;
+bacodi:cavaliere-di-denari-storiaDue-cavaliere a odi:Character ;
     odi:changesIn bacodi:il-penduto-storiaDue-cavaliere ;
     odi:hasFamilyRelationWith bacodi:lo-imperatore-storiaDue-imperatore ;
     odi:hasIconography bacodi:piccola ;
@@ -1926,8 +1921,7 @@ bacodi:fante-di-bastoni-storiaDue-brigante a odi:Character ;
     odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«un brigante di passo, che gli svuota le tasche dell'ultimo quattrino»"^^xsd:string .
 
-bacodi:fante-di-bastoni-storiaQuattro-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:fante-di-bastoni-storiaQuattro-protagonista a odi:Character ;
     odi:hasComplexRelationWith bacodi:la-morte-storiaQuattro-morte ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
@@ -1963,8 +1957,7 @@ bacodi:fante-di-spade a odi:DeckCard ;
     odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
-bacodi:fante-di-spade-storiaDieci-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:fante-di-spade-storiaDieci-protagonista a odi:Character ;
     odi:changesIn bacodi:il-matto-storiaDieci-protagonista ;
     odi:hasFamilyRelationWith bacodi:lo-imperatore-storiaDieci-spettro-re-danimarca ;
     odi:hasIconography bacodi:grande ;
@@ -2023,8 +2016,7 @@ bacodi:il-bagatto-storiaQuattro-ingegnere a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "Uno degli «ingegneri che in quel momento s'affannano a smontare il gran Cervello Meccanico per trovare il guasto»"^^xsd:string .
 
-bacodi:il-bagatto-storiaSei-mago-merlino a odi:Character,
-        odi:Representation ;
+bacodi:il-bagatto-storiaSei-mago-merlino a odi:Character ;
     odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:mago-merlino ;
     odi:hasReferenceMode bacodi:explicitreference ;
@@ -2074,8 +2066,7 @@ bacodi:il-carro-storiaundici-re-di-scozia-avanza-vittorioso a odi:Event ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«il legittimo erede del trono usurpato da Macbeth, ed il suo carro avanzi alla testa dell'esercito inglese»"^^xsd:string .
 
-bacodi:il-diavolo-storiaQuattro-unione-demoniaca a odi:Event,
-        odi:Representation ;
+bacodi:il-diavolo-storiaQuattro-unione-demoniaca a odi:Event ;
     odi:carriedOutBy bacodi:fante-di-coppe-storiaQuattro-cadavere-re-beve,
         bacodi:la-stella-storiaQuattro-regina ;
     odi:hasIconography bacodi:grande ;
@@ -2115,7 +2106,7 @@ bacodi:il-giudizio-storiaNove-scoperta-trauma-edipico a odi:Event ;
     odi:hasTextualReference "«la scena primaria a cui rimanda la dottrina sigismondiana dei sogni: il tenero angioletto che [...] vede i grandi che non si sa cosa stanno facendo, tutti nudi e in posizioni incomprensibili»"^^xsd:string .
 
 bacodi:il-giudizio-storiaQuattro-scoperchiamento-tomba a odi:Event ;
-    odi:carriedOutby bacodi:la-stella-storiaQuattro-regina ;
+    odi:carriedOutBy bacodi:la-stella-storiaQuattro-regina ;
     odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:scoperchiamento-duna-tomba ;
     odi:hasReferenceMode bacodi:explicitreference ;
@@ -2313,8 +2304,7 @@ bacodi:la-papessa-storiaNove-sibilla-delfica a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la Sibilla Delfica [...]: la vecchia con la tiara e il libro aperto»"^^xsd:string .
 
-bacodi:la-papessa-storiaQuattro-strega a odi:Character,
-        odi:Representation ;
+bacodi:la-papessa-storiaQuattro-strega a odi:Character ;
     odi:changesIn bacodi:la-stella-storiaQuattro-regina ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:donna-esperta-in-filtri-e-libri-dincantesimi ;
@@ -2402,8 +2392,7 @@ bacodi:la-stella-storiaSei-nascita-parsifal a odi:Event ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la nascita alla bella stella»"^^xsd:string .
 
-bacodi:la-temperanza-storiaDieci-ofelia a odi:Character,
-        odi:Representation ;
+bacodi:la-temperanza-storiaDieci-ofelia a odi:Character ;
     odi:changesIn bacodi:il-mondo-storiaDieci-ofelia-fuori-di-se ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:ofelia ;
@@ -2762,8 +2751,7 @@ bacodi:re-di-bastoni a odi:DeckCard ;
     odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
-bacodi:re-di-bastoni-storiaSette-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:re-di-bastoni-storiaSette-protagonista a odi:Character ;
     odi:changesIn bacodi:fante-di-coppe-storiaSette-protagonista ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
@@ -2780,15 +2768,14 @@ bacodi:re-di-coppe a odi:DeckCard ;
     odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
-bacodi:re-di-coppe-storiaDodici-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:re-di-coppe-storiaDodici-protagonista a odi:Character ;
     odi:changesIn bacodi:lo-eremita-storiaDodici-protagonista ;
+    odi:hasAParticularConditionOf bacodi:la-luna-storiaDodici-desolazione-vuoto ;
     odi:hasFamilyRelationWith bacodi:la-temperanza-storiaDodici-cordelia,
         bacodi:regina-di-bastoni-storiaDodici-regana,
         bacodi:regina-di-denari-storiaDodici-gonerilla ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasParticularConditionOf bacodi:la-luna-storiaDodici-desolazione-vuoto ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un vegliardo, che nell'altra mano solleva la figura del Re di Coppe, certo per farsi riconoscere, dato che nessuno degli attributi regali resta sulla sua persona derelitta»"^^xsd:string .
 
@@ -2804,20 +2791,18 @@ bacodi:re-di-spade-storiaSei-re-artu a odi:Character ;
 bacodi:regana a odi:Meaning ;
     rdfs:label "Regana"@it .
 
-bacodi:regina-di-bastoni-storiaDue-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:regina-di-bastoni-storiaDue-protagonista a odi:Character ;
     odi:bumpsInto bacodi:il-matto-storiaDue-uomo-in-fuga,
         bacodi:il-penduto-storiaDue-cavaliere ;
+    odi:hasAParticularConditionOf bacodi:la-forza-storiaDue-forza ;
     odi:hasFamilyRelationWith bacodi:il-sole-storiaDue-due-gemelli,
         bacodi:lo-eremita-storiaDue-padre ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasParticularConditionOf bacodi:la-forza-storiaDue-forza ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«una gigantesca giovinetta» / nelle sode fattezze campagnole, incorniciate dai rigopgliosi capelli canuti, e nel portamento brusco«»"^^xsd:string .
 
-bacodi:regina-di-coppe-storiaOtto-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:regina-di-coppe-storiaOtto-protagonista a odi:Character ;
     odi:hasFamilyRelationWith bacodi:regina-di-spade-storiaOtto-Giulietta ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
@@ -2825,8 +2810,7 @@ bacodi:regina-di-coppe-storiaOtto-protagonista a odi:Character,
     odi:hasTextualReference "«due sorelle [...] una angelica» e che «ha preso il velo» / «Giustina»"^^xsd:string ;
     odi:speaksTo bacodi:la-papessa-storiaOtto-badessa .
 
-bacodi:regina-di-coppe-storiaUno-donna-via-della-sapienza a odi:Character,
-        odi:Representation ;
+bacodi:regina-di-coppe-storiaUno-donna-via-della-sapienza a odi:Character ;
     odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:donna-della-scelta-mancata-o-via-della-sapienza ;
     odi:hasReferenceMode bacodi:nameonlyreference ;
@@ -2839,8 +2823,7 @@ bacodi:regina-di-denari-storiaNove-regina-giocasta a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la Regina Giocasta [...] donna desiderabile benché matura»"^^xsd:string .
 
-bacodi:regina-di-spade-storiaUndici-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:regina-di-spade-storiaUndici-protagonista a odi:Character ;
     odi:changesIn bacodi:la-stella-storiaUndici-protagonista ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
@@ -2981,8 +2964,7 @@ bacodi:sette-di-coppe-storiaUno-crateri-vulcani a odi:InanimateObject ;
     odi:hasReferenceMode bacodi:suitonlyreference ;
     odi:hasTextualReference "«era passato per i crateri dei vulcani [...] attraverso tutte le ere della terra»"^^xsd:string .
 
-bacodi:sette-di-denari-storiaCinque-oro a odi:InanimateObject,
-        odi:Representation ;
+bacodi:sette-di-denari-storiaCinque-oro a odi:InanimateObject ;
     odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:oro-come-elemento-alchemico ;
     odi:hasReferenceMode bacodi:suitonlyreference ;
@@ -3175,8 +3157,7 @@ bacodi:banchetto-di-nozze a odi:Meaning ;
 bacodi:carro a odi:Meaning ;
     rdfs:label "Carro"@it .
 
-bacodi:cavaliere-di-bastoni-storiaTre-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:cavaliere-di-bastoni-storiaTre-protagonista a odi:Character ;
     odi:changesIn bacodi:il-penduto-storiaTre-protagonista ;
     odi:discovers bacodi:la-stella-storiaTre-cavaliere ;
     odi:hasIconography bacodi:grande ;
@@ -3190,8 +3171,7 @@ bacodi:cavaliere-di-bastoni-storiaTre-protagonista a odi:Character,
         bacodi:asso-di-spade-storiaTre-spada ;
     odi:speaksTo bacodi:il-matto-storiaTre-soldato-ferito .
 
-bacodi:cavaliere-di-coppe-storiaUno-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:cavaliere-di-coppe-storiaUno-protagonista a odi:Character ;
     odi:arrivesAt bacodi:asso-di-coppe-storiaUno-città-del-tutto ;
     odi:bumpsInto bacodi:il-sole-storiaUno-due-bambini ;
     odi:changesIn bacodi:fante-di-denari-storiaUno-protagonista,
@@ -3221,18 +3201,16 @@ bacodi:cavaliere-di-denari-storiaUno-protagonista a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la propria identica forma umana» / «Ma è davvero lui o non piuttosto un suo sosia?»"^^xsd:string .
 
-bacodi:cavaliere-di-spade-storiaSei-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:cavaliere-di-spade-storiaSei-protagonista a odi:Character ;
+    odi:hasAParticularConditionOf bacodi:il-sole-storiaSei-innocenza-fanciullesca ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasParticularConditionOf bacodi:il-sole-storiaSei-innocenza-fanciullesca ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«chi con la bella incoscienza della gioventù si sente di riconoscersi nella più baldanzosa figura di guerriero di tutto il mazzo» / «Perceval-Parzival-Parsifal»"^^xsd:string ;
     odi:longsFor bacodi:asso-di-coppe-storiaSei-graal ;
     odi:movingThrough bacodi:la-luna-storiaSei-terre-desolate .
 
-bacodi:cavaliere-di-spade-storiaTre-cavaliere a odi:Character,
-        odi:Representation ;
+bacodi:cavaliere-di-spade-storiaTre-cavaliere a odi:Character ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:cavaliere ;
     odi:hasReferenceMode bacodi:explicitreference ;
@@ -3310,8 +3288,7 @@ bacodi:fante-di-coppe-storiaSette-protagonista a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«mi ritrae mentre mi chino a scrutare dentro l'involucro di me stesso»"^^xsd:string .
 
-bacodi:fante-di-denari-storiaNove-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:fante-di-denari-storiaNove-protagonista a odi:Character ;
     odi:changesIn bacodi:lo-eremita-storiaNove-protagonista,
         bacodi:lo-imperatore-storiaNove-protagonista ;
     odi:hasComplexRelationWith bacodi:il-papa-storiaSette-sigismondo-di-vindobona ;
@@ -3332,8 +3309,7 @@ bacodi:forza a odi:Meaning ;
 bacodi:giustizia a odi:Meaning ;
     rdfs:label "Giustizia"@it .
 
-bacodi:il-bagatto-storiaCinque-chierico-vagante a odi:Character,
-        odi:Representation ;
+bacodi:il-bagatto-storiaCinque-chierico-vagante a odi:Character ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:chierico-vagante ;
     odi:hasReferenceMode bacodi:explicitreference ;
@@ -3346,11 +3322,10 @@ bacodi:il-diavolo-storiaUno-diavolo a odi:Character ;
     odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«l'angelo che abita nel punto in cui le linee si biforcano»"^^xsd:string .
 
-bacodi:il-matto-storiaDieci-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:il-matto-storiaDieci-protagonista a odi:Character ;
+    odi:hasAParticularConditionOf bacodi:lo-amore-storiaDieci-follia-amore ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasParticularConditionOf bacodi:lo-amore-storiaDieci-follia-amore ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«altro non è che la parte ch'egli stesso s'è imposto, per meglio studiare un piano di vendetta e nascondere l'animo sconvolto»"^^xsd:string .
 
@@ -3366,8 +3341,7 @@ bacodi:il-matto-storiaTre-soldato-ferito a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«qualcuno così lordo e sbrindellato [...] si scopriva essere un soldato ferito e zoppicante in fuga dal campo della carneficina»"^^xsd:string .
 
-bacodi:il-mondo-storiaDieci-ofelia-fuori-di-se a odi:Character,
-        odi:Representation ;
+bacodi:il-mondo-storiaDieci-ofelia-fuori-di-se a odi:Character ;
     odi:changesIn bacodi:la-stella-storiaDieci-ofelia-sta-per-annegare ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:ofelia-fuori-di-sé ;
@@ -3413,8 +3387,7 @@ bacodi:il-penduto-storiaTre-protagonista a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«si sente afferrato per le braccia e le gambe, legato, Appeso a testa in giù»"^^xsd:string .
 
-bacodi:il-penduto-storiaUno-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:il-penduto-storiaUno-protagonista a odi:Character ;
     odi:changesIn bacodi:cavaliere-di-denari-storiaUno-protagonista ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
@@ -3458,16 +3431,14 @@ bacodi:la-forza-storiaDue-forza a odi:Symbol ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«Ho educato la mia forza giocando coi cinghiali e coi lupi»"^^xsd:string .
 
-bacodi:la-giustizia-storiaTre-amazzoni-giustiziere a odi:Character,
-        odi:Representation ;
+bacodi:la-giustizia-storiaTre-amazzoni-giustiziere a odi:Character ;
     odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:amazzoni-giustiziere ;
     odi:hasReferenceMode bacodi:implicitreference ;
     odi:hasTextualReference "«l'esercito delle amazzoni giustiziere travolge e massacra i reggimenti e gli imperi»"^^xsd:string ;
     odi:isRelatedWith bacodi:regina-di-bastoni-storiaTre-regine-punitrici .
 
-bacodi:la-giustizia-storiaUno-angelo-coronato a odi:Character,
-        odi:Representation ;
+bacodi:la-giustizia-storiaUno-angelo-coronato a odi:Character ;
     odi:changesIn bacodi:il-diavolo-storiaUno-diavolo ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:angelo-che-veglia-sulle-decisioni-e-gli-equilibri ;
@@ -3484,8 +3455,7 @@ bacodi:la-imperatrice a odi:DeckCard ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 3 .
 
-bacodi:la-imperatrice-storiaUno-angelo-coronato a odi:Character,
-        odi:Representation ;
+bacodi:la-imperatrice-storiaUno-angelo-coronato a odi:Character ;
     odi:changesIn bacodi:la-giustizia-storiaUno-angelo-coronato ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:angelo-coronato ;
@@ -3551,8 +3521,7 @@ bacodi:la-stella-storiaUno-mare-che-disseta a odi:Symbol ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«la cisterna dove le acque di tutti i pozzi e tutti i fiumi sfociano e si confondono [...] il mare» / «una dea nuda prende due caraffe che contengono chissà quali succhi messi in fresco per chi ha sete [...] e le rovescia a innaffiare la riva di ghiaia»"^^xsd:string .
 
-bacodi:la-temperanza-storiaDodici-cordelia a odi:Character,
-        odi:Representation ;
+bacodi:la-temperanza-storiaDodici-cordelia a odi:Character ;
     odi:changesIn bacodi:la-stella-storiaDodici-cordelia-esule ;
     odi:hasMeaningOf bacodi:cordelia ;
     odi:hasReferenceMode bacodi:explicitreferencenoimage ;
@@ -3645,11 +3614,10 @@ bacodi:re-di-denari a odi:DeckCard ;
     odi:hasTypology bacodi:carta-di-corte ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati .
 
-bacodi:re-di-denari-storiaCinque-protagonista a odi:Character,
-        odi:Representation ;
+bacodi:re-di-denari-storiaCinque-protagonista a odi:Character ;
+    odi:hasAParticularConditionOf bacodi:lo-eremita-storiaCinque-vita-solitaria ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:protagonista ;
-    odi:hasParticularConditionOf bacodi:lo-eremita-storiaCinque-vita-solitaria ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«un uomo anziano che in mezzo alla parapiglia conserva la sua calma meditativa»\" / «un alchimista» / «dottor Faust»"^^xsd:string ;
     odi:longsFor bacodi:asso-di-coppe-storiaCinque-pietra-filosofale,
@@ -3706,8 +3674,7 @@ bacodi:regina-di-spade-storiaOtto-Giulietta a odi:Character ;
     odi:hasReferenceMode bacodi:explicitreference ;
     odi:hasTextualReference "«due sorelle [...] l'altra perversa» / «Giulietta»"^^xsd:string .
 
-bacodi:regina-di-spade-storiaUno-donna-via-delle-passioni a odi:Character,
-        odi:Representation ;
+bacodi:regina-di-spade-storiaUno-donna-via-delle-passioni a odi:Character ;
     odi:hasIconography bacodi:piccola ;
     odi:hasMeaningOf bacodi:donna-della-scelta-mancata-o-via-delle-passioni ;
     odi:hasReferenceMode bacodi:nameonlyreference ;
@@ -3865,8 +3832,7 @@ bacodi:lo-amore-storiaUno-pena-di-cuore a odi:Event ;
 bacodi:nameonlyreference a odi:ReferenceMode ;
     rdfs:label "NameOnlyReference" .
 
-bacodi:re-di-spade-storiaQuattro-re a odi:Character,
-        odi:Representation ;
+bacodi:re-di-spade-storiaQuattro-re a odi:Character ;
     odi:hasFamilyRelationWith bacodi:regina-di-coppe-storiaQuattro-regina ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:re ;
@@ -4095,8 +4061,7 @@ bacodi:il-mondo a odi:DeckCard ;
     odi:isContainedIn bacodi:mazzo-la-taverna-dei-destini-incrociati ;
     odi:isNumber 21 .
 
-bacodi:la-stella-storiaQuattro-regina a odi:Character,
-        odi:Representation ;
+bacodi:la-stella-storiaQuattro-regina a odi:Character ;
     odi:hasIconography bacodi:grande ;
     odi:hasMeaningOf bacodi:regina ;
     odi:hasReferenceMode bacodi:explicitreference ;
