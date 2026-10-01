@@ -1,13 +1,13 @@
 odi:Story,odi:hasTitle,odi:hasTotalNumberOfCards
-storiaUno,Storia dell'indeciso,31
-storiaDue,Storia della foresta che si vendica,23
-storiaTre,Storia del guerriero sopravvissuto,21
-storiaQuattro,"Storia del regno dei vampiri ",36
-storiaCinque,Due storie in cui si cerca e ci si perde,20
-storiaSei,Due storie in cui si cerca e ci si perde,18
-storiaSette,"Anch'io cerco di dire la mia "
-storiaOtto,Anch'io cerco di dire la mia
-storiaNove,"Anch'io cerco di dire la mia ",
-storiaDieci,Tre storie di follia e distruzione,
-storiaUndici,Tre storie di follia e distruzione,
-storiaDodici,Tre storie di follia e distruzione,
+storiaUno,Racconto dell'indeciso,31
+storiaDue,Racconto della gigantessa,23
+storiaTre,Racconto del guerriero,21
+storiaQuattro,Racconto del becchino,33
+storiaCinque,Racconto di Faust,20
+storiaSei,Racconto di Parsifal,18
+storiaSette,"Racconto dello scrittore ",10
+storiaOtto,Racconto di Justine,7
+storiaNove,Racconto di Edipo,15
+storiaDieci,Racconto di Amleto,17
+storiaUndici,Racconto di Lady Macbeth,10
+storiaDodici,Racconto di Re Lear,10

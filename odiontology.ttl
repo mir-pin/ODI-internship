@@ -74,6 +74,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#climbs
 :climbs rdf:type owl:ObjectProperty ;
         rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain :Character ;
         rdfs:range :InanimateObject ;
         rdfs:comment "Questa proprietà indica che un protagonista si arrampica su un tronco nella sua storia."@it ,
                      "This property indicates that a main character climbs a log in his story."@en ;
@@ -180,7 +181,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
                     rdfs:domain :DeckCard ;
                     rdfs:range :Place ;
                     rdfs:comment "Indica il luogo in cui è attualmente conservata ogni carta del mazzo."@it ,
-                                 "It indicates the physical location where each card in the deck is stored." ;
+                                 "It indicates the physical location where each card in the deck is stored."@en ;
                     rdfs:label "Has current location"@en ,
                                "È attualmente conservata"@it .
 
@@ -345,9 +346,11 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdfs:domain :Character ;
           rdfs:range :Character ,
-                     :InanimateObject ;
-          rdfs:comment "It connects a main character and another character or an object desired by him in his story."@en ,
-                       "Mette in relazione un protagonista e un altro personaggio o un oggetto da lui desiderato nella sua storia."@it ;
+                     :InanimateObject, 
+                     :Symbol,
+                     :Event ;
+          rdfs:comment "It connects a main character to another character, an object a symbol or an event that they desire or long for within their story."@en ,
+                       "Mette in relazione un protagonista con un altro personaggio, un oggetto, un simbolo o un evento da lui desiderato nella sua storia."@it ;
           rdfs:label "Desidera/Brama"@it ,
                      "Longs for"@en .
 
@@ -458,6 +461,8 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#speaksTo
 :speaksTo rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Character ;
+          rdfs:range :Character ;
           rdfs:comment "Questa proprietà mostra un personaggio principale che parla a un altro personaggio di una storia."@it ,
                        "This property shows a main character speaking to another character in a story."@en ;
           rdfs:label "Parla con"@it ,
@@ -571,7 +576,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 ###  https://purl.org/ebr/odi#hasTextualReference
 :hasTextualReference rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf owl:topDataProperty ;
-                     rdfs:domain owl:Thing ;
+                     rdfs:domain :Representation ;
                      rdfs:range xsd:string ;
                      rdfs:comment "It reports in hooked brackets Calvin's words that give a more accurate description of each card."@en ,
                                   "Riporta tra parentesi uncinate le parole di Calvino che danno una descrizione più accurata di ogni carta."@it ;
@@ -750,7 +755,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 
 ###  https://purl.org/ebr/odi#PublishingHouse
 :PublishingHouse rdf:type owl:Class ;
-                 rdfs:subClassOf :Edition ;
+                 rdfs:subClassOf owl:Thing ;
                  rdfs:comment "Is the publishing house of the edition of reference."@en ,
                               "È la casa editrice dell'edizione di riferimento"@it ;
                  rdfs:label "Casa editrice"@it ,

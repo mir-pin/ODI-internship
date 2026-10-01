@@ -1,10 +1,13 @@
-odi:Chapter,odi:includes
-capitolo-introduttivo,introduzione
-capitolo-uno,storiaUno
-capitolo-due,storiaDue
-capitolo-tre,storiaTre
-capitolo-quattro,storiaQuattro
-capitolo-cinque,storiaCinque
-capitolo-cinque,storiaSei
-capitolo-sei,storia
-capitolo-sette,storia
+odi:Chapter,odi:hasTitle,odi:includes
+capitolo-uno,Storia dell'indeciso,storiaUno
+capitolo-due,Storia della foresta che si vendica,storiaDue
+capitolo-tre,Storia del guerriero sopravvissuto,storiaTre
+capitolo-quattro,Storia del regno dei vampiri,storiaQuattro
+capitolo-cinque,Due storie in cui si cerca e ci si perde,storiaCinque
+capitolo-cinque,Due storie in cui si cerca e ci si perde,storiaSei
+capitolo-sei,Anch'io cerco di dire la mia,storiaSette
+capitolo-sei,Anch'io cerco di dire la mia,storiaOtto
+capitolo-sei,Anch'io cerco di dire la mia,storiaNove
+capitolo-sette,Tre storie di follia e distruzione,storiaDieci
+capitolo-sette,Tre storie di follia e distruzione,storiaUndici
+capitolo-sette,Tre storie di follia e distruzione,storiaDodici

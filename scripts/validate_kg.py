@@ -102,12 +102,19 @@ class Report:
     def count(self, sev):
         return sum(1 for (s, _, _) in self.findings if s == sev)
 
-    def print(self, max_examples):
+    def print(self, max_examples, min_level="INFO"):
         color = sys.stdout.isatty()
         col = {ERROR: "\033[31m", WARNING: "\033[33m", INFO: "\033[36m"}
         reset = "\033[0m" if color else ""
+
+        max_sev_rank = SEV_ORDER.get(min_level.upper(), 2)
+
         for (sev, code, title), details in sorted(
                 self.findings.items(), key=lambda kv: (SEV_ORDER[kv[0][0]], kv[0][1])):
+
+            if SEV_ORDER[sev] > max_sev_rank:
+                continue
+
             c = col[sev] if color else ""
             n = f" ({len(details)})" if details else ""
             print(f"{c}[{sev}] {code} {title}{n}{reset}")
@@ -492,7 +499,8 @@ def check_ontology(g, O, rpt, wordlist):
 # --------------------------------------------------------------------------- #
 KNOWN_RULE_TYPES = ("class", "object_property", "data_property", "rdf_type",
                     "generic_relation_column", "generic_relation_target",
-                    "object_property_target", "object_property_new_subject")
+                    "object_property_target", "object_property_new_subject", 
+                    "subject_only", "label_of_target")
 
 
 def check_mapping(path, O, rpt):
@@ -530,7 +538,7 @@ def check_mapping(path, O, rpt):
             rtype = rule["type"]
             if not rtype.startswith(KNOWN_RULE_TYPES) and "nuova istanza" not in rtype:
                 rpt.add(WARNING, "M002", "Rule type not handled by csv_to_rdf.py", f"{ctx}: {rtype}")
-            if rtype == "class":
+            if rtype in ("class", "subject_only"):
                 if key.startswith("odi:"):
                     check_class(key, ctx)
                 if "rdf_type" in rule:
@@ -987,9 +995,11 @@ def main():
     ap.add_argument("--kg", default="./taverna_data.ttl", help="knowledge graph file")
     ap.add_argument("--mapping", default="./mapping/mapping.json", help="mapping.json used by csv_to_rdf.py")
     ap.add_argument("--json", help="write the report as JSON")
-    ap.add_argument("--max-examples", type=int, default=5)
+    ap.add_argument("--max-examples", type=int, default=15)
     ap.add_argument("--strict", action="store_true", help="exit 1 also on warnings")
     ap.add_argument("--dictionary", help="word list for typo detection")
+    ap.add_argument("--level", choices=["ERROR", "WARNING", "INFO"], default="INFO",
+                help="Livello minimo da visualizzare (default: INFO)")
     args = ap.parse_args()
 
     rpt = Report()
@@ -1013,7 +1023,7 @@ def main():
         elif kg is not None:
             rpt.add(WARNING, "K999", "KG checks skipped (ontology not loaded)")
 
-    rpt.print(args.max_examples)
+    rpt.print(args.max_examples, min_level=args.level)
     if args.json:
         Path(args.json).write_text(json.dumps(rpt.to_json(), indent=2, ensure_ascii=False),
                                    encoding="utf-8")

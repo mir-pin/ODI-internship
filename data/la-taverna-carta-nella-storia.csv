@@ -35,7 +35,7 @@ sei-di-bastoni-StoriaDue,storiaDue,sei-di-bastoni,,2,Piccola,sei-di-bastoni-stor
 lo-eremita-storiaDue,storiaDue,lo-eremita,,3,Piccola,lo-eremita-storiaDue-padre
 la-forza-storiaDue,storiaDue,la-forza,,4,Grande,la-forza-storiaDue-forza
 cavaliere-di-denari-storiaDue,storiaDue,cavaliere-di-denari,,5,Piccola,cavaliere-di-denari-storiaDue-cavaliere
-il-penduto-storiaDue,storiaDue,il-penduto,,6,Grande,il-penduto-storiaDue-protagonista
+il-penduto-storiaDue,storiaDue,il-penduto,,6,Grande,il-penduto-storiaDue-cavaliere
 fante-di-bastoni-storiaDue,storiaDue,fante-di-bastoni,,7,Piccola,fante-di-bastoni-storiaDue-brigante
 asso-di-bastoni-storiaDue,storiaDue,asso-di-bastoni,,8,Piccola,asso-di-bastoni-storiaDue-clava
 due-di-coppe-storiaDue,storiaDue,due-di-coppe,,9,Piccola,due-di-coppe-storiaDue-due-coppe
@@ -62,8 +62,8 @@ lo-imperatore-storiaTre,storiaTre,lo-imperatore,,6,Grande,lo-imperatore-storiaTr
 quattro-di-bastoni-storiaTre,storiaTre,quattro-di-bastoni,,7,Grande,quattro-di-bastoni-storiaTre-bosco
 la-morte-storiaTre,storiaTre,la-morte,,8,Grande,la-morte-storiaTre-morte
 il-matto-storiaTre,storiaTre,il-matto,,9,Grande,il-matto-storiaTre-soldato-ferito
-la-luna-storiaTre,storiaTre,la-luna,,10,Grande,la-luna-storiaTre-paesaggio-notturno
-sei-di-bastoni-storiaTre,storiaTre,sei-di-bastoni,,11,Piccola,sei-di-bastoni-storiaTre-campo-di-morte
+la-luna-storiaTre,storiaTre,la-luna,,10,Grande,la-luna-storiaTre-paesaggio-notturno-desolato
+sei-di-bastoni-storiaTre,storiaTre,sei-di-bastoni,,11,Piccola,sei-di-bastoni-storiaTre-albero
 asso-di-denari-storiaTre,storiaTre,asso-di-denari,,12,Piccola,asso-di-denari-storiaTre-scudo
 asso-di-spade-storiaTre,storiaTre,asso-di-spade,,13,Grande,asso-di-spade-storiaTre-spada
 la-stella-storiaTre,storiaTre,la-stella,Le Stelle,14,Grande,la-stella-storiaTre-cavaliere-rivelato
@@ -90,7 +90,7 @@ dieci-di-denari-storiaQuattro,storiaQuattro,dieci-di-denari,,13,Piccola,dieci-di
 sette-di-coppe-storiaQuattro,storiaQuattro,sette-di-coppe,,14,Piccola,sette-di-coppe-storiaQuattro-abbondanza
 la-ruota-della-fortuna-storiaQuattro,storiaQuattro,la-ruota-della-fortuna,,15,Piccola,la-ruota-della-fortuna-storiaQuattro-ruota-del-grande-meccanismo
 la-giustizia-storiaQuattro,storiaQuattro,la-giustizia,,16,Piccola,la-giustizia-storiaQuattro-giustizia-amministrativa
-asso-di-coppe-storiaQuattro,storiaQuattro,asso-di-coppe,,17,Grande,asso-di-coppe-storiaQuattro-città
+asso-di-coppe-storiaQuattro,storiaQuattro,asso-di-coppe,,17,Grande,asso-di-coppe-storiaQuattro-città-del-re
 sei-di-bastoni-storiaQuattro,storiaQuattro,sei-di-bastoni,,18,Grande,sei-di-bastoni-storiaQuattro-bosco
 la-papessa-storiaQuattro,storiaQuattro,la-papessa,,19,Grande,la-papessa-storiaQuattro-strega
 la-stella-storiaQuattro,storiaQuattro,la-stella,,20,Grande,la-stella-storiaQuattro-regina
@@ -123,7 +123,7 @@ il-giudizio-storiaCinque,storiaCinque,il-giudizio,,8,Piccola,il-giudizio-storiaC
 lo-eremita-storiaCinque,storiaCinque,lo-eremita,,9,Grande,lo-eremita-storiaCinque-vita-solitaria
 la-torre-storiaCinque,storiaCinque,la-torre,,10,Grande,la-torre-storiaCinque-cella-alchimista
 il-bagatto-storiaCinque,storiaCinque,il-bagatto,,11,Grande,il-bagatto-storiaCinque-chierico-vagante
-il-mondo-storiaCinque,storiaCinque,il-mondo,Arcano XXI,12,Grande,il-mondo-storiaCinque-brodo-originario
+il-mondo-storiaCinque,storiaCinque,il-mondo,Arcano XXI,12,Grande,il-mondo-storiaCinque-brodo-primordiale
 dieci-di-denari-storiaCinque,storiaCinque,dieci-di-denari,,13,Grande,dieci-di-denari-storiaCinque-casseforti-oro
 lo-amore-storiaCinque,storiaCinque,lo-amore,Arcano dell'amore,14,Grande,lo-amore-storiaCinque-amore-e-giovinezza
 due-di-coppe-storiaCinque,storiaCinque,due-di-coppe,,15,Grande,due-di-coppe-storiaCinque-segreto-alchemico
@@ -133,14 +133,14 @@ il-diavolo-storiaCinque,storiaCinque,il-diavolo,,18,Grande,il-diavolo-storiaCinq
 asso-di-denari-storiaCinque,storiaCinque,asso-di-denari,,19,Grande,asso-di-denari-storiaCinque-terra-trasformata-in-oro
 la-stella-storiaCinque,storiaCinque,la-stella,Arcano numero XVII,20,Grande,la-stella-storiaCinque-rinascita-di-Venere
 cavaliere-di-spade-storiaSei,storiaSei,cavaliere-di-spade,,1,Grande,cavaliere-di-spade-storiaSei-protagonista
-due-di-denari-storiaSei,storiaSei,due-di-denari,,2,Piccola,due-di-denari-storiaSei-lungo-percorso
+due-di-denari-storiaSei,storiaSei,due-di-denari,,2,Piccola,due-di-denari-storiaSei-lungo-giro
 due-di-spade-storiaSei,storiaSei,due-di-spade,,3,Piccola,due-di-spade-storiaSei-sfida
 il-diavolo-storiaSei,storiaSei,il-diavolo,,4,,il-diavolo-storiaSei-potenze-infernali
 il-bagatto-storiaSei,storiaSei,il-bagatto,,5,Piccola,il-bagatto-storiaSei-mago-merlino
 sette-di-bastoni-storiaSei,storiaSei,sette-di-bastoni,,6,Piccola,sette-di-bastoni-storiaSei-foresta-di-brocelianda
 dieci-di-coppe-storiaSei,storiaSei,dieci-di-coppe,,7,Piccola,dieci-di-coppe-storiaSei-tavola-rotonda
 re-di-spade-storiaSei,storiaSei,re-di-spade,,8,Piccola,re-di-spade-storiaSei-re-artu
-asso-di-coppe-storiaSei,storiaSei,asso-di-coppe,,9,Grande,asso-di-coppe-storiaSei-santo-graal
+asso-di-coppe-storiaSei,storiaSei,asso-di-coppe,,9,Grande,asso-di-coppe-storiaSei-graal
 il-papa-storiaSei,storiaSei,il-papa,,10,Piccola,il-papa-storiaSei-religione-romana
 lo-eremita-storiaSei,storiaSei,lo-eremita,,11,Piccola,lo-eremita-storiaSei-religione-celtica
 il-sole-storiaSei,storiaSei,il-sole,,12,Piccola,il-sole-storiaSei-innocenza-fanciullesca

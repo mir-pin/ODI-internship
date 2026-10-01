@@ -4,6 +4,11 @@
             "type": "class", 
             "role": "subject_id"
         },
+        "odi:hasTitle": {
+            "type": "data_property", 
+            "domain": "odi:Chapter", 
+            "datatype": "xsd:string" 
+        },
         "odi:includes": {
             "type": "object_property", 
             "domain": "odi:Chapter", 
@@ -193,8 +198,6 @@
         },
         "odi:represents": {
             "type": "object_property_new_subject",
-            "domain": "odi:Representation",
-            "range": "odi:Person o odi:Place",
             "note": "il tipo (Person/Place) è dedotto dal suffisso -persona / -luogo dell'id"
         },
         "entityLabel": {
