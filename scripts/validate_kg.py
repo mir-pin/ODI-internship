@@ -15,8 +15,6 @@ Options
 -------
     --max-examples N   examples printed per finding (default 5, -1 = all)
     --strict           exit code 1 on warnings too (default: only on errors)
-    --dictionary FILE  word list (one word per line) used for typo detection in
-                       ontology term names (default: /usr/share/dict/words if present)
     --json FILE        also write the full report as JSON
 
 Severity
@@ -37,11 +35,10 @@ import argparse
 import json
 import re
 import sys
-import unicodedata
 from collections import Counter, defaultdict
-from difflib import SequenceMatcher, get_close_matches
+from difflib import get_close_matches
 from pathlib import Path
-
+import unicodedata
 from rdflib import BNode, Graph, Literal, URIRef
 from rdflib.namespace import OWL, RDF, RDFS, XSD
 
@@ -204,59 +201,20 @@ def strip_accents(s):
     return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
 
 
-def load_wordlist(path):
-    candidates = [path] if path else ["/usr/share/dict/words", "/usr/share/dict/american-english"]
-    for p in candidates:
-        if p and Path(p).exists():
-            return {w.strip().lower() for w in Path(p).read_text(errors="ignore").splitlines()}
-    return None
-
 
 # --------------------------------------------------------------------------- #
-# Turtle lint + loading
+# Loading
 # --------------------------------------------------------------------------- #
-def lint_turtle(path, rpt):
-    """Cheap line-based lint that gives better locations than a parser exception."""
-    text = path.read_text(encoding="utf-8", errors="replace")
-    declared = set(re.findall(r"@prefix\s+([\w-]*)\s*:", text)) | \
-        set(re.findall(r"^\s*PREFIX\s+([\w-]*)\s*:", text, flags=re.I | re.M))
-    for no, line in enumerate(text.splitlines(), 1):
-        clean = re.sub(r'"(?:[^"\\]|\\.)*"', '""', line)   # drop string literals
-        clean = re.sub(r"<[^>]*>", "<>", clean)            # drop IRIs
-        clean = clean.split("#")[0]                        # drop comments
-        for m in re.finditer(r"(?<![\w:@])([A-Za-z][\w-]*):(?=\s+[A-Za-z])", clean):
-            if m.group(1) not in ("http", "https"):
-                rpt.add(ERROR, "L001", "Space after prefix colon (e.g. 'rdfs: domain')",
-                        f"{path.name}:{no}: {line.strip()}")
-        for m in re.finditer(r"(?<![\w:@])([A-Za-z][\w-]*):([A-Za-z_][\w-]*)", clean):
-            pfx, loc = m.groups()
-            if pfx not in declared and pfx not in ("http", "https", "urn"):
-                rpt.add(ERROR, "L002", "Undeclared prefix used",
-                        f"{path.name}:{no}: '{pfx}:' in: {line.strip()}")
-            for ns, vocab in STD_NS.items():
-                if ns.rstrip("#/").endswith(("22-rdf-syntax-ns", "rdf-schema", "owl", "XMLSchema")):
-                    pass
-            std = {"rdf": RDF, "rdfs": RDFS, "owl": OWL, "xsd": XSD}.get(pfx)
-            if std is not None:
-                try:
-                    std[loc]
-                except (AttributeError, KeyError):
-                    rpt.add(ERROR, "L003", "Unknown term in a standard vocabulary "
-                                           "(typo? e.g. 'rdfs:sub')",
-                            f"{path.name}:{no}: {pfx}:{loc}")
-
 
 def load_graph(path, label, rpt):
     path = Path(path)
     if not path.exists():
         rpt.add(ERROR, "L000", f"{label} file not found", str(path))
         return None
-    if path.suffix.lower() in (".ttl", ".turtle"):
-        lint_turtle(path, rpt)
     g = Graph()
     try:
         g.parse(str(path))
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         rpt.add(ERROR, "L004", f"{label} cannot be parsed - fix syntax errors first",
                 f"{path.name}: {str(e).strip()[:400]}")
         return None
@@ -312,7 +270,7 @@ def strict_reach(g, node, pred):
 # --------------------------------------------------------------------------- #
 # Ontology checks
 # --------------------------------------------------------------------------- #
-def check_ontology(g, O, rpt, wordlist):
+def check_ontology(g, O, rpt):
     declared = O.classes | O.props
     declared_local = [local_name(t) for t in declared]
 
@@ -383,22 +341,6 @@ def check_ontology(g, O, rpt, wordlist):
             la, lb = local_name(a), local_name(b)
             if la.lower() == lb.lower():
                 rpt.add(WARNING, "O021", "Names differing only by case", f"{qn(a)} / {qn(b)}")
-            elif len(la) > 5 and SequenceMatcher(None, la.lower(), lb.lower()).ratio() >= 0.92:
-                rpt.add(INFO, "O022", "Very similar names (typo/duplicate?)",
-                        f"{qn(a)} / {qn(b)}")
-
-    # --- typo detection via dictionary -----------------------------------------
-    if wordlist:
-        allow = {"storycard", "tarot", "sameas", "iconography", "typology"}
-        for e in sorted(declared, key=str):
-            for tok in re.findall(r"[A-Z]?[a-z]+|[A-Z]+(?![a-z])", local_name(e)):
-                t = tok.lower()
-                if len(t) >= 4 and t not in wordlist and t not in allow \
-                        and t.rstrip("s") not in wordlist:
-                    rpt.add(INFO, "O023", "Unknown English word in term name (typo?)",
-                            f"{qn(e)}: '{tok}'" + hint(t, [w for w in wordlist
-                                                             if abs(len(w) - len(t)) <= 1
-                                                             and w[:1] == t[:1]][:5000]))
 
     # --- kind consistency ------------------------------------------------------
     for p in sorted(O.obj_props & O.data_props, key=str):
@@ -941,18 +883,14 @@ def check_domain(kg, O, rpt, types, closure):
             continue
     # Chapters / editions
     for ch in inst("Chapter"):
-        if T("Story") in closure(ch):
-            continue
         if not any(kg.objects(ch, T("includes"))):
             rpt.add(WARNING, "D020", "Chapter that includes no Story", qn(ch))
     for ed in inst("Edition"):
-        if T("Chapter") in closure(ed) or T("PublishingHouse") in closure(ed):
-            continue
         if not any(kg.objects(ed, T("hasChapter"))):
             rpt.add(WARNING, "D021", "Edition without chapters", qn(ed))
     chapters_used = set(kg.objects(None, T("hasChapter")))
     for ch in inst("Chapter"):
-        if T("Story") not in closure(ch) and ch not in chapters_used:
+        if ch not in chapters_used:
             rpt.add(WARNING, "D022", "Chapter not attached to any Edition (hasChapter)", qn(ch))
     stories_used = set(kg.objects(None, T("includes")))
     for st in inst("Story"):
@@ -997,7 +935,6 @@ def main():
     ap.add_argument("--json", help="write the report as JSON")
     ap.add_argument("--max-examples", type=int, default=15)
     ap.add_argument("--strict", action="store_true", help="exit 1 also on warnings")
-    ap.add_argument("--dictionary", help="word list for typo detection")
     ap.add_argument("--level", choices=["ERROR", "WARNING", "INFO"], default="INFO",
                 help="Livello minimo da visualizzare (default: INFO)")
     args = ap.parse_args()
@@ -1006,7 +943,7 @@ def main():
     og = load_graph(args.ontology, "Ontology", rpt)
     O = Onto(og) if og is not None else None
     if O:
-        check_ontology(og, O, rpt, load_wordlist(args.dictionary))
+        check_ontology(og, O, rpt)
         rpt.add(INFO, "O100", "Ontology statistics",
                 f"{len(og)} triples, {len(O.classes)} classes, {len(O.obj_props)} object "
                 f"properties, {len(O.data_props)} datatype properties")

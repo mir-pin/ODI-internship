@@ -647,7 +647,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 
 ###  https://purl.org/ebr/odi#Chapter
 :Chapter rdf:type owl:Class ;
-         rdfs:subClassOf :Edition ;
+         rdfs:subClassOf owl:Thing ;
          rdfs:comment "Is a chapter of the book that contains a story."@en ,
                       "È un capitolo del libro che contiene una storia."@it ;
          rdfs:label "Capitolo"@it ,
@@ -782,7 +782,7 @@ owl:topObjectProperty rdfs:subPropertyOf owl:topObjectProperty .
 
 ###  https://purl.org/ebr/odi#Story
 :Story rdf:type owl:Class ;
-       rdfs:subClassOf :Chapter ;
+       rdfs:subClassOf owl:Thing ;
        rdfs:comment "A story that makes up the book."@en ,
                     "Una storia che compone il libro."@it ;
        rdfs:label "Storia"@it ,
